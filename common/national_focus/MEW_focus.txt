@@ -90,7 +90,7 @@
 	focus = {
 		id = corn_report
 		icon = GFX_goal_focus_investigate_missing_corn_stocks
-		x = 0
+		x = 4
 		y = 1
 		relative_position_id = Butterfly_prolouge_end
 		prerequisite = { focus = Butterfly_prolouge_end }
@@ -113,7 +113,7 @@
 	focus = {
 		id = ludo_path
 		icon = GFX_goal_generic_allies_build_infantry
-		x = -5
+		x = -4
 		y = 1
 		relative_position_id = Butterfly_prolouge_end
 		prerequisite = { focus = Butterfly_prolouge_end }		
@@ -150,7 +150,6 @@
 		
 		completion_reward = {
 			country_event = exterminators.1
-			set_country_flag = REC_founded_flag     # enable decisions cat
 		}
 	}
 	
@@ -169,11 +168,11 @@
 		
 		completion_reward = {
 			country_event = hunt_rat.1
-			set_country_flag = A-RAT_founded_flag    # enable decisions cat
+			set_country_flag = A-RAT_founded
 			custom_effect_tooltip = "hunt_rat_custom_tooltip"
+
 		}
 	}
-	
 	
 	focus = {
 		id = utilize_army
