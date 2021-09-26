@@ -25,9 +25,4 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic_goods_red_bonus.dds"	
 	}
 	
-	SpriteType = {
-		name = "GFX_idea_wendy_drip_idea"
-		texturefile = "gfx/interface/ideas/wendy_drip_idea.dds"	
-	}
-	
 }
