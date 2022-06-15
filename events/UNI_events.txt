@@ -12,7 +12,7 @@ country_event = {
 	id = UNI_intervention.1
 	title = UNI_intervention.1.t
 	desc = UNI_intervention.1.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -33,7 +33,7 @@ country_event = {
 	id = UNI_intervention.2
 	title = UNI_intervention.2.t
 	desc = UNI_intervention.2.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -84,7 +84,7 @@ country_event = {
 	id = UNI_intervention_confirmation.1
 	title = UNI_intervention_confirmation.1.t
 	desc = UNI_intervention_confirmation.1.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -101,7 +101,7 @@ country_event = {
 	id = UNI_intervention_confirmation.2
 	title = UNI_intervention_confirmation.2.t
 	desc = UNI_intervention_confirmation.2.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -118,7 +118,7 @@ country_event = {
 	id = UNI_intervention_confirmation.3 #war
 	title = UNI_intervention_confirmation.3.t
 	desc = UNI_intervention_confirmation.3.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -128,6 +128,7 @@ country_event = {
 			factor = 1
 		}
 		clr_country_flag = UNI_influence_dec_block
+		complete_national_focus = UNI_threat_from_north
 	}
 }
 
@@ -135,7 +136,7 @@ country_event = {
 	id = UNI_intervention.3
 	title = UNI_intervention.3.t
 	desc = UNI_intervention.3.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -193,7 +194,7 @@ country_event = {
 	id = UNI_intervention.4
 	title = UNI_intervention.4.t
 	desc = UNI_intervention.4.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -250,7 +251,7 @@ country_event = {
 	id = UNI_intervention.5
 	title = UNI_intervention.5.t
 	desc = UNI_intervention.5.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -269,6 +270,7 @@ country_event = {
 		name = UNI_intervention.2.b
 		ai_chance = { factor = 1 }
 		UNI = { country_event = { id = UNI_intervention_confirmation.3 days = 1 } }
+		add_ideas = FOREST_ripped_from_unicorn_reliance
 	}
 
 }
@@ -277,7 +279,7 @@ country_event = {
 	id = UNI_multi_mano_war_check.1
 	title = UNI_multi_mano_war_check.1.t
 	desc = UNI_multi_mano_war_check.1.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -321,7 +323,7 @@ country_event = {
 	id = UNI_north_anarchy.1
 	title = UNI_north_anarchy.1.t
 	desc = UNI_north_anarchy.1.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -338,7 +340,7 @@ country_event = {
 	id = UNI_north_anarchy.2
 	title = UNI_north_anarchy.2.t
 	desc = UNI_north_anarchy.2.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -381,7 +383,7 @@ country_event = {
 	id = UNI_test.1
 	title = UNI_test.1.t
 	desc = UNI_test.1.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -407,7 +409,7 @@ country_event = {
 	id = UNI_test.2
 	title = UNI_test.2.t
 	desc = UNI_test.2.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	

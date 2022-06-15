@@ -58,6 +58,7 @@ characters = {###########################################################
 		}
 		advisor = {
 			slot = political_advisor
+			idea_token = MAN_womantaur
 			allowed = {
 				original_tag = MAN
 			}
@@ -73,7 +74,10 @@ characters = {###########################################################
 			desc = ""
 			traits = {  }
 			skill = 2
-
+			allowed = {
+				always = false
+			}
+			
 			attack_skill = 4
 			defense_skill = 1		
 			planning_skill = 1
@@ -86,7 +90,7 @@ characters = {###########################################################
 		
 		portraits = {
 			civilian = {
-				large = ""
+				large = "GFX_leaders_Chutzpar"
 			}
 		}
 		country_leader = {
@@ -97,18 +101,16 @@ characters = {###########################################################
 		}
 		advisor = {
 			slot = army_chief
+			idea_token = MAN_chutzpar
 			allowed = {
 				original_tag = MAN
-			}
-			available = {
-				
 			}
 			traits = {
 				army_chief_offensive_1
 			}
 			cost = 100
 		}
-		corps_commander = {
+		corps_commander = { 
 			desc = ""
 			traits = {  }
 			skill = 3
@@ -120,6 +122,22 @@ characters = {###########################################################
 		}	
 	}
 
+	MAN_council = {
+		name = "Bro Council" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_Bro_Council"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = centrism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+		
 	MAN_pituitar = {
 		name = "Pituitar" 
 		
@@ -128,14 +146,9 @@ characters = {###########################################################
 				large = ""
 			}
 		}
-		country_leader = {
-			desc = ""
-			ideology = conservatism
-			expire = "2040.1.1.1"
-			id = -1
-		}
 		advisor = {
 			slot = army_chief
+			idea_token = MAN_pituitar
 			allowed = {
 				original_tag = MAN
 			}
@@ -170,6 +183,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = MAN_beardy
 			allowed = {
 				original_tag = MAN
 			}
@@ -195,6 +209,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = MAN_pubetor
 			allowed = {
 				original_tag = MAN
 			}
@@ -220,6 +235,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = MAN_testosteraur
 			allowed = {
 				original_tag = MAN
 			}
@@ -233,6 +249,33 @@ characters = {###########################################################
 		}
 		
 	}
+	
+	MAN_handwitch = {
+		name = "Hand Witch" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		corps_commander = {
+			desc = ""
+			traits = {  }
+			skill = 2
+			allowed = {
+				has_completed_focus = MAN_handwitch_alliance
+			}
+			
+			attack_skill = 2
+			defense_skill = 2		
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		
+	}
+	
+	######################################
 
 	MAN_political_advisor = {
 		name = "Forest Political Advisor" 
@@ -245,6 +288,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = MAN_political_advisor
 			
 			available = {
 				
@@ -268,6 +312,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = MAN_editor
 			
 			available = {
 				
@@ -291,6 +336,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = MAN_financial_advisor
 			
 			available = {
 				
@@ -314,6 +360,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = MAN_humble_appeaser
 			
 			available = {
 				
@@ -337,6 +384,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = MAN_propaganda_expert
 			
 			available = {
 				
@@ -360,6 +408,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = MAN_war_industrialist
 			
 			available = {
 				
@@ -383,6 +432,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = army_chief
+			idea_token = MAN_attack_expert
 			
 			available = {
 				
@@ -406,7 +456,8 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = army_chief
-			
+			idea_token = MAN_defense_expert
+
 			available = {
 				
 			}

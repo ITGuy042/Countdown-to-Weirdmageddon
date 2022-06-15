@@ -2,10 +2,82 @@ on_actions = {
 	
 	
 	################################################################
+	on_startup = {
+		effect = {
+			add_to_array = {
+				array = GLOBAL.forest_countries
+				value = MAN.id
+			}
+			add_to_array = {
+				array = GLOBAL.forest_countries
+				value = UFC.id
+			}
+			add_to_array = {
+				array = GLOBAL.forest_countries
+				value = UNI.id
+			}
+			add_to_array = {
+				array = GLOBAL.forest_countries
+				value = GNM.id
+			}
+			add_to_array = {
+				array = GLOBAL.gf_countries
+				value = MYS.id
+			}
+			add_to_array = {
+				array = GLOBAL.forest_countries
+				value = GTF.id
+			}
+			add_to_array = {
+				array = GLOBAL.forest_countries
+				value = NRW.id
+			}
+			add_to_array = {
+				array = GLOBAL.forest_countries
+				value = GID.id
+			}
+			add_to_array = {
+				array = GLOBAL.gf_and_forest
+				value = MYS.id
+			}
+			add_to_array = {
+				array = GLOBAL.gf_and_forest
+				value = GTF.id
+			}
+			add_to_array = {
+				array = GLOBAL.gf_and_forest
+				value = NRW.id
+			}
+			add_to_array = {
+				array = GLOBAL.gf_and_forest
+				value = GID.id
+			}
+			add_to_array = {
+				array = GLOBAL.gf_and_forest
+				value = MAN.id
+			}
+			add_to_array = {
+				array = GLOBAL.gf_and_forest
+				value = UFC.id
+			}
+			add_to_array = {
+				array = GLOBAL.gf_and_forest
+				value = UNI.id
+			}
+			add_to_array = {
+				array = GLOBAL.gf_and_forest
+				value = GNM.id
+			}
+		}
+	}
+	
 	#Forest Border Wars
 	on_startup = {
 		effect = {
-			MAN = { country_event = { id = FOREST_border_wars.1 hours = 2 } }
+			MAN = { 
+				country_event = { id = MAN_START_EVENT.1 hours = 1 }
+				country_event = { id = FOREST_border_wars.1 hours = 2 }
+			}
 			UFC = {
 				country_event = { id = UFC_START_EVENT.1 hours = 1 }
 				country_event = { id = FOREST_balance.2 days = 730 }
@@ -58,13 +130,15 @@ on_actions = {
 			set_variable  = { var = global.crawl_guns value = 5000 }
 			set_variable  = { var = global.crawl_supplies value = 5000 }
 			set_variable  = { var = global.crawl_resource value = 120 }
-			MAN = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
-			UFC = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
-			GNM = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
-			UNI = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
-			MYS = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
-			GTF = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
-			NWM = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
+			every_country = {
+				limit = {
+					is_in_array = {
+						array = GLOBAL.gf_and_forest
+						value = THIS.id
+					}
+				}
+				news_event = { id = FOREST_crawlspace_reopening.1 days = 90 }
+			}
 		} 
 	}
 	
@@ -83,9 +157,11 @@ on_actions = {
 					}
 				}
 				FROM = {
+					MAN = { country_event = FOREST_wars.2 } # Lose Event
+					MYS = { country_event = { id = FOREST_dipper_kill_multi.1 days = 20} } 
 					UFC = {
-						country_event = FOREST_wars.1
-						IF = {
+						country_event = FOREST_wars.1 # Win Event
+						IF = { 
 							limit = {
 								UNI = {
 									check_variable = { UNI_UFC_influence > 99 }
@@ -94,10 +170,10 @@ on_actions = {
 							country_event = { id = UNI_intervention.5 days = 1 }
 						}
 					}
-					MAN = { country_event = FOREST_wars.2 }
 				}
 				UNI = { clr_country_flag = UNI_yes_intervene }
 			}
+			######################################################
 			else_if = {
 				limit = { # The MANs win
 					ROOT = {
@@ -109,9 +185,10 @@ on_actions = {
 					}
 				}
 				FROM = {
-					UFC = { country_event = FOREST_wars.2 }
+					UFC = { country_event = FOREST_wars.2 }  # Lose Event
+					MYS = { country_event = { id = FOREST_dipper_kill_man.1 days = 20} } 
 					MAN = {
-						country_event = FOREST_wars.1
+						country_event = FOREST_wars.1 # Win Event
 						IF = {
 							limit = {
 								UNI = {
@@ -124,6 +201,7 @@ on_actions = {
 				}
 				UNI = { clr_country_flag = UNI_yes_intervene }
 			}
+			######################################################
 			else_if = {
 				limit = { # UNI loses war
 					ROOT = {
@@ -141,6 +219,7 @@ on_actions = {
 					}
 				}
 			}
+			######################################################
 			else_if = {
 				limit = { # UNI conquers north
 					ROOT = {
@@ -161,6 +240,7 @@ on_actions = {
 					}
 				}
 			}
+			######################################################
 		}
 	}
 	

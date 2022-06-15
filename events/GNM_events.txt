@@ -5,7 +5,7 @@ country_event = {
 	id = GNM_flavor.1
 	title = GNM_flavor.1.t
 	desc = GNM_flavor.1.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -19,7 +19,7 @@ country_event = {
 	id = GNM_flavor.2
 	title = GNM_flavor.2.t
 	desc = GNM_flavor.2.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -33,7 +33,7 @@ country_event = {
 	id = GNM_queen_hunting.1
 	title = GNM_queen_hunting.1.t
 	desc = GNM_queen_hunting.1.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -49,7 +49,7 @@ country_event = {
 	id = GNM_queen_hunting.2
 	title = GNM_queen_hunting.2.t
 	desc = GNM_queen_hunting.2.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -68,7 +68,7 @@ country_event = {
 	id = GNM_queen_hunting.3
 	title = GNM_queen_hunting.3.t
 	desc = GNM_queen_hunting.3.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -87,7 +87,7 @@ country_event = {
 	id = GNM_queen_hunting.4
 	title = GNM_queen_hunting.4.t
 	desc = GNM_queen_hunting.4.d
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -104,14 +104,88 @@ country_event = {
 
 country_event = {
 	id = GNM_queen_hunting.5
-	title = GNM_queen_hunting.5.t
-	desc = GNM_queen_hunting.5.d
-	picture = GFX_report_event_empty
+	title = {
+		text = GNM_queen_hunting.5.t.1
+		trigger = {
+			has_completed_focus = GNM_operation_everything_nice
+		}
+	}
+	title = {
+		text = GNM_queen_hunting.5.t.2
+		trigger = {
+			has_completed_focus = GNM_operation_northern_dream
+		}
+	}
+	desc = {
+		text = GNM_queen_hunting.5.d.1
+		trigger = {
+			has_completed_focus = GNM_operation_everything_nice
+		}
+	}
+	desc = {
+		text = GNM_queen_hunting.5.d.2
+		trigger = {
+			has_completed_focus = GNM_operation_northern_dream
+		}
+	}
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = GNM_queen_hunting.5.a
+		name = GNM_queen_hunting.5.a.1
+		ai_chance = { factor = 100 }
+		trigger = {
+			has_completed_focus = GNM_operation_everything_nice
+		}
+		country_event = { id = GNM_queen_hunting.6 days = 1 }
+
+	}
+	
+	option = {
+		name = GNM_queen_hunting.5.a.2
+		ai_chance = { factor = 100 }
+		trigger = {
+			has_completed_focus = GNM_operation_northern_dream
+		}
+		country_event = { id = GNM_queen_hunting.6 days = 1 }
+
+	}
+	
+}
+
+country_event = {
+	id = GNM_queen_hunting.6
+	title = {
+		text = GNM_queen_hunting.6.t.1
+		trigger = {
+			has_completed_focus = GNM_operation_everything_nice
+		}
+	}
+	title = {
+		text = GNM_queen_hunting.6.t.2
+		trigger = {
+			has_completed_focus = GNM_operation_northern_dream
+		}
+	}
+	desc = {
+		text = GNM_queen_hunting.6.d.1
+		trigger = {
+			has_completed_focus = GNM_operation_everything_nice
+		}
+	}
+	desc = {
+		text = GNM_queen_hunting.6.d.2
+		trigger = {
+			has_completed_focus = GNM_operation_northern_dream
+		}
+	}
+	picture = GFX_report_event_gnomes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GNM_queen_hunting.6.a
 		ai_chance = { factor = 100 }
 		trigger = {
 			has_completed_focus = GNM_operation_everything_nice
@@ -138,11 +212,22 @@ country_event = {
 			ideology = fascism
 			popularity = 0.65
 		}
+		custom_effect_tooltip = generic_focus_tree_unlock_tooltip
 		clr_country_flag = GNM_kidnapping_2
+		remove_mission = GNM_kidnapping_consp_decay
+		every_country = {
+			limit = {
+				is_in_array = {
+					array = GLOBAL.forest_countries
+					value = THIS.id
+				}
+			}
+			news_event = { id = FOREST_gnome_candy.1 days = 1 }
+		}
 	}
 	
 	option = {
-		name = GNM_queen_hunting.5.b
+		name = GNM_queen_hunting.6.b
 		ai_chance = { factor = 100 }
 		trigger = {
 			has_completed_focus = GNM_operation_northern_dream
@@ -166,6 +251,16 @@ country_event = {
 			name = GNM_neutrality_pacifica_party
 		}
 		clr_country_flag = GNM_kidnapping_2
+		remove_mission = GNM_kidnapping_consp_decay
+		every_country = {
+			limit = {
+				is_in_array = {
+					array = GLOBAL.forest_countries
+					value = THIS.id
+				}
+			}
+			news_event = { id = FOREST_gnome_pacifica.1 days = 1 }
+		}
 	}
 	
 }

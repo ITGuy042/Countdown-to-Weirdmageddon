@@ -4,9 +4,11 @@ add_namespace = FOREST_wars
 add_namespace = FOREST_crawlspace_trigger
 add_namespace = FOREST_anarchy
 add_namespace = FOREST_balance
+add_namespace = FOREST_dipper_kill_man
+add_namespace = FOREST_dipper_kill_multi
 
 country_event = { # Trigger Starting Man War Border War
-	id = FOREST_border_wars.1
+	id = FOREST_border_wars.1 
 	title = FOREST_border_wars.1.t
 	desc = FOREST_border_wars.1.d
 	picture = GFX_report_event_empty
@@ -82,7 +84,7 @@ country_event = { # If Bear counter attack wins
 	}
 	option = { ai_chance = { factor = 100 } }
 }
-country_event = { # 
+country_event = { # Bear defends Crossing
 	id = FOREST_border_wars.3
 	title = FOREST_border_wars.3.t
 	desc = FOREST_border_wars.3.d
@@ -109,7 +111,7 @@ country_event = { # Border Slopes Border war win
 	}
 	option = { ai_chance = { factor = 100 } }
 }
-country_event = { # Border Slopes Border war win
+country_event = { # Retake Crossing Border war win
 	id = FOREST_border_wars.5
 	title = FOREST_border_wars.5.t
 	desc = FOREST_border_wars.5.d
@@ -119,6 +121,19 @@ country_event = { # Border Slopes Border war win
 	
 	immediate = {
 		UFC = {transfer_state = 46	}
+	}
+	option = { ai_chance = { factor = 100 } }
+}
+country_event = { # MANOTAURs, Retake Crossing 2nd Border war win
+	id = FOREST_border_wars.6
+	title = FOREST_border_wars.6.t
+	desc = FOREST_border_wars.6.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes hidden = yes
+	
+	immediate = {
+		MAN = {transfer_state = 46	}
 	}
 	option = { ai_chance = { factor = 100 } }
 }
@@ -142,7 +157,7 @@ country_event = { #Winning the War
 	fire_only_once = yes  
 	
 	immediate = {
-		IF = { limit = { tag = UFC }
+		IF = { limit = { tag = UFC } # The Multi-Bears Win
 			white_peace = { tag = MAN message = FOREST_wars.1.a }
 			UNI = { country_event = { id = UNI_multi_mano_war_check.1 days = 1 } }
 			transfer_state = 46
@@ -161,7 +176,7 @@ country_event = { #Winning the War
 			add_state_core = 509
 			UFC = {complete_national_focus = UFC_bear_victory}
 		}
-		ELSE_IF = { limit = { tag = MAN }
+		ELSE_IF = { limit = { tag = MAN } # The Manotaurs Win
 			white_peace = { tag = UFC message = FOREST_wars.1.b }
 			UNI = { country_event = { id = UNI_multi_mano_war_check.1 days = 1 } }
 			transfer_state = 46
@@ -209,7 +224,7 @@ country_event = { #Losing the War
 		text = FOREST_wars.2.d_manot
 		trigger = { tag = MAN }
 	}
-	picture = GFX_report_event_empty
+	picture = GFX_report_event_empty 
 	
 	is_triggered_only = yes
 	
@@ -512,5 +527,157 @@ country_event = { # Anarchy, for balance
 			country_event = { id = FOREST_anarchy.2 days = 14 }
 			UNI = { country_event = { id = UNI_north_anarchy.2 days = 7 } }
 			UNI = { clr_country_flag = UNI_yes_intervene }
+	}
+}
+
+############################
+# For the Mystery Shack
+############################
+
+country_event = { # 
+	id = FOREST_dipper_kill_man.1
+	title = FOREST_dipper_kill_man.1.t
+	desc = FOREST_dipper_kill_man.1.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes 
+	
+	immediate = {}
+	option = {
+		name = FOREST_dipper_kill_man.1.a
+		hidden_effect = {
+			country_event = { id = FOREST_dipper_kill_man.2 days = 30 }
+			UNI = {country_event = { id = UNI_north_anarchy.1 days = 15 }}
+		}
+	}
+}
+country_event = { # 
+	id = FOREST_dipper_kill_man.2
+	title = FOREST_dipper_kill_man.2.t
+	desc = FOREST_dipper_kill_man.2.d
+	picture = GFX_report_event_minotaur_and_dipper
+	
+	is_triggered_only = yes 
+	
+	immediate = {}
+	option = {
+		name = FOREST_dipper_kill_man.2.a
+		hidden_effect = {
+			country_event = { id = FOREST_dipper_kill_man.3 days = 30 }
+		}
+		ai_chance = { factor = 20 }
+	}
+	option = {
+		name = FOREST_dipper_kill_man.2.b
+		hidden_effect = {
+			country_event = { id = FOREST_dipper_kill_man.4 days = 30 }
+		}
+		ai_chance = { factor = 80 }
+	}
+}
+country_event = { # 
+	id = FOREST_dipper_kill_man.3
+	title = FOREST_dipper_kill_man.3.t
+	desc = FOREST_dipper_kill_man.3.d
+	picture = GFX_report_event_minotaur_and_dipper
+	
+	is_triggered_only = yes 
+	
+	immediate = {}
+	option = {
+		name = FOREST_dipper_kill_man.3.a
+		MAN = { country_event = { id = FOREST_anarchy.1 days = 5 } }
+		hidden_effect = {
+		}
+	}
+}
+country_event = { # 
+	id = FOREST_dipper_kill_man.4
+	title = FOREST_dipper_kill_man.4.t
+	desc = FOREST_dipper_kill_man.4.d
+	picture = GFX_report_event_cart_chase
+	
+	is_triggered_only = yes 
+	
+	immediate = {}
+	option = {
+		name = FOREST_dipper_kill_man.4.a
+		hidden_effect = {
+			UNI = { complete_national_focus = UNI_anarchy_avoided }
+		}
+	}
+}
+####################
+country_event = { # 
+	id = FOREST_dipper_kill_multi.1
+	title = FOREST_dipper_kill_multi.1.t
+	desc = FOREST_dipper_kill_multi.1.d
+	picture = GFX_report_event_chutzpar_and_dipper_running
+	
+	is_triggered_only = yes 
+	
+	immediate = {}
+	option = {
+		name = FOREST_dipper_kill_multi.1.a
+		hidden_effect = {
+			country_event = { id = FOREST_dipper_kill_multi.2 days = 30 }
+			UNI = {country_event = { id = UNI_north_anarchy.1 days = 15 }}
+		}
+	}
+}
+country_event = { # 
+	id = FOREST_dipper_kill_multi.2
+	title = FOREST_dipper_kill_multi.2.t
+	desc = FOREST_dipper_kill_multi.2.d
+	picture = GFX_report_event_dipper_on_bear
+	
+	is_triggered_only = yes 
+	
+	immediate = {}
+	option = {
+		name = FOREST_dipper_kill_multi.2.a
+		hidden_effect = {
+			country_event = { id = FOREST_dipper_kill_multi.3 days = 30 }
+		}
+		ai_chance = { factor = 20 }
+	}
+	option = {
+		name = FOREST_dipper_kill_multi.2.b
+		hidden_effect = {
+			country_event = { id = FOREST_dipper_kill_multi.4 days = 30 }
+		}
+		ai_chance = { factor = 80 }
+	}
+}
+country_event = { # Kill Bear
+	id = FOREST_dipper_kill_multi.3
+	title = FOREST_dipper_kill_multi.3.t
+	desc = FOREST_dipper_kill_multi.3.d
+	picture = GFX_report_event_dipper_on_bear
+	
+	is_triggered_only = yes 
+	
+	immediate = {}
+	option = {
+		name = FOREST_dipper_kill_multi.3.a
+		UFC = { country_event = { id = FOREST_anarchy.1 days = 5 } }
+		MYS = {add_timed_idea = {idea = FOREST_dipper_ptsd days = 720} }
+		hidden_effect = { }
+	}
+}
+country_event = { # Spare Bear
+	id = FOREST_dipper_kill_multi.4
+	title = FOREST_dipper_kill_multi.4.t
+	desc = FOREST_dipper_kill_multi.4.d
+	picture = GFX_report_event_dipper_on_bear 
+	
+	is_triggered_only = yes 
+	
+	immediate = {}
+	option = {
+		name = FOREST_dipper_kill_multi.4.a
+		hidden_effect = {
+			UNI = { complete_national_focus = UNI_anarchy_avoided }
+		}
 	}
 }
