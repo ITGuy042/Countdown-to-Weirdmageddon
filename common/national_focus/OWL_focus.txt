@@ -32,6 +32,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+
+			load_oob = "OWL_eda"
 			country_event = owl_house.1
 		}
 		
