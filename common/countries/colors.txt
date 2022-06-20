@@ -460,6 +460,52 @@ COM = {
 	color = rgb { 173 172 156 }
 }
 
+ILL = { 
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
+}
+
+CST = { 
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
+}
+
+POT = { 
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
+}
+
+PLA = { 
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
+}
+
+BAR = { 
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
+}
+
+BEA = { 
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
+}
+
+ORA = { 
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
+}
+
+HEA = { 
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
+}
+
+ABO = { 
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
+}
+
+
 
 
 #Dimensional Barriers
