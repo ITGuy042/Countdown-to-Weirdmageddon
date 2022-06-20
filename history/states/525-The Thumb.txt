@@ -4,7 +4,13 @@ state={
 	provinces={
 		169 220 2569 3228 3250 9501 9536 9564 
 	}
-	manpower=0
+	history={
+		owner = ILL
+		add_core_of = ILL
+
+	}
+	manpower=1000
+	state_category=city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

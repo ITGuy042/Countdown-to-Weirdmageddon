@@ -4,7 +4,13 @@ state={
 	provinces={
 		3891 4026 4664 7059 8367 8470 
 	}
-	manpower=0
+	history={
+		owner = HEA
+		add_core_of = HEA
+
+	}
+	manpower=1000
+	state_category=city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

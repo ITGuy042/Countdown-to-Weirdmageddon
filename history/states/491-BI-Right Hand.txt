@@ -4,8 +4,8 @@ state={
 	name="STATE_491"
 
 	history={
-		owner = BOI
-		add_core_of = BOI
+		owner = ORA
+		add_core_of = ORA
 
 	}
 

@@ -4,7 +4,13 @@ state={
 	provinces={
 		2912 4917 5756 6215 8421 8517 8535 
 	}
-	manpower=0
+	history={
+		owner = PLA
+		add_core_of = PLA
+
+	}
+	manpower=1000
+	state_category=city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

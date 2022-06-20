@@ -4,7 +4,13 @@ state={
 	provinces={
 		2871 3648 8824 8831 8846 8864 
 	}
-	manpower=0
+	history={
+		owner = ABO
+		add_core_of = ABO
+
+	}
+	manpower=1000
+	state_category=city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

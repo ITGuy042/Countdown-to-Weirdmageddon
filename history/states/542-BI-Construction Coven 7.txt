@@ -4,7 +4,13 @@ state={
 	provinces={
 		1194 4978 6572 8525 8572 8704 8742 
 	}
-	manpower=0
+	history={
+		owner = CST
+		add_core_of = CST
+
+	}
+	manpower=1000
+	state_category=city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

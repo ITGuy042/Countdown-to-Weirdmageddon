@@ -4,7 +4,13 @@ state={
 	provinces={
 		471 2088 3811 5282 6310 9832 
 	}
-	manpower=0
+	history={
+		owner = ORA
+		add_core_of = ORA
+
+	}
+	manpower=1000
+	state_category=city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
