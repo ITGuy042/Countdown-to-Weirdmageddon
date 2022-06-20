@@ -310,7 +310,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = GNM_queen_hunting.2
+			country_event = GNM_queen_hunting.4
+			custom_effect_tooltip = "new_decisions_tooltip"
+			set_country_flag = GNM_kidnapping_2
+			hidden_effect = {
+				activate_mission = GNM_kidnapping_consp_decay
+			}
 		}
 		
 		ai_will_do = {
@@ -790,7 +795,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = GNM_queen_hunting.4
+			country_event = GNM_queen_hunting.2
+			custom_effect_tooltip = "new_decisions_tooltip"
+			set_country_flag = GNM_kidnapping_2
+			hidden_effect = {
+				activate_mission = GNM_kidnapping_consp_decay
+			}
 		}
 		
 		ai_will_do = {
