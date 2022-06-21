@@ -161,13 +161,27 @@ on_actions = {
 					MYS = { country_event = { id = FOREST_dipper_kill_multi.1 days = 20} } 
 					UFC = {
 						country_event = FOREST_wars.1 # Win Event
-						IF = { 
+						IF = {
 							limit = {
-								UNI = {
-									check_variable = { UNI_UFC_influence > 99 }
+								AND = {
+									ROOT = UFC
+									UNI = {
+										check_variable = { UNI_UFC_influence > 99 }
+									}
 								}
 							}
 							country_event = { id = UNI_intervention.5 days = 1 }
+						}
+						ELSE_IF = {
+							limit = {
+								AND = {
+									ROOT = UFC
+									UNI = {
+										check_variable = { UNI_UFC_influence < 100 }
+									}
+								}
+							}
+							UNI = { country_event = { id = UNI_intervention_confirmation.4 days = 1 } }
 						}
 					}
 				}
@@ -191,11 +205,25 @@ on_actions = {
 						country_event = FOREST_wars.1 # Win Event
 						IF = {
 							limit = {
-								UNI = {
-									check_variable = { UNI_MAN_influence > 99 }
+								AND = {
+									ROOT = MAN
+									UNI = {
+										check_variable = { UNI_UFC_influence > 99 }
+									}
 								}
 							}
 							country_event = { id = UNI_intervention.5 days = 1 }
+						}
+						ELSE_IF = {
+							limit = {
+								AND = {
+									ROOT = MAN
+									UNI = {
+										check_variable = { UNI_MAN_influence < 100 }
+									}
+								}
+							}
+							UNI = { country_event = { id = UNI_intervention_confirmation.4 days = 1 } }
 						}
 					}
 				}

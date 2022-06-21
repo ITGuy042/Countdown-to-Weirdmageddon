@@ -133,6 +133,24 @@ country_event = {
 }
 
 country_event = {
+	id = UNI_intervention_confirmation.4 #failed to influence
+	title = UNI_intervention_confirmation.4.t
+	desc = UNI_intervention_confirmation.4.d
+	picture = GFX_report_event_unicorns
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UNI_intervention_confirmation.4.a
+		ai_chance = {
+			factor = 1
+		}
+		clr_country_flag = UNI_influence_dec_block
+		complete_national_focus = UNI_threat_from_north
+	}
+}
+
+country_event = {
 	id = UNI_intervention.3
 	title = UNI_intervention.3.t
 	desc = UNI_intervention.3.d
