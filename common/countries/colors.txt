@@ -461,48 +461,48 @@ COM = {
 }
 
 ILL = { 
-	color = rgb { 99 95 90 }
-	color_ui = rgb { 99 95 90 }
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
 }
 
 CST = { 
-	color = rgb { 115 61 2 }
-	color_ui = rgb { 115 61 2 }
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
 }
 
 POT = { 
-	color = rgb { 252 252 13 }
-	color_ui = rgb { 252 252 13 }
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
 }
 
 PLA = { 
-	color = rgb { 19 173 24 }
-	color_ui = rgb { 19 173 24 }
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
 }
 
 BAR = { 
-	color = rgb { 252 74 3 }
-	color_ui = rgb { 252 74 3 }
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
 }
 
 BEA = { 
-	color = rgb { 252 132 3 }
-	color_ui = rgb { 252 132 3 }
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
 }
 
 ORA = { 
-	color = rgb { 125 6 189 }
-	color_ui = rgb { 125 6 189 }
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
 }
 
 HEA = { 
-	color = rgb { 3 98 252 }
-	color_ui = rgb { 3 98 252 }
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
 }
 
 ABO = { 
-	color = rgb { 252 3 240 }
-	color_ui = rgb { 252 3 240 }
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
 }
 
 
