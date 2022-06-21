@@ -5,7 +5,7 @@ ideas = {
 	######################################################
 	country = {
 		GNM_no_bitches = {
-			picture = GFX_idea_GNM_no_bitches
+			picture = a
 			
 			allowed = {}
 			available = {}
