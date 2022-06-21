@@ -5,8 +5,8 @@ state={
 		3891 4026 4664 7059 8367 8470 
 	}
 	history={
-		owner = HEA
-		add_core_of = HEA
+		owner = ABO
+		add_core_of = ABO
 
 	}
 	manpower=1000
