@@ -1,12 +1,12 @@
 state={
-	id=550
-	name="STATE_550"
+	id=564
+	name="STATE_564"
 	provinces={
-		1203 1645 2298 3867 4605 5999 10182 
+		788 1349 2478 3671 8673 
 	}
 	history={
-		owner = HEA
-		add_core_of = HEA
+		owner = BAR
+		add_core_of = BAR
 
 	}
 	manpower=1000
