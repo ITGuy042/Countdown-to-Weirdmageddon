@@ -43,7 +43,7 @@
  UFC_bear_victory_desc:0 "We have driven the brutes to their mancaves.\nThe North Is Safe!"
  UFC_bear_victory.t:0 ""
  
- UFC_manotaur_victory:0 "Testostrone Soaked Defeat"
+ UFC_manotaur_victory:0 "Testosterone Soaked Defeat"
  UFC_manotaur_victory_desc:0 "The Manotaurs have forced us back into our caves, with many seeking refuge with us. Our caves are the last refuge of a free Forest..."
  UFC_manotaur_victory.t:0 ""
  
@@ -74,7 +74,7 @@
  UFC_the_new_peace.t:0 ""
  
  UFC_bear_victory_council.1:0 "A United Dream"
- UFC_bear_victory_council.1_desc:0 "Despite some hesitiation, we will give the Unicorns in the South-East corner of the forest the chance to join us in reuniting the Forest."
+ UFC_bear_victory_council.1_desc:0 "Despite some hesitation, we will give the Unicorns in the South-East corner of the forest the chance to join us in reuniting the Forest."
  UFC_bear_victory_council.1.t:0 "Let's see how the §PSouthern Forest Unicorns§! say to our plans..."
  
  UFC_bear_victory_council.2:0 "Begin The Great Reform"
@@ -107,6 +107,7 @@
  UFC_bear_victory_unicorn.1:0 "Those Who Betrayed The Forest..."
  UFC_bear_victory_unicorn.1_desc:0 "We cannot trust the Unicorns! Don't let looks deceive you. A Manotaur will stab you in the front. A Unicorn will stab you in the back!"
  UFC_bear_victory_unicorn.1.t:0 "They'll pay for their §RTreachery§!!"
+ UFC_bear_victory_unicorn.1.e:0 "The Unicorns heavily supported the Manotaurs during the battle."
  
  UFC_bear_victory_unicorn.2:0 "Never Bow To Any Horn"
  UFC_bear_victory_unicorn.2_desc:0 "We are not afraid of their horns. Our claws are sharper and faster!"
@@ -117,7 +118,7 @@
  UFC_bear_victory_unicorn.3.t:0 ""
  
  UFC_bear_victory_unicorn.4:0 "Wrestle Control Of The Slopes"
- UFC_bear_victory_unicorn.4_desc:0 "Controling the wooded slopes between the multibears' cave and the unicorns' enchanted grove is crtical to driving thier decedent incluence backl."
+ UFC_bear_victory_unicorn.4_desc:0 "Controlling the wooded slopes between the multibears' cave and the unicorns' enchanted grove is critical to driving their decedent influence back."
  UFC_bear_victory_unicorn.4.t:0 ""
  
  UFC_bear_victory_unicorn.5:0 "A Fight Against Decadence"
@@ -152,7 +153,7 @@
  UFC_bear_victory_final.1_desc:0 "Its a dawn of a new day. Today is the birth of the United Forest Council!"
  UFC_bear_victory_final.1.t:0 ""
  
- UFC_bear_victory_final.2:0 "End Unicorn Supression!"
+ UFC_bear_victory_final.2:0 "End Unicorn Suppression!"
  UFC_bear_victory_final.2_desc:0 "We will bring freedom to those under Unicorn oppression. For victory and liberty!"
  UFC_bear_victory_final.2.t:0 ""
  
@@ -171,7 +172,7 @@
  UFC_bear_defeat_revanch.2.t:0 ""
  
  UFC_bear_defeat_revanch.3:0 "Beaten Back"
- UFC_bear_defeat_revanch.3_desc:0 "From the our hill and caves, we will strike back! Once more, down the hill!"
+ UFC_bear_defeat_revanch.3_desc:0 "From our hill and caves, we will strike back! Once more, down the hill!"
  UFC_bear_defeat_revanch.3.t:0 ""
  
  UFC_bear_defeat_revanch.4:0 "Our Lifestyle Questioned"
@@ -183,11 +184,11 @@
  UFC_bear_defeat_revanch.5.t:0 ""
  
  UFC_bear_defeat_revanch.6:0 "... And Multi-Headed"
- UFC_bear_defeat_revanch.6_desc:0 "The Bears are united for victory and revenge. What must be done to save the Faorest will need absolute resolve from all our heads!"
+ UFC_bear_defeat_revanch.6_desc:0 "The Bears are united for victory and revenge. What must be done to save the Forest will need absolute resolve from all our heads!"
  UFC_bear_defeat_revanch.6.t:0 ""
  
  UFC_bear_defeat_revanch.7:0 "Our Singular Vendetta Awaits"
- UFC_bear_defeat_revanch.7_desc:0 "Even John MultiBear knows we need a central leader to lead our new army to victory!\nWe must have Order inorder to bring Order!"
+ UFC_bear_defeat_revanch.7_desc:0 "Even John MultiBear knows we need a central leader to lead our new army to victory!\nWe must have Order in order to bring Order!"
  UFC_bear_defeat_revanch.7.t:0 "" 
  
  ###################
@@ -201,7 +202,7 @@
  UFC_bear_defeat_radical.2.t:0 ""
  
  UFC_bear_defeat_radical.3:0 "Question Our Leaders"
- UFC_bear_defeat_radical.3_desc:0 "Unlike the other multibears, John has been able to keep his heads in line under the central head. BUt is that such a good thing to do? Can one head lead us all?"
+ UFC_bear_defeat_radical.3_desc:0 "Unlike the other multibears, John has been able to keep his heads in line under the central head. But is that such a good thing to do? Can one head lead us all?"
  UFC_bear_defeat_radical.3.t:0 ""
  
  UFC_bear_defeat_radical.4:0 "All Heads Equal"
@@ -217,7 +218,7 @@
  UFC_bear_defeat_radical.6.t:0 ""
  
  UFC_bear_defeat_radical.7:0 "Ensure Forest Equality"
- UFC_bear_defeat_radical.7_desc:0 "We will have no dissident in our new society. In this forest, as is in life and eath, we are equal! From tending farms to fighting in front lines."
+ UFC_bear_defeat_radical.7_desc:0 "We will have no dissidents in our new society. In this forest, as is in life and earth, we are equal! From tending farms to fighting in front lines."
  UFC_bear_defeat_radical.7.t:0 ""
  
  UFC_bear_defeat_radical.8:0 "Bring On The Forest Revolution"
@@ -233,7 +234,7 @@
  UFC_manotaur_fate.1.t:0 ""
  
  UFC_gnomes_fate.1:0 "The Gnome Question"
- UFC_gnomes_fate.1_desc:0 "As we all fought for the Forest, the main Gnomes under Jeff have been rebuilding at the heart of thier old lands. Let's see what they been up to in that time." 
+ UFC_gnomes_fate.1_desc:0 "As we all fought for the Forest, the main Gnomes under Jeff have been rebuilding at the heart of their old lands. Let's see what they been up to in that time." 
  UFC_gnomes_fate.1.t:0 ""
  
  ########################################################################
