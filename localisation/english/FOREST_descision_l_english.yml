@@ -15,7 +15,7 @@
     ###  ###
 
     FOREST_catagory_crawl_space:0 "The Crawlspace: Open Market"
-    FOREST_catagory_crawl_space_desc:0 "The §RCrawlspace§! is a hidden market deep underground of the town of Gravity Falls. Many shady deals are going about in this dangerous place. But there is also plenty of money to be made. Anything that anyone could want can be found and bought from the merchants.\n\nAfter a momentary closing in remembrance of the fallen Gnome Queen, the market is open once again. Her death, afterall, is proving to be quite lucrative..."
+    FOREST_catagory_crawl_space_desc:0 "The §RCrawlspace§! is a hidden market deep underground of the town of Gravity Falls. Many shady deals are going about in this dangerous place. But there is also plenty of money to be made. Anything that anyone could want can be found and bought from the merchants.\n\nAfter a momentary closing in remembrance of the fallen Gnome Queen, the market is open once again. Her death, after all, is proving to be quite lucrative..."
     
     ################
     
@@ -50,7 +50,7 @@
     ################
     
     FOREST_decision_common_1_a:0 "Lvl 1: Buy Medieval Range Weapons"
-    FOREST_decision_common_1_a_desc:0 "We will buy some primative range weapons from the Crawlspace Market. Even includes a book on how to stand in a line and get shot!"
+    FOREST_decision_common_1_a_desc:0 "We will buy some primitive range weapons from the Crawlspace Market. Even includes a book on how to stand in a line and get shot!"
     FOREST_decision_common_1_a_tt:0 "Require having at least §7¢50 Cryptid Currency§! and the market having at least §R250 units of weapons§! in their stockpile."
     
     FOREST_decision_common_1_b:0 "Lvl 1: Buy Support Supplies"
@@ -62,13 +62,13 @@
     FOREST_decision_common_1_c_tt:0 "Require having at least §7¢50 Cryptid Currency§! and the market having at least §Y100 units of supplies§! in their stockpile."
     
     FOREST_decision_common_1_d:0 "Lvl 1: Contract Market Workshops"
-    FOREST_decision_common_1_d_desc:0 "We'll hire Crawlspace merchants to fufill our consumer's need, allowing us to put state resources elsewhere."
+    FOREST_decision_common_1_d_desc:0 "We'll hire Crawlspace merchants to fulfill our consumer's need, allowing us to put state resources elsewhere."
     FOREST_decision_common_1_d_tt:0 "Require having at least §7¢50 Cryptid Currency§! and the market having at least §Y100 units of supplies§! in their stockpile."
     
     ################
     
     FOREST_decision_common_2_a:0 "Lvl 2: Buy Industrial Weapons"
-    FOREST_decision_common_2_a_desc:0 "We will buy some old World War weapons from the Crawlspace Market. Look at all those Mosins and Garands. Collectable and Pratical!"
+    FOREST_decision_common_2_a_desc:0 "We will buy some old World War weapons from the Crawlspace Market. Look at all those Mosins and Garands. Collectible and Practical!"
     FOREST_decision_common_2_a_tt:0 "For §OVIP-Level§! Customers.\nRequire having at least §7¢100 Cryptid Currency§! and the market having at least §R250 units of weapons§! in their stockpile."
     
     FOREST_decision_common_2_b:0 "Lvl 2: Buy Artillery Pieces"
@@ -76,7 +76,7 @@
     FOREST_decision_common_2_b_tt:0 "For §OVIP-Level§! Customers.\nRequire having at least §7¢100 Cryptid Currency§! and the market having at least §R250 units of weapons§! and §Y250 units of supplies§! in their stockpile."
     
     FOREST_decision_common_2_c:0 "Lvl 2: Happy Gas"
-    FOREST_decision_common_2_c_desc:0 "These cansisters of gas, when deployed upwind from our main population groups, will increace our people's happiness and stability."
+    FOREST_decision_common_2_c_desc:0 "These canisters of gas, when deployed upwind from our main population groups, will increase our people's happiness and stability."
     FOREST_decision_common_2_c_tt:0 "For §OVIP-Level§! Customers.\nRequire having at least §7¢100 Cryptid Currency§! and the market having at least §Y100 units of supplies§! in their stockpile."
     
     FOREST_decision_common_2_d:0 "Lvl 2: Patriots In The Water"
@@ -86,7 +86,7 @@
     ################
     
     FOREST_decision_common_3_a:0 "Lvl 3: Mewman Magical Water Tap"
-    FOREST_decision_common_3_a_desc:0 "For a limited time, we will get access to a special dimentional tap to the water of the Realm of Magic"
+    FOREST_decision_common_3_a_desc:0 "For a limited time, we will get access to a special dimensional tap to the water of the Realm of Magic"
     FOREST_decision_common_3_a_tt:0 "For §CExecutive-Level§! Customers.\nRequire having at least §7¢200 Cryptid Currency§! and the market having at least §C10 units of resources§! in their stockpile."
     
     FOREST_decision_common_3_b:0 "Lvl 3: Scrap Frobots"
