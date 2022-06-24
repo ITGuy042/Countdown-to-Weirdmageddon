@@ -1,0 +1,16 @@
+state={
+	id=564
+	name="STATE_564"
+	provinces={
+		788 1349 2478 3671 8673 
+	}
+	history={
+		owner = BAR
+		add_core_of = BAR
+
+	}
+	manpower=1000
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+
+		OWL_crownless_king = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = OWL }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.05	
+				stability_weekly = -0.005			
+			}
+		}	
+
+		
+	industrial_concern = {
+
+		
+
+	}
+}

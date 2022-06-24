@@ -65,5 +65,24 @@ set_popularities = {
 	communism = 100
 }
 
+set_country_flag = CAN_MAGIC
+
+
+494 = {
+	add_dynamic_modifier = {
+		modifier = owl_house_hooty_dynamic_modifier
+	}
+}
+
+
+	
+
 recruit_character = OWL_eda_clawthorne
+recruit_character = OWL_king
+
+add_ideas = {
+
+	OWL_king
+	OWL_crownless_king
+}
 

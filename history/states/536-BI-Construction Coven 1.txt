@@ -1,0 +1,16 @@
+state={
+	id=536
+	name="STATE_536"
+	provinces={
+		933 1657 5034 5464 5997 9273 9301 9317 
+	}
+	history={
+		owner = CST
+		add_core_of = CST
+
+	}
+	manpower=1000
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

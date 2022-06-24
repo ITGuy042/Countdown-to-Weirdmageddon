@@ -1,0 +1,16 @@
+state={
+	id=535
+	name="STATE_535"
+	provinces={
+		2864 5468 6044 9092 
+	}
+	history={
+		owner = POT
+		add_core_of = POT
+
+	}
+	manpower=1000
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

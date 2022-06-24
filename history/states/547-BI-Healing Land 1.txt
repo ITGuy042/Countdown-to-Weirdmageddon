@@ -1,0 +1,16 @@
+state={
+	id=547
+	name="STATE_547"
+	provinces={
+		1200 2322 2372 3464 6237 7224 10186 10225 
+	}
+	history={
+		owner = HEA
+		add_core_of = HEA
+
+	}
+	manpower=1000
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
