@@ -167,7 +167,23 @@ on_actions = {
 					}
 				}
 				FROM = {
-					country_event = ost_mew_surrender.1
+					white_peace = {
+						tag = OST
+						message = "The Ostro Starvarians have Surrendered"
+					}
+					MEW = { transfer_state = 285 }
+					MEW = { transfer_state = 286 }
+					MEW = { transfer_state = 298 }
+					MEW = { transfer_state = 297 }
+					MEW = { transfer_state = 295 }
+					MEW = { transfer_state = 279 }
+					MEW = { transfer_state = 296 }
+					OST = { transfer_state = 277 }
+					OST = { transfer_state = 291 }
+					AIR = { transfer_state = 278 }
+					MEW = { country_event = { id = ost_mew_surrender.2 days = 7 }}
+					clr_country_flag = ost_war_starting
+					set_country_flag = conquer_ost
 				}
 			}
 			else_if = {

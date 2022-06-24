@@ -15,7 +15,7 @@
     CRL_fast_build_1_desc:0 "We'll hire Crawlspace Researchers to help in speeding up the development of our technology."
     
     CRL_happy_gas_2:0 "Happy Gas"
-    CRL_happy_gas_2_desc:0 "These cansisters of gas, when deployed upwind from our main population groups, will increace our people's happiness and stability."
+    CRL_happy_gas_2_desc:0 "These cansisters of gas, when deployed upwind from our main population groups, will increase our people's happiness and stability."
     
     CRL_patriot_water_2:0 "Patriots In The Water"
     CRL_patriot_water_2_desc:0 "Our outlets from the River Trembley will be laced with chemicals that will increase our people's aggression to our enemies. It also turns the frogs gay, which is perfect for Pride Month!"
@@ -104,7 +104,7 @@
     MAN_flexing:0 "Flexing"
     MAN_flexing_desc:0 ""
     
-    MAN_handy:0 "A Handy Allaince"
+    MAN_handy:0 "A Handy Alliance"
     MAN_handy_desc:0 ""
     
     MAN_dont_bother_us:0 "Return To The Man-Cave"
@@ -135,7 +135,7 @@
     MAN_unhappy_warriors_desc:0 ""
     
     ####################################################
-    # genric for all Forest
+    # generic for all Forest
     ####################################################
     
     UFC_crawlspace:0 "Crawlspace County Construction Co."

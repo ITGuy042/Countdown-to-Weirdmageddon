@@ -737,7 +737,13 @@
 		prerequisite = { focus = UFC_the_new_peace }
 		mutually_exclusive = { focus = UFC_bear_victory_unicorn.1  }
 		
-		available = { has_global_flag = GLOBAL_UNI_MANO_FLAG }		
+		available = {  
+			custom_trigger_tooltip = {
+				tooltip = "UFC_bear_victory_unicorn.1.e"
+				UNI = {check_variable = { UNI_MAN_influence > 55 } }
+			} 
+			hidden_trigger = { UNI = {check_variable = { UNI_MAN_influence > 55 } } }
+		}		
 		bypass = {} 
 		cost = 5
 

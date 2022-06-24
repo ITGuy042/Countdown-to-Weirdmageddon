@@ -381,6 +381,14 @@ country_event = { # Balance check
 		ai_chance = { factor = 100 }
 		IF = {
 			limit = {
+				OR = {
+					MAN = { has_war = no }
+					UFC = { has_war = no }
+				}
+			}
+		}
+		ELSE_IF = {
+			limit = {
 				AND = {
 					MAN = { is_ai = no }
 					UFC = { is_ai = no }

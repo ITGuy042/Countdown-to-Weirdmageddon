@@ -19,11 +19,11 @@
  ####################################################################
  
  UFC_COUNCIL.1.t:0 "Unite the Eastern Banks"
- UFC_COUNCIL.1.d:0 "Our victory in driving the Manotaurs back up to their smelly "Man Cave" in the hills has brought most of the Northern Forest of Gravity Falls under our control. A council has convened to discuss the post-war situation. With our independence from the Gnomes and many critters of the Forest under our catrol, all the heads seemed in agreement that we must fill the power vacuum. But while we are strong enough to fill the gap, the Forest cannot survive with just the north. That fact brought the next question. The unicorn question.\n\nWith each multi-bear came multiple opinions from each head. The obnoxious unicorns are no Manotaurs, but it doesn't mean we like them. But they hold the economical heart of the forest and have themselves a massive wealth. Still, as they offered us support during the war, so likely had they given aid to those beasts, hoping to buy a winner no matter who won. With so much arguing, John Multibear was quick to end the discussion, having full control of his heads. The choice was made. The good of the Forest means the Unicorns will play a role in that.\n\nIt will be the Unicorns to decide what that role is..."
+ UFC_COUNCIL.1.d:0 "Our victory in driving the Manotaurs back up to their smelly "Man Cave" in the hills has brought most of the Northern Forest of Gravity Falls under our control. A council has convened to discuss the post-war situation. With our independence from the Gnomes and many critters of the Forest under our control, all the heads seemed in agreement that we must fill the power vacuum. But while we are strong enough to fill the gap, the Forest cannot survive with just the north. That fact brought the next question. The unicorn question.\n\nWith each multi-bear came multiple opinions from each head. The obnoxious unicorns are no Manotaurs, but it doesn't mean we like them. But they hold the economical heart of the forest and have themselves a massive wealth. Still, as they offered us support during the war, so likely had they given aid to those beasts, hoping to buy a winner no matter who won. With so much arguing, John Multibear was quick to end the discussion, having full control of his heads. The choice was made. The good of the Forest means the Unicorns will play a role in that.\n\nIt will be the Unicorns to decide what that role is..."
  UFC_COUNCIL.1.a:0 "Send the messenger Druid to the Enchanted Grove"
  
  UFC_COUNCIL.2.t:0 "The Multi-Bears Have A Proposal For Us"
- UFC_COUNCIL.2.d:0 "The Unicorns were awoken. Partly from a small druid gnome chanting the sound that would bring the Enchanted Grove from its magical hiding place, but also to a banging headache of a hangover from the rave they had the night before. One of the unicorns managed to walk to the doors of the inner realm and check who distrubed them. Opened, the druid gnome walked in and handed them a letter.\n\n"Message from the MultiBears. They wish to discuss the future of the forest," he said with a deep baritone voice.\n\nThey gathered around a rock table as their faun servant brought them coffee. Celestabellebethabelle opened the letter with her horn. After a quick read, they all laughed at the request from the Multibears to form a united forest council with them. After a moment, it dawned on them implications of what was going on.\n\nThe bears have mobilized a significant force during their battle against the Manotaurs. It had occurred to them that force is still active and now on their border. Worse, the "army" they have for controlling their part of the forest are merely local militias united only to keep Jeff and his gnomes on the western side of the River Trembley. If the bears invade, many would lay down their arms or even join them to destroy them. But of course. These multibears are smelly beasts, little better than the Manotaurs. Joining them is unthinkable... which, if done correctly, could be the ultimate scam they could play on the bears!"
+ UFC_COUNCIL.2.d:0 "The Unicorns were awoken. Partly from a small druid gnome chanting the sound that would bring the Enchanted Grove from its magical hiding place, but also to a banging headache of a hangover from the rave they had the night before. One of the unicorns managed to walk to the doors of the inner realm and check who disturbed them. Opened, the druid gnome walked in and handed them a letter.\n\n"Message from the MultiBears. They wish to discuss the future of the forest," he said with a deep baritone voice.\n\nThey gathered around a rock table as their faun servant brought them coffee. Celestabellebethabelle opened the letter with her horn. After a quick read, they all laughed at the request from the Multibears to form a united forest council with them. After a moment, it dawned on them implications of what was going on.\n\nThe bears have mobilized a significant force during their battle against the Manotaurs. It had occurred to them that force is still active and now on their border. Worse, the "army" they have for controlling their part of the forest are merely local militias united only to keep Jeff and his gnomes on the western side of the River Trembley. If the bears invade, many would lay down their arms or even join the bears to destroy them. But of course. These multibears are smelly beasts, little better than the Manotaurs. Joining them is unthinkable... which, if done correctly, could be the ultimate scam they could play on the bears!"
  UFC_COUNCIL.2.a:0 "Let them have their "Forest" Council..."
  UFC_COUNCIL.2.b:0 "It'll save us the effort!"
  UFC_COUNCIL.2.c:0 "Tell The Smelly Brutes\n"NO"!"
@@ -50,7 +50,6 @@
  
  UFC_COUNCIL.7.t:0 "The Prime Ministership"
  UFC_COUNCIL.7.d:0 "As the rest of the Charter was finished drafting and was at this point on the verge of a ceremonial official approval, new political parties were forming. It was clear the old ways leaders rose to power will have no effect here. In what was new to both of them, John and Celestabellebethabelle must rally their supporters and form deals to make coalitions to win control of the Council and its Prime Ministership.\n\nBut there was a loophole too. There was only one office to the PM, but some have realized two people can hold that same office at once! Some party members from the Bear Bloc and the Unicorn Bloc have met to discuss a deal. All of them will simultaneously vote in John and C-Bell as the Prime Minister. Both would rule from their position and force a grand coalition of the Council, making needed bills in this early state of the United Forest Council easier to pass and keep the UFC together as a whole."
- UFC_COUNCIL.7.a:0 "Many Heads Are Better Than One!"
  UFC_COUNCIL.7.a:0 "Many Heads Are Better Than One!"
  UFC_COUNCIL.7.b:0 "May Their Horns Lead Us To Victory..."
  UFC_COUNCIL.7.bt:0 "And The Nearest §PRave§!!\n§Y¢500§! §7Cryptid Currency§! will be added to our reserve"
@@ -89,7 +88,7 @@
  
  ##################
  
- UFC_MANO_FATE.1.t:0 "We Will Have Our Vengence"
+ UFC_MANO_FATE.1.t:0 "We Will Have Our Vengeance"
  UFC_MANO_FATE.1.d:0 ""
  UFC_MANO_FATE.1.a:0 "Attack!"
  
@@ -119,7 +118,7 @@
  UFC_GNOME_FATE.1.a:0 "Send the Ultimatum!"
  
  UFC_GNOME_FATE.2.t:0 "We Never Needed A Queen"
- UFC_GNOME_FATE.2.d:0 "The revoloution must continue! Here, the last vestage of the old order stands. Its time we end the monarchy once and for all."
+ UFC_GNOME_FATE.2.d:0 "The revolution must continue! Here, the last vestige of the old order stands. Its time we end the monarchy once and for all."
  UFC_GNOME_FATE.2.a:0 "Our Revolution or their Bust!"
  
  UFC_GNOME_FATE.3.t:0 "The Real Power of the Woods"
@@ -128,12 +127,12 @@
  UFC_GNOME_FATE.3.b:0 "Let them be"
  
  UFC_GNOME_FATE.4.t:0 "The Will Of The Forest Critters!"
- UFC_GNOME_FATE.4.d:0 "We have restored order to the forest and united it under a rule for all critters of the forest. Now we look to the last refuge fo the old order, the Gnome Kingdom that ironicly survived all that has happen. It's time we bring liberation to the home of the gnomes."
+ UFC_GNOME_FATE.4.d:0 "We have restored order to the forest and united it under a rule for all critters of the forest. Now we look to the last refuge of the old order, the Gnome Kingdom that ironically survived all that has happen. It's time we bring liberation to the home of the gnomes."
  UFC_GNOME_FATE.4.a:0 ""
  
  ##########
  
- UFC_GNOME_FATE.5.t:0 "They demand our summission!"
+ UFC_GNOME_FATE.5.t:0 "They demand our submission!"
  UFC_GNOME_FATE.5.d:0 "They demand we surrender our land to them!"
  UFC_GNOME_FATE.5.a:0 "We have no choice"
  UFC_GNOME_FATE.5.b:0 "We will not bow!" 
@@ -149,7 +148,7 @@
  #################
  
  UFC_GNOME_FATE.9.t:0 "The Council demands we join them!"
- UFC_GNOME_FATE.9.d:0 "the council demands we join them! With some reluctance, they have said if we merged with them, the queen we have can stay as a figurtive leader. They sight the powerful Canadians and thier immortal queen for such an arrangment in power. But after all we been throguh, should we give up now? Though what they offer is fair now, and unlikely if we fail to resist them later"
+ UFC_GNOME_FATE.9.d:0 "the council demands we join them! With some reluctance, they have said if we merged with them, the queen we have can stay as a figurative leader. They sight the powerful human Canadians and their immortal queen for such an arrangement in power. But after all we been through, should we give up now? Though what they offer is fair now, and unlikely if we fail to resist them later"
  UFC_GNOME_FATE.9.a:0 "Let us unite the forest!"
  UFC_GNOME_FATE.9.b:0 "The Council has no sway here!"
  
@@ -166,7 +165,7 @@
  
  UFC_GNOME_FATE.12.t:0 "They want us to join up with them!"
  UFC_GNOME_FATE.12.d:0 "They want us to join with them and finalize the unification of the forest!"
- UFC_GNOME_FATE.12.a:0 "Prehaps the time has come to unite?"
+ UFC_GNOME_FATE.12.a:0 "Perhaps the time has come to unite?"
  UFC_GNOME_FATE.12.a:0 "With them? We stand apart!"
  
  UFC_GNOME_FATE.13.t:0 "They accepted!"
@@ -175,5 +174,5 @@
  
  UFC_GNOME_FATE.14.t:0 "They refuse!"
  UFC_GNOME_FATE.14.d:0 "The rejected our offer? A little expected, but still. Now it's our choice. Do we take this rejection as an offense, or let it be as we have most of the forest."
- UFC_GNOME_FATE.14.a:0 "Let's complete the forest entirly!"
+ UFC_GNOME_FATE.14.a:0 "Let's complete the forest entirely!"
  UFC_GNOME_FATE.14.a:0 "Let them go..."

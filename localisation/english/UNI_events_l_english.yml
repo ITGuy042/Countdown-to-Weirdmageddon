@@ -22,6 +22,10 @@
  UNI_intervention_confirmation.3.d:0 "The [FROM.getname] has declined our offer to subjugate them!"
  UNI_intervention_confirmation.3.a:0 "We’re gonna have to start preparing defenses..."
 
+ UNI_intervention_confirmation.4.t:0 "We have failed to influence a faction in the north!"
+ UNI_intervention_confirmation.4.d:0 "We have failed to sufficiently influence a faction in the north, thus they will most likley go after us next!"
+ UNI_intervention_confirmation.4.a:0 "We’re gonna have to start preparing defenses..."
+
  UNI_intervention.3.t:0 "Help from the Unicorns: Equipment"
  UNI_intervention.3.d:0 "The [UNI.getname] is offering to send us equipment for free. Although this may sound like a good deal, we don’t want to get too reliant on the unicorns. Getting too comfy with them may lead to subjugation..."
  UNI_intervention.3.a:0 "We need this right now, we’ll take it!"

@@ -10,7 +10,7 @@ ideas = {
 			
 			modifier = {	
 				army_org_factor = 0.10
-				offence = 0.30				
+				offence = 0.50				
 			}
 		}	
 
@@ -23,7 +23,7 @@ ideas = {
 			
 			modifier = {	
 				experience_gain_army = 0.25
-				defence = 0.30	
+				defence = 0.50	
 			}
 		}
 		
