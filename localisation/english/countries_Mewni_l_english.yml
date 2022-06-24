@@ -2,18 +2,9 @@
 
 ###########################################################
 #Mewni 
- MEW_fascism:0 "Butterfly Kingdom"
- MEW_fascism_DEF:0 "Royal Grounds"
- MEW_democratic:0 "Butterfly Kingdom"
- MEW_democratic_DEF:0 "Butterfly Kingdom"
- MEW_neutrality:1 "Butterfly Kingdom"
- MEW_neutrality_DEF:1 "Butterfly Kingdom"
- MEW_communism:0 "Butterfly Kingdom"
- MEW_communism_DEF:0 "Butterfly Kingdom"
- MEW_fascism_ADJ:0 "Butterfly Kingdom"
- MEW_democratic_ADJ:0 "Butterfly Kingdom"
- MEW_neutrality_ADJ:0 "Butterfly Kingdom"
- MEW_communism_ADJ:0 "Butterfly Kingdom"
+ MEW_royal_monarchy:0 "Butterfly Kingdom"
+ MEW_royal_monarchy_DEF:0 "Mewman"
+ MEW_royal_monarchy_ADJ:0 "Mewman"
  
  LUD_fascism:0 "Ludo's Kingdom"
  LUD_fascism_DEF:0 "Ludo's Kingdom"

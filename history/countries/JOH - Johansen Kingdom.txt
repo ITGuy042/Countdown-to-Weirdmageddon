@@ -30,9 +30,11 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 90
-	communism = 5
-	fascism = 5
+	royal_monarchy = 85
+	authoritarianism = 6
+	democratic = 5
+	anarchist = 3
+	military_rule = 1
 }
 
 add_ideas = {
@@ -44,7 +46,7 @@ create_country_leader = {
 	name = "King River Butterfly"
 	desc = ""
 	picture = "hoi4_portrait_river_butterfly2.dds"
-	ideology = oligarchism
+	ideology = jushtinian_pluralism_royal_monarchy_subtype
 	traits = {
 		#
 	}
