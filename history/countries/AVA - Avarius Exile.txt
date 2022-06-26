@@ -18,7 +18,7 @@ set_stability = 0.40
 set_war_support = 0.30
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = royal_monarchy
 	last_election = "2000.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -30,17 +30,15 @@ AVA_paralyzed_exile
 }
 
 set_popularities = {
-	democratic = 5
-	neutrality = 85
-	communism = 5
-	fascism = 5
+	royal_monarchy = 85
+	authoritarianism = 15
 }
 
 create_country_leader = {
 	name = "Lord Brudo of House Avarius"
 	desc = ""
 	picture = "hoi4_portrait_brudo.dds"
-	ideology = oligarchism
+	ideology = kingdom_royal_monarchy_subtype
 	traits = {
 		#
 	}

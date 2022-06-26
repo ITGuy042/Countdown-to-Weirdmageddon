@@ -38,7 +38,7 @@
 				days = 1095
 			}
 			add_popularity = {
-				ideology = communism
+				ideology = anarchist
 				popularity = 0.15
 			}
 			add_popularity = {

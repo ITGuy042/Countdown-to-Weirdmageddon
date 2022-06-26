@@ -75,7 +75,7 @@ country_event = {
 			Character = DTH_janna_ordonia_council
 			promote_leader = yes
 			Country_leader = {
-				ideology = nazism
+				ideology = religous_order_authoritarianism_subtype
 				expire = "2040.01.01.01"
 				traits = {
 					absent_ruler
@@ -102,7 +102,7 @@ country_event = {
 			Character = DTH_hippie_character
 			promote_leader = yes
 			Country_leader = {
-				ideology = nazism
+				ideology = religous_order_authoritarianism_subtype
 				expire = "2040.01.01.01"
 				traits = {
 				}
@@ -127,7 +127,7 @@ country_event = {
 			Character = DTH_death_cultist
 			promote_leader = yes
 			Country_leader = {
-				ideology = nazism
+				ideology = religous_order_authoritarianism_subtype
 				expire = "2040.01.01.01"
 				traits = {
 					unstable
