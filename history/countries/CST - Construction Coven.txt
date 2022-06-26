@@ -62,8 +62,16 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 80
+	fascism = 40
+	democratic = 40
 	neutrality = 20
 }
 
-recruit_character = BOI_belos
+add_ideas = {
+
+	CST_overbuilt
+	CST_toolsmiths
+	CST_power_glyphs
+}
+
+recruit_character = CST_mason

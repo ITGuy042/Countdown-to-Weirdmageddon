@@ -29,6 +29,21 @@ leader_traits = {
 
 		stability_weekly = -0.005
 	}
+
+	CST_solid_builder = {
+		production_speed_buildings_factor = 0.05
+		stabiity_factor = 0.05
+		research_speed_factor = -0.05
+	}
+
+	CST_revolutionary_constructionist = {
+		research_speed_factor = 0.05
+		production_speed_buildings_factor = 0.1
+		stabiity_factor = -0.10
+		stability_weekly = -0.001
+
+	}
+
 	
 	
 	

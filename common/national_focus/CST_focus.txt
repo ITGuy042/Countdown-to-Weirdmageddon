@@ -1,0 +1,146 @@
+focus_tree = {
+
+	id = CST_focus
+	
+	country = {
+		factor = 0		
+		modifier = {
+			add = 100
+			tag = CST
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+
+	focus = {
+		id = CST_construction_coven_elections
+		icon = a
+		x = 20
+		y = 0
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = CST_local_elections
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = CST_construction_coven_elections
+		prerequisite = { focus = CST_construction_coven_elections }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		select_effect = {  
+			
+		}
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = CST_industry_investments
+		icon = a
+		x = -5
+		y = 1
+		relative_position_id = CST_construction_coven_elections
+		prerequisite = { focus = CST_construction_coven_elections }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		select_effect = {  
+			
+		}
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = CST_army_investments
+		icon = a
+		x = 5
+		y = 1
+		relative_position_id = CST_construction_coven_elections
+		prerequisite = { focus = CST_construction_coven_elections }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		select_effect = {  
+			
+		}
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+
+}

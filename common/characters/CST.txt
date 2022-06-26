@@ -1,0 +1,48 @@
+############################################################################
+### CST Characters
+############################################################################
+characters = {
+	
+	CST_mason = {
+		name = "Mason" 
+		desc = ""
+		portraits = {
+			civilian = {
+				#large = "GFX_leaders_eda_clawthorne"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {
+				CST_solid_builder
+			}
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+
+	CST_stoney = {
+		name = "Stoney" 
+		desc = ""
+		portraits = {
+			civilian = {
+				#large = "GFX_leaders_eda_clawthorne"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {
+				CST_revolutionary_constructionist
+			}
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+
+	
+
+
+}###########################################################
+	
