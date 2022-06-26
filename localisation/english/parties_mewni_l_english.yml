@@ -17,9 +17,12 @@
  TSR_democratic_party:0 "Peasant's Moderate Resistance"
  TSR_royal_monarchy_party:0 "House Nuts"
  
+ DTH_royal_monarchy_party:0 "Leader Veneration Movement"
+ DTH_authoritarianism_party:0 "Followers of the Faith"
  
+ HGH_authoritarianism_party:0 "School Staff"
+ HGH_democratic_party:0 "Student Council"
+ HGH_hivemind_party:0 "Reddit Hivemind"
  
- 
- 
- 
+ MHC_cosmia_party:0 "Cruel Fist of Cosmia"
  
