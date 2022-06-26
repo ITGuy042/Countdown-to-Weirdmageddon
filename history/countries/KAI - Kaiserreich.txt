@@ -20,7 +20,7 @@ set_stability = 0.40
 set_war_support = 0.30
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = royal_monarchy
 	last_election = "2000.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -28,16 +28,15 @@ set_politics = {
 
 set_popularities = {
 	democratic = 5
-	neutrality = 85
-	communism = 5
-	fascism = 5
+	royal_monarchy = 80
+	military_rule = 15
 }
 
 create_country_leader = {
 	name = "Kaiser Wen-Dietz of House Nuts"
 	desc = ""
 	picture = "kaiser_portrait.dds"
-	ideology = oligarchism
+	ideology = kaiserist_royal_monarchy_subtype
 	traits = {
 		#
 	}

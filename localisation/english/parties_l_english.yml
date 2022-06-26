@@ -1,25 +1,31 @@
 ﻿l_english:
- democratic:0 "Democracy"
- democratic_noun:0 "Democratic"
- democratic_desc:0 ""
+ democratic:0 "Democratic"
+ democratic_noun:0 "Democracy"
+ democratic_desc:0 "Democratic Regime"
  
- authoritarianism:0 "Authoritarianism"
- authoritarianism_noun:0 "Authoritarian"
- authoritarianism_desc:0 ""
+ authoritarianism:0 "Authoritarian"
+ authoritarianism_noun:0 "Authoritarianism"
+ authoritarianism_desc:0 "Authoritarian Regime"
  
- anarchist:0 "Libertarianism"
- anarchist_noun:0 "Libertarian"
- anarchist_desc:0 ""
+ anarchist:0 "Libertarian"
+ anarchist_noun:0 "Libertarianism"
+ anarchist_desc:0 "Libertarian Society"
  
- royal_monarchy:0 "Royal Monarchy"
- royal_monarchy_noun:0 "Monarchist"
- royal_monarchy_desc:0 ""
+ royal_monarchy:0 "Royal Monarchist"
+ royal_monarchy_noun:0 "Royal Monarchy"
+ royal_monarchy_desc:0 "Royal Rule"
  
- military_rule:0 "Military Rule"
- military_rule_noun:0 "Militarist"
- military_rule_desc:0 ""
+ military_rule:0 "Militarist Command"
+ military_rule_noun:0 "Military Command"
+ military_rule_desc:0 "Military Rule"
  
  #Subideologies
+ 
+ none_libertarianism_subtype:0 "None"
+ none_libertarianism_subtype_desc:0 "This Country has no ideology. This usually means that there is no uniting force in this reigon."
+ 
+ pluralism_royal_monarchy_subtype:0 "Pluralism"
+ pluralism_royal_monarchy_subtype_desc:0 "Pluralism is a political system in which two or more states coexixst as a mostly unified political entity."
  
  jushtinian_pluralism_royal_monarchy_subtype:0 "Jushtinian Pluralism"
  jushtinian_pluralism_royal_monarchy_subtype_desc:0 "Pluralism is a political system in which two or more states coexixst as a mostly unified political entity. Under Jushtinian Pluralism, the Butterfly Kingdom is the central authority which governs the many other Kingdoms throughout Mewni.\n\nJushtinian Pluralism originated during the reign of Solaria Butterfly. Spearheaded by Jushtin Butterfly, the political system was originally created to make Mewmanization in conquered lands more efficient by placating local monsters. However, over the years the system has become more of a tool to better manage the vast lands of the §CKingdom of Mewni§! and it has abandoned it's Mewman spreading past."

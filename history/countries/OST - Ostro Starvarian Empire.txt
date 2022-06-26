@@ -28,23 +28,22 @@ set_autonomy = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = royal_monarchy
 	last_election = "2000.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 90
-	communism = 5
-	fascism = 5
+	royal_monarchy = 75
+	democratic = 25
 }
 
 create_country_leader = {
 	name = "Charles IV"
 	desc = ""
 	picture = "hoi4_portrait_emperor_charles.dds"
-	ideology = conservatism
+	ideology = pluralism_royal_monarchy_subtype
 	traits = {
 		#
 	}

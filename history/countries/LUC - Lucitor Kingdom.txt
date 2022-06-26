@@ -27,22 +27,22 @@ MEW_pre_industrial
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = royal_monarchy
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 90
-	communism = 5
-	fascism = 5
+	royal_monarchy = 90
+	authoritarianism = 9
+	military_rule = 1
 }
 
 create_country_leader = {
 	name = "Queen Wrathmelior Lucitor"
 	desc = ""
 	picture = "hoi4_portrait_wrathmelior.dds"
-	ideology = oligarchism
+	ideology = jushtinian_pluralism_royal_monarchy_subtype
 	traits = {
 		#
 	}
