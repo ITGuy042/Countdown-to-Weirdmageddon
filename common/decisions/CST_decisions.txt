@@ -1,0 +1,37 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+# Decisions MUST be visible for the AI to execute them, if in doubt, switch tag to the AI country and check if they can see/execute the mission.
+#####################################################################################################################
+
+
+
+CST_construction_coven_elections = {
+	
+
+	CST_election_timer_mission = {
+
+		activation = {
+        	always = no
+    	}	
+    	available = {
+       		always = no
+    	}
+    	cancel_trigger = {
+        	
+    	}
+    	icon = mission_icon     # For GFX_decision_mission_icon
+    	is_good = no
+    	
+    	days_mission_timeout = 5
+
+    	selectable_mission = yes
+    	complete_effect = {
+        	add_ideas = my_idea
+    	}
+    	timeout_effect = {
+        	
+    	}
+	}
+}
+
