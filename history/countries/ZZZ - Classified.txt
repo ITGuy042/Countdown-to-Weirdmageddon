@@ -3,14 +3,14 @@
 oob = "ZZZ_2012"
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = anarchist
 	last_election = "1000.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	anarchist = 100
 }
 
 add_ideas = {
@@ -23,26 +23,5 @@ create_country_leader = {
 	name = " "
 	desc = ""
 	picture = "hoi4_portrait_FPI_HOLDER.dds"
-	ideology = conservatism
-}
-
-create_country_leader = {
-	name = " "
-	desc = ""
-	picture = "hoi4_portrait_FPI_HOLDER.dds"
-	ideology = moderatism
-}
-
-create_country_leader = {
-	name = " "
-	desc = ""
-	picture = "hoi4_portrait_FPI_HOLDER.dds"
-	ideology = fascism_ideology
-}
-
-create_country_leader = {
-	name = " "
-	desc = ""
-	picture = "hoi4_portrait_FPI_HOLDER.dds"
-	ideology = anarchist_communism
+	ideology = none_libertarianism_subtype
 }
