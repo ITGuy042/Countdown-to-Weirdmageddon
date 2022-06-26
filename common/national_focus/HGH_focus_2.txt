@@ -226,6 +226,11 @@ focus_tree = {
 						}
 					}
 				}
+				set_politics = {
+					ruling_party = authoritarianism
+					elections_allowed = no
+					name = HGH_authoritarianism_sports_party
+				}
 			}
 		}
 		
@@ -272,6 +277,11 @@ focus_tree = {
 						}
 					}
 				}
+				set_politics = {
+					ruling_party = authoritarianism
+					elections_allowed = no
+					name = HGH_authoritarianism_racket_party
+				}
 			}
 		}
 		
@@ -313,6 +323,12 @@ focus_tree = {
 							student_leader
 						}
 					}
+				}
+				set_politics = {
+					ruling_party = authoritarianism
+					elections_allowed = no
+					long_name = HGH_authoritarianism_nazism_long_party
+					name = HGH_authoritarianism_nazism_party
 				}
 			}
 		}

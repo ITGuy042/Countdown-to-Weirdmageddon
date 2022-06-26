@@ -13,7 +13,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = colonial_government_democratic_subtype
+			ideology = colonial_government_military_rule_subtype
 			traits = {}
 			expire = "2040.1.1.1"
 			id = -1
