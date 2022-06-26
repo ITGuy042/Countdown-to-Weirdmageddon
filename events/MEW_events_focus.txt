@@ -424,7 +424,7 @@ country_event = {
 				Character = LUD_blank
 				Promote_leader = yes
 				Country_leader = {
-					ideology = oligarchism
+					ideology = royal_monarchy
 					expire = "2040.01.01.01"
 				}
 			}
@@ -865,7 +865,7 @@ country_event = {
 				name = "King River of House Butterfly"
 				desc = "placeholder"
 				picture = "hoi4_portrait_river_butterfly3.dds"
-				ideology = oligarchism
+				ideology = royal_monarchy
 
 			}
 		
@@ -1246,7 +1246,7 @@ country_event = {
 			ai_chance = { factor = 90 }
 			PNY = { transfer_state = 364 }
 			start_civil_war = {
-				ideology = communism
+				ideology = anarchist
 				size = 0.5
 				}
 			every_country = {

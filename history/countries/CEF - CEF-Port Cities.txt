@@ -48,16 +48,15 @@ complete_national_focus = construction_effort
 complete_national_focus = production_effort
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = military_rule
 	last_election = "2008.1.1"
 	election_frequency = 60   #four months
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 100
-	communism = 0
-	fascism = 0
+	democratic = 31
+	military_rule = 69
 }
 
 

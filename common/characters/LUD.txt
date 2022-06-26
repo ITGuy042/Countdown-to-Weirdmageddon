@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = oligarchism
+			ideology = kingdom_royal_monarchy_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}

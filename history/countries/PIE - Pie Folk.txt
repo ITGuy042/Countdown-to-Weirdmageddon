@@ -56,16 +56,15 @@ complete_national_focus = construction_effort
 complete_national_focus = production_effort
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = anarchist
 	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 40
-	neutrality = 60
+	anarchist = 70
+	democratic = 30
 }
 
-recruit_character = PIE_pie_king
 recruit_character = PIE_pie_king
