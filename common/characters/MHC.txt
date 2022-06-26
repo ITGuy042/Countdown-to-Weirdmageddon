@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = colonial_government_military_rule_subtype
+			ideology = oligarchism
 			expire = "2040.1.1.1"
 			id = -1
 			traits = {

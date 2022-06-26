@@ -89,34 +89,6 @@ country_event = {
 	option = {
 		name = HGH_unification_band_kids.1.a
 		set_cosmetic_tag = HGH_reddit
-				set_politics = {
-					ruling_party = authoritarianism
-						elections_allowed = no
-				}
-				add_popularity = {
-					ideology = authoritarianism
-					popularity = 0.6
-				}
-				remove_country_leader_role = {
-					character = HGH_reddit_council_character
-					ideology = anarcho_communalism_libertarianism_subtype
-				}
-				add_country_leader_role = {
-					Character = HGH_reddit_council_character
-					Promote_leader = yes
-					Country_leader = {
-						ideology = hivemind_authoritarianism_subtype
-						expire = "2040.1.1.1"
-						traits = {
-							student_leader
-							ironic_government
-						}
-					}
-				}
-				set_party_name = { 
-					ideology = authoritarianism 
-					name = HGH_hivemind_party 
-				}
 		country_event = generic_unification.1
 	}
 }
