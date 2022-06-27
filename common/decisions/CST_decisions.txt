@@ -68,10 +68,29 @@ CST_construction_coven_elections = {
 
 		remove_effect = {
 
+			CST = {
+				if = {
+					limit = {
+						has_country_flag = CST_chosen_mason_flag
+					}
+					add_popularity = {
+						ideology = authoritarianism
+						popularity = 0.01
+					}
+				} 
+				else_if = {
+					limit = {
+						has_country_flag = CST_chosen_stoney_flag
+					}
 
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -5000
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.01
+					}
+
+
+				}
+
 			}
 		}
 
@@ -111,11 +130,31 @@ CST_construction_coven_elections = {
 
 		remove_effect = {
 
+			CST = {
+				if = {
+					limit = {
+						has_country_flag = CST_chosen_mason_flag
+					}
+					add_popularity = {
+						ideology = authoritarianism
+						popularity = 0.01
+					}
+				} 
+				else_if = {
+					limit = {
+						has_country_flag = CST_chosen_stoney_flag
+					}
 
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -5000
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.01
+					}
+
+
+				}
+
 			}
+			
 		}
 
 	}
@@ -155,9 +194,29 @@ CST_construction_coven_elections = {
 		remove_effect = {
 
 
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -5000
+			CST = {
+				if = {
+					limit = {
+						has_country_flag = CST_chosen_mason_flag
+					}
+					add_popularity = {
+						ideology = authoritarianism
+						popularity = 0.01
+					}
+				} 
+				else_if = {
+					limit = {
+						has_country_flag = CST_chosen_stoney_flag
+					}
+
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.01
+					}
+
+
+				}
+
 			}
 		}
 

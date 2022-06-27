@@ -55,6 +55,13 @@ focus_tree = {
 		prerequisite = { focus = CST_construction_coven_elections }
 		
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = "The Elections have begun"
+				OR = {
+					has_country_flag = CST_chosen_mason_flag
+					has_country_flag = CST_chosen_stoney_flag
+				}
+			}
 		}
 				
 		bypass = {} 
@@ -88,6 +95,14 @@ focus_tree = {
 		prerequisite = { focus = CST_construction_coven_elections }
 		
 		available = {
+
+			custom_trigger_tooltip = {
+				tooltip = "The Elections have begun"
+				OR = {
+					has_country_flag = CST_chosen_mason_flag
+					has_country_flag = CST_chosen_stoney_flag
+				}
+			}
 		}
 				
 		bypass = {} 
@@ -160,6 +175,9 @@ focus_tree = {
 		prerequisite = { focus = CST_industry_investments }
 		
 		available = {
+
+			
+			
 		}
 				
 		bypass = {} 
@@ -195,6 +213,13 @@ focus_tree = {
 		prerequisite = { focus = CST_construction_coven_elections }
 		
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = "The Elections have begun"
+				OR = {
+					has_country_flag = CST_chosen_mason_flag
+					has_country_flag = CST_chosen_stoney_flag
+				}
+			}
 		}
 				
 		bypass = {} 

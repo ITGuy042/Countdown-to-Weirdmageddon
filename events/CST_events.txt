@@ -27,7 +27,9 @@ country_event = { #1
 		name = construction_coven.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		activate_mission = CST_election_timer_mission
-		
+		custom_effect_tooltip = "Hello there"
+
+		set_country_flag = CST_chosen_mason_flag
 		add_ideas = {
 			CST_stoney_support
 		}
@@ -35,8 +37,13 @@ country_event = { #1
 	}
 	option = { #Stoney
 		name = construction_coven.1.b
-		ai_chance = { factor = 0 }	# 100% AI choose this
+		ai_chance = { factor = 0 }	# 0% AI choose this
 		activate_mission = CST_election_timer_mission
+
+		set_country_flag = CST_chosen_stoney_flag
+		add_ideas = {
+			CST_mason_support
+		}
 		
 	}
 }
