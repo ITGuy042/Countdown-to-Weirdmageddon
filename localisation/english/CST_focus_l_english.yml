@@ -1,0 +1,21 @@
+﻿l_english:
+
+ #For Mystery Shack Focus Tree description and custom_effect_tooltip
+ 
+ #1
+
+ CST_industry_investments:0 "Industry Investments"
+ CST_industry_investments_tt:0 "\n§YDecisions to invest in state industry are unlocked.§!"
+
+ CST_north_island_work:0 "North Island Work"
+ CST_north_island_work_tt:0 "§YIndustry investment opportunities are expanded to the North Island.§!"
+
+ CST_remote_outreach:0 "Remote Outreach"
+ CST_remote_outreach_tt:0 "§YDecisions to invest in state industry are expanded to the remote regions.§!"
+
+ CST_army_investments:0 "Army Investments"
+ CST_army_investments_tt:0 "\n§YDecisions to invest in army garrisons are unlocked§!"
+
+ ######################################################
+ #2
+ 

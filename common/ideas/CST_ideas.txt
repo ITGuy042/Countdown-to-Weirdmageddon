@@ -57,6 +57,20 @@ ideas = {
 			}
 		}
 
+		CST_politicized_army = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = CST }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				command_power_gain_mult = 0.25
+				experience_gain_army = -0.2
+
+			}
+		}
+
 		CST_mason_support = {
 			picture = generic_research_bonus
 			

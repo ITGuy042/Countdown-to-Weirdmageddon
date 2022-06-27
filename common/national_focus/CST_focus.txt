@@ -15,7 +15,7 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 } 
 
 	focus = {
-		id = CST_construction_coven_elections
+		id = CST_construction_coven_elections_focus
 		icon = a
 		x = 20
 		y = 0
@@ -51,8 +51,8 @@ focus_tree = {
 		icon = a
 		x = 0
 		y = 1
-		relative_position_id = CST_construction_coven_elections
-		prerequisite = { focus = CST_construction_coven_elections }
+		relative_position_id = CST_construction_coven_elections_focus
+		prerequisite = { focus = CST_construction_coven_elections_focus }
 		
 		available = {
 			custom_trigger_tooltip = {
@@ -89,10 +89,10 @@ focus_tree = {
 	focus = {
 		id = CST_industry_investments
 		icon = a
-		x = -5
+		x = -6
 		y = 1
-		relative_position_id = CST_construction_coven_elections
-		prerequisite = { focus = CST_construction_coven_elections }
+		relative_position_id = CST_construction_coven_elections_focus
+		prerequisite = { focus = CST_construction_coven_elections_focus }
 		
 		available = {
 
@@ -121,6 +121,8 @@ focus_tree = {
 			add_ideas = {
 				CST_political_industry
 			}
+
+			custom_effect_tooltip = CST_industry_investments_tt
 			
 		}
 		
@@ -155,6 +157,7 @@ focus_tree = {
 
 		completion_reward = {
 
+			custom_effect_tooltip = CST_north_island_work_tt
 			
 			
 		}
@@ -193,7 +196,7 @@ focus_tree = {
 
 		completion_reward = {
 
-			
+			custom_effect_tooltip = CST_remote_outreach_tt
 			
 		}
 		
@@ -207,10 +210,10 @@ focus_tree = {
 	focus = {
 		id = CST_army_investments
 		icon = a
-		x = 5
+		x = 6
 		y = 1
-		relative_position_id = CST_construction_coven_elections
-		prerequisite = { focus = CST_construction_coven_elections }
+		relative_position_id = CST_construction_coven_elections_focus
+		prerequisite = { focus = CST_construction_coven_elections_focus }
 		
 		available = {
 			custom_trigger_tooltip = {
@@ -234,6 +237,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
+
+			add_ideas = {
+				CST_politicized_army
+			}
+
+			custom_effect_tooltip = CST_army_investments_tt
 			
 		}
 		

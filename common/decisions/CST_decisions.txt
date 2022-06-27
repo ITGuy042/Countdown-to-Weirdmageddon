@@ -222,6 +222,80 @@ CST_construction_coven_elections = {
 
 	}
 
+	CST_army_garrison_investments = {
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			original_tag = CST
+		}
+
+
+		available = {
+
+			has_completed_focus = CST_army_investments
+		}
+
+		
+
+		state_target = yes
+
+		targets = { 536 540 542 }
+
+		on_map_mode = map_only
+
+		custom_cost_trigger = {
+			command_power > 20
+		}
+		custom_cost_text = command_power_20
+		fire_only_once = yes
+		days_remove = 7
+
+		visible = {
+			original_tag = CST
+			has_completed_focus = CST_army_investments
+
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -20
+			}
+		}
+
+
+		remove_effect = {
+
+			
+
+
+			CST = {
+				if = {
+					limit = {
+						has_country_flag = CST_chosen_mason_flag
+					}
+					add_popularity = {
+						ideology = authoritarianism
+						popularity = 0.01
+					}
+				} 
+				else_if = {
+					limit = {
+						has_country_flag = CST_chosen_stoney_flag
+					}
+
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.01
+					}
+
+
+				}
+
+			}
+		}
+
+	}
+
 
 
 	
