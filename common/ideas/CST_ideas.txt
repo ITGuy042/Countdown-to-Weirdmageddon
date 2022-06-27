@@ -9,7 +9,7 @@ ideas = {
 			cancel = {}
 			
 			modifier = {
-				global_building_slots_factor = -0.5
+				global_building_slots_factor = -1.0
 				consumer_goods_factor = 0.05	
 				political_power_factor = -0.15			
 			}
@@ -65,7 +65,7 @@ ideas = {
 			cancel = {}
 			
 			modifier = {	
-				fascism_drift = 0.1
+				authoritarianism_drift = 0.1
 
 			}
 		}

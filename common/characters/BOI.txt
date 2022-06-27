@@ -13,7 +13,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = despotism_authoritarianism_subtype
 			traits = {}
 			expire = "2040.1.1.1"
 			id = -1

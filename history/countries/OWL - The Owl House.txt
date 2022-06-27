@@ -55,14 +55,14 @@ complete_national_focus = construction_effort
 complete_national_focus = production_effort
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = anarchist
 	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 100
+	anarchist = 100
 }
 
 set_country_flag = CAN_MAGIC

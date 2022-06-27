@@ -13,7 +13,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = despotism_authoritarianism_subtype
 			traits = {
 				BON_incompetent_police_state
 			}

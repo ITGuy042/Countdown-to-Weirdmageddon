@@ -2,30 +2,21 @@
 
 ###########################################################
 #
- BOI_fascism:0 "Emperor's Coven"
- BOI_fascism_DEF:0 "Emperor's Coven"
- BOI_democratic:0 "Emperor's Coven"
- BOI_democratic_DEF:0 "Emperor's Coven"
- BOI_neutrality:1 "Emperor's Coven"
- BOI_neutrality_DEF:1 "Emperor's Coven"
- BOI_communism:0 "Emperor's Coven"
- BOI_communism_DEF:0 "Emperor's Coven"
- BOI_fascism_ADJ:0 "Emperor's Coven"
- BOI_democratic_ADJ:0 "Emperor's Coven"
- BOI_neutrality_ADJ:0 "Emperor's Coven"
- BOI_communism_ADJ:0 "Emperor's Coven"
- BON_fascism:0 "Bonesborough"
- OWL_communism:0 "The Owl House"
- COM_fascism:0 "The Conformatorium"
+ BOI_authoritarianism:0 "Emperor's Coven"
+ BOI_authoritarianism_DEF:0 "Emperor's Coven"
 
- ILL_fascism:0 "The Illusion Coven"
- ABO_fascism:0 "The Abomination Coven"
- BAR_fascism:0 "The Bard Coven"
- CST_fascism:0 "The Construction Coven"
- PLA_fascism:0 "The Plants Coven"
- POT_fascism:0 "The Potions Coven"
- ORA_fascism:0 "The Oracle Coven"
- HEA_fascism:0 "The Healing Coven"
+ BON_authoritarianism:0 "Bonesborough"
+ OWL_anarchism:0 "The Owl House"
+ COM_authoritarianism:0 "The Conformatorium"
+
+ ILL_authoritarianism:0 "The Illusion Coven"
+ ABO_authoritarianism:0 "The Abomination Coven"
+ BAR_authoritarianism:0 "The Bard Coven"
+ CST_authoritarianism:0 "The Construction Coven"
+ PLA_authoritarianism:0 "The Plants Coven"
+ POT_authoritarianism:0 "The Potions Coven"
+ ORA_authoritarianismm:0 "The Oracle Coven"
+ HEA_authoritarianism:0 "The Healing Coven"
  
 
  

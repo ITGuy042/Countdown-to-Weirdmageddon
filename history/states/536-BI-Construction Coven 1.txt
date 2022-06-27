@@ -8,6 +8,13 @@ state={
 		owner = CST
 		add_core_of = CST
 
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+
 	}
 	manpower=1000
 	state_category=city

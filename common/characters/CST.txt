@@ -13,7 +13,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = despotism_authoritarianism_subtype
 			traits = {
 				CST_solid_builder
 			}
@@ -32,7 +32,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = parliamentary_democratic_subtype
 			traits = {
 				CST_revolutionary_constructionist
 			}

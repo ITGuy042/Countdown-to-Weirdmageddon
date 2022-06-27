@@ -102,6 +102,80 @@ focus_tree = {
 		}
 
 		completion_reward = {
+
+			add_ideas = {
+				CST_political_industry
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = CST_north_island_work
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = CST_industry_investments
+		prerequisite = { focus = CST_industry_investments }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		select_effect = {  
+			
+		}
+
+		completion_reward = {
+
+			
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = CST_remote_outreach
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = CST_industry_investments
+		prerequisite = { focus = CST_industry_investments }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		select_effect = {  
+			
+		}
+
+		completion_reward = {
+
+			
 			
 		}
 		

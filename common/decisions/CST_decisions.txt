@@ -33,5 +33,138 @@ CST_construction_coven_elections = {
         	
     	}
 	}
+
+	CST_industrial_investments_state1 = {
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			original_tag = CST
+		}
+
+
+		available = {
+
+			has_completed_focus = CST_industry_investments
+		}
+
+		
+
+		state_target = yes
+
+		targets = { 538 536 }
+
+		on_map_mode = map_only
+
+		cost = 50
+		fire_only_once = yes
+		days_remove = 7
+
+		visible = {
+			original_tag = CST
+			has_completed_focus = CST_industry_investments
+
+		}
+
+
+		remove_effect = {
+
+
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -5000
+			}
+		}
+
+	}
+
+	CST_industrial_investments_state2 = {
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			original_tag = CST
+		}
+
+
+		available = {
+
+			has_completed_focus = CST_north_island_work
+		}
+
+		
+
+		state_target = yes
+
+		targets = { 539 540 541 }
+
+		on_map_mode = map_only
+
+		cost = 50
+		fire_only_once = yes
+		days_remove = 7
+
+		visible = {
+			original_tag = CST
+			has_completed_focus = CST_north_island_work
+
+		}
+
+
+		remove_effect = {
+
+
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -5000
+			}
+		}
+
+	}
+
+	CST_industrial_investments_state3 = {
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			original_tag = CST
+		}
+
+
+		available = {
+
+			has_completed_focus = CST_remote_outreach
+		}
+
+		
+
+		state_target = yes
+
+		targets = { 542 561 537 }
+
+		on_map_mode = map_only
+
+		cost = 50
+		fire_only_once = yes
+		days_remove = 7
+
+		visible = {
+			original_tag = CST
+			has_completed_focus = CST_remote_outreach
+
+		}
+
+
+		remove_effect = {
+
+
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -5000
+			}
+		}
+
+	}
+
+
+
+	
 }
 
