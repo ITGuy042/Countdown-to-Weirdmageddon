@@ -41,9 +41,9 @@
  PIE_anarchist_DEF:0 "Pie Island"
  PIE_anarchist_ADJ:0 "Pie Island"
  
- CEF_democratic:0 "California Expeditionary Force"
- CEF_democratic_DEF:0 "California Expeditionary Force"
- CEF_democratic_ADJ:0 "California Expeditionary Force"
+ CEF_military_rule:0 "California Expeditionary Force"
+ CEF_military_rule_DEF:0 "California Expeditionary Force"
+ CEF_military_rule_ADJ:0 "California Expeditionary Force"
  
 ###########################################################
 #Mewni Monsters
