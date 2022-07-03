@@ -39,6 +39,46 @@ on_actions = {
 				#country_event = { id = ORE_START.1 } # Event code is in ORE events
 			}
 			
+
+			###############
+			#WORLD TENSION
+			#NOTES:
+			#You need to have a country with it
+			###############
+			MEW = {
+				add_named_threat = {
+					threat = 12
+					name = world_tension_solarian_conquest
+				}
+				add_named_threat = {
+					threat = 3
+					name = world_tension_solarias_death
+				}
+				add_named_threat = {
+					threat = -8
+					name = world_tension_establishment_of_jushtinian_pluralism
+				}
+				add_named_threat = {
+					threat = -3
+					name = world_tension_northern_monsters_stagnate
+				}
+				add_named_threat = {
+					threat = 2
+					name = world_tension_comet_killed
+				}
+			}
+			TSR = {
+				add_named_threat = {
+					threat = -3
+					name = world_tension_stagnation_of_the_solarian_conquests
+				}
+			}
+			ROM = {
+				add_named_threat = {
+					threat = 5
+					name = world_tension_dissapearance_of_HH
+				}
+			}
 		}
 	}
 	

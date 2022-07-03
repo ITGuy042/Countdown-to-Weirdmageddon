@@ -1,0 +1,16 @@
+state={
+	id=557
+	name="STATE_557"
+	provinces={
+		710 1663 1815 3959 4404 5628 6386 6701 10308 10404 
+	}
+	history={
+		owner = BEA
+		add_core_of = BEA
+
+	}
+	manpower=1000
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

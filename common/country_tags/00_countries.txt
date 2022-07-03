@@ -105,6 +105,18 @@ AMP = "countries/A-Amphibia.txt"
 BOI = "countries/BI-Emperor Coven.txt"
 BON = "countries/BI-Bonesborough.txt"
 OWL = "countries/BI-The Owl House.txt"
+COM = "countries/BI-Conformatorium.txt"
+ILL = "countries/BI-Illusion Coven.txt"
+CST = "countries/BI-Construction Coven.txt"
+POT = "countries/BI-Potions Coven.txt"
+PLA = "countries/BI-Plants Coven.txt"
+BAR = "countries/BI-Bard Coven.txt"
+BEA = "countries/BI-Beast Coven.txt"
+ORA = "countries/BI-Oracle Coven.txt"
+HEA = "countries/BI-Healing Coven.txt"
+ABO = "countries/BI-Abomination Coven.txt"
+
+
 
 #Dimensional Barriers
 ROM = "countries/D-Barrier.txt"

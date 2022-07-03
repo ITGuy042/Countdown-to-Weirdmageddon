@@ -1,24 +1,33 @@
 ﻿l_english:
   #Mewni###############################################################
  
- MEW_fascism_party:0 "Military Command"
- MEW_communism_party:0 "Corn Union"
+ MEW_authoritarianism_party:0 "Neo Solarian Bloc"
+ MEW_anarchist_party:0 "Peasant Council"
  MEW_democratic_party:0 "Magic High Commision"
- MEW_neutrality_party:0 "House Butterfly"
+ MEW_royal_monarchy_party:0 "House Butterfly"
+ MEW_military_rule_party:0 "Military Influence"
  
- LUD_fascism_party:0 "Will of Toffee"
- LUD_communism_party:0 "Monster's Revolt"
+ LUD_authoritarianism_party:0 "Will of Toffee"
+ LUD_anarchist_party:0 "Monster's Revolt"
  LUD_democratic_party:0 "Monster Council"
- LUD_neutrality_party:0 "House Avarius-Ludo"
+ LUD_royal_monarchy_party:0 "House Avarius-Ludo"
  
- TSR_fascism_party:0 "Military Influence"
- TSR_communism_party:0 "Peasant's Radical Resistance"
+ TSR_authoritarianism_party:0 "Military Influence"
+ TSR_anarchist_party:0 "Peasant's Radical Resistance"
  TSR_democratic_party:0 "Peasant's Moderate Resistance"
- TSR_neutrality_party:0 "House Nuts"
+ TSR_royal_monarchy_party:0 "House Nuts"
  
+ DTH_royal_monarchy_party:0 "Leader Veneration Movement"
+ DTH_authoritarianism_party:0 "Followers of the Faith"
  
+ HGH_authoritarianism_party:0 "School Staff"
+ HGH_democratic_party:0 "Student Council"
+ HGH_hivemind_party:0 "Reddit Hivemind"
  
+ HGH_authoritarianism_racket_party:0 "The Racket"
+ HGH_authoritarianism_sports_party:0 "The Team"
+ HGH_authoritarianism_nazism_party:0 "NSDAP"
+ HGH_authoritarianism_nazism_long_party:0 "National Socialist Deutsche Ar-bitters Party"
  
- 
- 
+ MHC_cosmia_party:0 "Cruel Fist of Cosmia"
  

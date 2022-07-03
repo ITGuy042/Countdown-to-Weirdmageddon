@@ -9,7 +9,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = nazism
+			ideology = business_structure_authoritarianism_subtype
 			expire = "2040.1.1.1"
 			id = -1
 			traits = {

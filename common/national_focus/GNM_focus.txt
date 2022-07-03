@@ -1,6 +1,6 @@
 focus_tree = {
 
-	id = GNM_focus
+	id = OWL_focus
 	
 	country = {
 		factor = 0		

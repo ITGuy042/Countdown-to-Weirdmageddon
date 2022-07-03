@@ -1,0 +1,16 @@
+state={
+	id=565
+	name="STATE_565"
+	provinces={
+		2076 5071 8529 8558 8571 
+	}
+	history={
+		owner = BAR
+		add_core_of = BAR
+
+	}
+	manpower=1000
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
