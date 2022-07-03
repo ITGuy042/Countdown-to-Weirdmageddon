@@ -40,4 +40,9 @@ spriteTypes = {
 		texturefile = "gfx/event_news_pictures/earth/news_event_Norton.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_news_event_pride_earth"
+		texturefile = "gfx/event_news_pictures/earth/news_event_rainbow_pride.dds"
+	}
+	
 }

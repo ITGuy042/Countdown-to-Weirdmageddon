@@ -1,6 +1,6 @@
 
 
-graphical_culture = CZE
-graphical_culture_2d = CZE
+graphical_culture = ROM
+graphical_culture_2d = ROM
 
 color = { 220 220 220 }

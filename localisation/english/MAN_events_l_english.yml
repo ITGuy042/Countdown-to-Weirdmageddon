@@ -1,19 +1,81 @@
 ﻿l_english:
 
- #For GNM events
+ #For
+ XXX.0.t:0 ""
+ YYY.0.d:0 ""
+ ZZZ.0.a:0 ""
  
-
+  
+ MAN_START_EVENT.1.t:0 ""Strength, Vigor, Manliness!""
+ MAN_START_EVENT.1.d:0 "Up in the northern hills, past the northern shores of the River Trembley, beyond the handsy lands of Handwitch Mountain, is the Flexing Grounds. Here, at its center is the Man Cave, the home of the Manotaurs. These Half Man, Haft Beast, All Buff creatures live to the code of manliness. Masculinity means everything for these buff men; their culture revolves around the manly lifestyle of getting ripped, testing each other’s strength, and making sure each bro is sufficiently manly for them all.\n\nAbove them, ironically enough, is the dreaded She-Who-Shall-Not-Be-Named, the Womantaur, the female strong enough to emasculate them all with ease. But as she cares not for their unimpressive manliness, she allows a champion to rule over her kind. Thus comes the dreaded Leaderaur, a colossal above them all that rules with manly vigor and refusal to accept weakness, from manotaurs or other creatures that dare be known to them.\n\nOnce serving as shock troopers when the Gnomes ruled the forest, the manotaurs are now free to decide their fate. Fitting, they choose a fight. As the long summer passes, it will be seen if this was a good decision."
+ MAN_START_EVENT.1.a:0 "Time to Flex on these losers!"
+ 
  #1
- MAN_START_EVENT.1.t:0 "The Manotaur Lands"
- MAN_START_EVENT.1.d:0 ""
- MAN_START_EVENT.1.a:0 "-Jeff Little-Legs"
-
- MAN_MANWAR.1.t:0 "Ask womantaur's Approval"
- MAN_MANWAR.1.d:0 ""
- MAN_MANWAR.1.a:0 "The plan is set" 
-
- MAN_MANWAR.2.t:0 "Weapons to win"
- MAN_MANWAR.2.d:0 ""
- MAN_MANWAR.2.a:0 "These will be useful for the coming conflict."
+ #####################################################
  
+ MAN_MANWAR.1.t:0 "Her Approval..."
+ MAN_MANWAR.1.d:0 "The great Leaderaur journeyed deep into the Man Cave. Beyond the rec room and the hot springs, deep where no Manotaur but the mostly manly and brave of them would dare travel to. Here, resided the true leader of all Manotaur, the one even the mighty Leaderaur dreaded to speak to. She-Who-Shall-Not-Be-Named. The Womantaur.\n\nNear the entrance to the passage that Leaderaur had went down into, the rest of the manotaurs, including the High Bro-Council stood waiting for him. Some teased each other into going in, but any challenged were quick to offer "masculine" reason they can't do it. While some grew impatient, even this had nearly all manotaurs quiet.\n\nFinally, Leaderaur emerged from the deep passage.\n\n"Manotaurs! She-Who-Shall-Not-Be-Named has spoken! And with it, her approval!"\n\nThey all cheered at the news, chest bumping and head bumping each other. Leaderaur held his spear up high."
+ MAN_MANWAR.1.a:0 ""To War!""
+ 
+ MAN_MANWAR.2.t:0 "Handy Alliance"
+ MAN_MANWAR.2.d:0 "Chutzpar and his men reached the summit of Handwitch Mountain. On the summit ground was the the cave to the Hand Witch. They slowly approached the cave, keeping away from the hands the crawled along the ground and on the walls. Once inside and in its inner sanctum, they found her, as she stirred the stew in her cradle.\n\n"Great Handwitch! Our great leader-"\n\n"Oh guest! Handsome guest!" she turned around to quickly do her hair. They waited, still unsettled by her and her constant swarm of hands in her cave, "Gentleman, how can I help you?"\n\n"We are not gentle!" yelled Pubetor.\n\nChutzpar headbutted him, "Quiet!" he turned to the Handwitch, "Great Handwitch, our leader wishes to give you a proposal. Lend us your army of hands to crush the weak multi-bears. In return-"\n\n"I'll do it!" she eyed him down, "If you go out with me!"\n\n"What!" Chutzpar quickly improvised, "Why me... when you could date our leader, the most mighty and manly of us, Leaderaur!\n\nThe Handwitch thought about it for a moment, "Owe, Leaderaur. I like a man with muscles and scares." She tossed some powder into her cradle and began to stir. She spoke as an onimous feel filled the room and rattled even the manotaurs, "Go my preeties, ever delicate hands. Bring down the Multibears, no matter how many claws they have!"\n\nAs Chutzpar's team left, he shivered."
+ MAN_MANWAR.2.a:0 ""As long as she keeps her hands away from us!""
+ 
+ MAN_MANWAR.3.t:0 "The Tiny have their uses"
+ MAN_MANWAR.3.d:0 "As the skirmishes between the manotaurs and the multibears grow close to a full war, it is becoming clear the no one in the forest can really stay out of the conflict. As the Unicorns are doing their own thing, it was realized by the Manotaurs of all people that the gnomes have been quiet. Clearly still in a state of moaning for their lost queen, this presents an opportunity.\n\nWhile the High Bro Council had their reservations, Leaderaur got his plan approved. Have the Gnomes start a new conflict in the western banks near the resting place of the late queen to draw the multi-bears away from the main battle. Many manotaurs don't like this sneaky way of beating an enemy. But Leaderaur was quick to point out. Its far more unmanly to lose the whole war than simply exploit a sneaky attack."
+ MAN_MANWAR.3.a:0 "Tell their tiny "Regent" our plan!"
+ 
+ MAN_MANWAR.4.t:0 "The Manotaurs can negotiate?"
+ MAN_MANWAR.4.d:0 "To our surprise, the manotaurs come to us to offer a deal. In their conflict with the multi-bears, they wish for us launch a surprise attack to reclaim our farmlands, vital rich farmlands that also house the resting place of our queen. They promise to send additional aid to help us launch the attack.\n\nIts clear the manotaurs intend to use as as a distraction and we would certainly provoke the eerie of the multibears. But a victory here will go a long away to restore the kingdom and help us rebuild."
+ MAN_MANWAR.4.a:0 "Reclaim the resting place of the Queen!"
+ MAN_MANWAR.4.b:0 "Getting clawed by a multibear doesn't sound appealing..."
+ 
+ MAN_MANWAR.5.t:0 "Little-Legs said Yes!"
+ MAN_MANWAR.5.d:0 "The weak bears won't know what hit them."
+ MAN_MANWAR.5.a:0 "Restraint isn't Manly!"
+ 
+ MAN_MANWAR.6.t:0 "The Pip-Squeaks said No!"
+ MAN_MANWAR.6.d:0 "Too dumb and cowardly to advantage of a good opportunity..."
+ MAN_MANWAR.6.a:0 "We'll crush the multibears ourselves!"
+ 
+ FOREST_man_vs_ufc.1.t:0 "The Battle for Queen's Restings Has Begun!"
+ FOREST_man_vs_ufc.1.d:0 "Today, Jeff Little-Legs has ordered gnome troops to emerged from the woods and into the fertile farmlands of the forest. It is believed that the goal for this skirmish with the Multi-Bears was to gain full control of its food supply, but also have the final resting place of the late Gnome Queen.\n\nFollowing the Queen's funeral, the farmlands fell to chaos and the gnomes withdraw, forcing the bears to secure the land. Now, the gnomes have reorganized and they want it back! But it's clear the bears won't relent. With more battles with the Manotaurs down the river, this will surely help the manotaurs."
+ FOREST_man_vs_ufc.1.a:0 "For the Late Queen!"
+ FOREST_man_vs_ufc.1.b:0 "Hold the Western Shores!"
+ FOREST_man_vs_ufc.1.c:0 "Interesting..."
+ 
+ MAN_MANWAR_gnome.1.t:0 "Our Queen can now Rest!"
+ MAN_MANWAR_gnome.1.d:0 ""
+ MAN_MANWAR_gnome.1.a:0 "For Gnome-Kind!"
+ 
+ MAN_MANWAR_gnome.2.t:0 "In Death, Weaken\nIn Defeat, Shamed"
+ MAN_MANWAR_gnome.2.d:0 ""
+ MAN_MANWAR_gnome.2.a:0 "This is all Jeff's fault!"
+ 
+ MAN_MANWAR_gnome.3.t:0 "The Gnomes took the farmlands!"
+ MAN_MANWAR_gnome.3.d:0 ""
+ MAN_MANWAR_gnome.3.a:0 "They won't get away with this."
+ 
+ MAN_MANWAR_gnome.4.t:0 "The Western Banks Secured... for now"
+ MAN_MANWAR_gnome.4.d:0 ""
+ MAN_MANWAR_gnome.4.a:0 "We'll have to keep an eye out for them."
+ 
+ #1
+ #####################################################
+ 
+ MAN_LEADERAUR_EVENT.1.t:0 ""
+ MAN_LEADERAUR_EVENT.1.d:0 ""
+ MAN_LEADERAUR_EVENT.1.a:0 ""
+ 
+ MAN_LEADERAUR_EVENT.2.t:0 "Clash of Horns"
+ MAN_LEADERAUR_EVENT.2.d:0 "For the past few weeks, Chutzpar had taken a proactive step to build up the Manotaurs. Championing a new idea of “Manly Reform”, these reforms have allowed the Manotaurs to rebuild since the end of their conflict with the multi bears and become modernized now that they lacked the old organization of the gnomes when they were under the Queen. But it was clear this had drawn power away from Leaderaur as the gnomes, unicorns, and the crawlspace had preferred to deal with him and his cohorts than the most manly of manotaurs. It became clear that a power struggle was inevitable and the future of the manotaurs would be decided by it.\n\nThat finally came, as Chutzpar authored the idea of drastically changing the accepted idea of what makes one Manly. Having heard enough, Leaderaur rejected his idea, but Chutzpar would not back away from a challenge, that form of manliness was not up for dispute. The rest of the manotaurs in the man cave watched as Chutzpar challenged him to a duel. A forgien gnome dignitary visiting debated for a moment if he meant playing a children’s card game, before a unicorn scoffed at the idea and the fight quickly began.\n\nThe fight was intense as Leaderaur put the full might of his size on Chutzpar. But here, such large muscles were a liability as Chutzpar was faster and nimble while Leaderaur was slowler to match. Yet Chutzpar could only deal small hits and a death by a thousand cuts was neither practical to win or manly in practice. Chutzpar was also careful, for a single hit can crush him easily.\n\nIt was then he spotted something on Leaderaur’s chest. A spear lodged into him from a former battle, stuck between his steel abs yet aims at the heart. Chutzpar dodged a punch from him and grabbed onto his arm. As he was lifted up, he jumped onto his chest and scaled his massive pecs. Once at the center, he jumped forward and grabbed hold of the spear and with a full force push, shoved it deep into Leaderaur.\n\nLeaderaur tossed Chutzpar off. For a moment, he laughed at the smaller manotaur for his attempt. But in the middle of gloating, he stopped. He leaned forward and all the manotaurs rushed out of the way as he fell to the ground, dead from a stab through the heart. As they all looked around, Chutzpar climbed up on the dead Leaderaur. The rest of them were quick to recognize what he did and proclaimed him as their leader."
+ MAN_LEADERAUR_EVENT.2.a:0 "Victory to the Most Manly!"
+ 
+ MAN_LEADERAUR_EVENT.3.t:0 "Manly Doubts"
+ MAN_LEADERAUR_EVENT.3.d:0 "In a cavern off from the main man cave, the main leaders of the High Bro Council met. To do so secretly was from the norm. Being all Sneaky was unmanly, but so was the situation they were in. The Manotaurs have been driven up the hills by their enemy and now it was a huge blame game over whose fault it was to let the Multibears win. Chutzpar, Pubetor, Testosteraur, Pituitaur, and Beardy all discussed the failed leadership of Leaderaur. So critical was the circumstance of the event that even She-Who-Shall-Not-Be-Named was discussed and how this failure could bring about her anger.\n\nIt became clear there was no confidence in the leadership of Leaderaur. There was nothing manly in defeat. And there would be consequences to it."
+ MAN_LEADERAUR_EVENT.3.a:0 "The Council has decided his fate..."
+ 
+ MAN_LEADERAUR_EVENT.4.t:0 "Vote of No-Masculince"
+ MAN_LEADERAUR_EVENT.4.d:0 "To the shock of all the Manotaurs, the thirteen members of the High Bro Council openly convened and called out Leaderaur for the failure of the battle with the Multibears. Such an act was unheard of and risky. Leadership was based on a projection of strength and the Council was only able to do so as all thirteen of them were, possibly, a match for Leaderaur. Not one to show weakness, he mocked it but let the voting occur.\n\nIn a way, it was no surprise the Council all voted no-confidence in Leaderaur. Yet, he scuffed off the whole show. While the act of voting by the Bro Council was to be respected, it was on the Council to enforce their decree with force. But that would not be necessary.\n\nFrom the shadow from the tunnel leading deep into the cave, there was a loud and heavy breathing. Even though the manotaurs saw nothing in the darkness, they knew *she* was there. So quickly did it end the conflict, for Leaderaur no longer had the consent from She-Who-Shall-Not-Be-Named. He stepped down, dismissing the council as he went to press some weights in solitary. In the main man cave, the Bro Council were now in charge."
+ MAN_LEADERAUR_EVENT.4.a:0 "What does the Future of Manotaur hold for us now?"
  
