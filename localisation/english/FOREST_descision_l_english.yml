@@ -27,7 +27,7 @@
     
     crawl_favorite_count_loc:0 "Our Current Crawlspace §4Valued Customer Rewards§! Count = [?ROOT.FOREST_crawl_favorite|+0]"
     
-    crawl_favorite_count_loc_tt:0 "This is our current §4Valued Customer Rewards§! level with the §RCrawlspace§!.\n\n When at §O50§!, we will become a "§OVIP-Level§!" customer and gain access Level 2 inventory, which includes useful and powerful items for sale.\n\nAt §C100§!, we will become a "§CExecutive-Level§!" customer and could then buy from their special and rare Level 3 Multiversal Inventory."
+    crawl_favorite_count_loc_tt:0 "This is our current §4Valued Customer Rewards§! level with the §RCrawlspace§!.\n\nFor every purchase, our §4Rewards Points§! will increase by §Y5§!.\n\n When at §O50§!, we will become a "§OVIP-Level§!" customer and gain access Level 2 inventory, which includes useful and powerful items for sale.\n\nAt §C100§!, we will become a "§CExecutive-Level§!" customer and could then buy from their special and rare Level 3 Multiversal Inventory."
     
     ##
     

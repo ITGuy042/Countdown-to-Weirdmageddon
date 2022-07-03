@@ -29,6 +29,11 @@ spriteTypes = {
 		name = "GFX_news_event_start_of_civil_war"
 		texturefile = "gfx/event_news_pictures/mew/news_event_start_of_civil_war.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_news_event_pride_mewni"
+		texturefile = "gfx/event_news_pictures/mew/news_event_rainbow_pride.dds"
+	}
 
 	
 }
