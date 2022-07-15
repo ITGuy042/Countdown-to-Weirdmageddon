@@ -1,38 +1,35 @@
+
 state={
 	id=457
 	name="STATE_457"
+	resources={
+		aluminium=16.000
+	}
 
-	local_supplies=0.0 
-	
-	history {
+	history={
 		owner = MEW
 		add_core_of = MEW
 		buildings = {
 			arms_factory = 0
-			industrial_complex = 0
-			
+			industrial_complex = 1
 			infrastructure = 1
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0
-			
-			4401 = {naval_base = 2}
+
 		}
-		victory_points = { 4401 5 }
-		victory_points = { 8091 5 }
 		victory_points = { 6980 20 }
+		victory_points = { 8091 5 }
+		victory_points = { 4401 5 }
+
+
 	}
-	
+
 	provinces={
-		2247 4401 6002 6724 6980 8066 8091 
+		2247 4401 5735 6002 6724 6980 8066 8091 
 	}
-	
-	resources={
-		aluminium=16
-	}
-	
-	
 	manpower=7000
-	
+	buildings_max_level_factor=1.000
 	state_category=large_town
+	local_supplies=0.000
 }
