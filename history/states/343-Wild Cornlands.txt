@@ -1,14 +1,13 @@
+
 state={
 	id=343
 	name="STATE_343"
-	local_supplies=0.0 
-	
 	history {
 		owner = MEW
 		add_core_of = MEW	
 		buildings = {
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 0
+			industrial_complex = 2
 			
 			
 			infrastructure = 1
@@ -16,14 +15,13 @@ state={
 			anti_air_building = 0
 			radar_station = 0
 		}
-		victory_points = { 1906 5 }
+		victory_points = { 7476 5 }
 	}
-	
 	provinces={
-		329 1906 3856 4131 6361 6770 7933 
+		329 1906 3856 4131 6361 6770 6899 6953 7185 7396 7446 7476 7621 7933 
 	}
-	
 	manpower=5000
-	
+	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

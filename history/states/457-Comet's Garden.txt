@@ -18,15 +18,20 @@ state={
 			radar_station = 0
 
 		}
-		victory_points = { 6980 20 }
-		victory_points = { 8091 5 }
-		victory_points = { 4401 5 }
-
+		victory_points = {
+			6980 20 
+		}
+		victory_points = {
+			8091 5 
+		}
+		victory_points = {
+			4401 5 
+		}
 
 	}
 
 	provinces={
-		2247 4401 5735 6002 6724 6980 8066 8091 
+		2247 4401 5735 6002 6231 6724 6980 7245 7421 7425 7477 7517 7529 7547 7644 8066 8091 
 	}
 	manpower=7000
 	buildings_max_level_factor=1.000

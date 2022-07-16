@@ -107,6 +107,10 @@ news_event = { #The Split of Mewni
 					ideology = royal_monarchy
 				}
 			}
+			set_party_name = {
+				ideology = royal_monarchy
+				name = MEW_royal_monarchy_party
+			}
 			LUD = { transfer_state = 266 }
 			LUD = { transfer_state = 331 }
 			LUD = { transfer_state = 269 }
@@ -292,12 +296,16 @@ news_event = { #The Ludo Coup
 			Character = MEW_ludo
 			Promote_leader = yes
 			Country_leader = {
-				ideology = royal_monarchy
+				ideology = kingdom_royal_monarchy_subtype
 				expire = "2040.01.01.01"
-			traits = {}
+				traits = {}
 			}
 		}
 		set_cosmetic_tag = LUD
+		set_party_name = {
+			ideology = royal_monarchy
+			name = LUD_royal_monarchy_party
+		}
 	}
 	option = {
 		name = mewni_ludo_coup_news_event.1.b
