@@ -1,7 +1,11 @@
 ﻿l_english:
- democratic:0 "Democratic"
+ democratic:0 "Democracy"
  democratic_noun:0 "Democracy"
- democratic_desc:0 "Democratic Regime"
+ democratic_desc:0 "Democratic Government"
+ 
+ oligarchy:0 "Oligarchy"
+ oligarchy_noun:0 "Oligarchy"
+ oligarchy_desc:0 "Oligarchic Council"
  
  authoritarianism:0 "Authoritarian"
  authoritarianism_noun:0 "Authoritarianism"
@@ -11,13 +15,13 @@
  anarchist_noun:0 "Libertarianism"
  anarchist_desc:0 "Libertarian Society"
  
- royal_monarchy:0 "Royal Monarchist"
- royal_monarchy_noun:0 "Royal Monarchy"
+ royal_monarchy:0 "Royalist"
+ royal_monarchy_noun:0 "Royalist"
  royal_monarchy_desc:0 "Royal Rule"
  
- military_rule:0 "Militarist Command"
+ military_rule:0 "Military Command"
  military_rule_noun:0 "Military Command"
- military_rule_desc:0 "Military Rule"
+ military_rule_desc:0 "Military Control"
  
  #Subideologies
  
