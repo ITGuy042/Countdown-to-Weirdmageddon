@@ -1,0 +1,30 @@
+spriteTypes = {
+
+	# Sprites of each main ideology 
+
+	spriteType = {
+		name = "GFX_ideology_democratic_group"
+		texturefile = "gfx//interface//ideologies//democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_anarchist_group"
+		texturefile = "gfx//interface//ideologies//anarchist_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_oligarchy_group"
+		texturefile = "gfx//interface//ideologies//oligarchy_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_authoritarianism_group"
+		texturefile = "gfx//interface//ideologies//authoritarianism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_royal_monarchy_group"
+		texturefile = "gfx//interface//ideologies//royal_monarchy_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_military_rule_group"
+		texturefile = "gfx//interface//ideologies//military_rule_group.dds"
+	}
+	
+}

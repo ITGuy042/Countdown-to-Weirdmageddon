@@ -1,4 +1,14 @@
 ﻿l_english:
+
+# Ideology name for quick copy
+# democratic
+# anarchist
+# oligarchy
+# authoritarianism
+# royal_monarchy
+# military_rule
+ 
+ 
  democratic:0 "Democracy"
  democratic_noun:0 "Democracy"
  democratic_desc:0 "Democratic Government"
@@ -11,9 +21,9 @@
  authoritarianism_noun:0 "Authoritarianism"
  authoritarianism_desc:0 "Authoritarian Regime"
  
- anarchist:0 "Libertarian"
- anarchist_noun:0 "Libertarianism"
- anarchist_desc:0 "Libertarian Society"
+ anarchist:0 "Anarchy"
+ anarchist_noun:0 "Anarchism"
+ anarchist_desc:0 "Anarcho Society"
  
  royal_monarchy:0 "Royalist"
  royal_monarchy_noun:0 "Royalist"
@@ -23,13 +33,51 @@
  military_rule_noun:0 "Military Command"
  military_rule_desc:0 "Military Control"
  
- #Subideologies
+ ##################################################################
+ #Subideologies####################################################
+ ##################################################################
+ #Democracy
+
+ social_liberal_democratic_subtype:0 "Social Liberal Democracy"
+ social_conservative_democratic_subtype:0 "Social Conservative Democracy"
+ collective_council_democratic_subtype:0 "Collectivized Democracy"
+ parliamentary_democratic_subtype:0 "Parliamentary Democracy" 
+ colonial_government_democratic_subtype:0 ""
+ 
+ US_democratic_subtype:0 "American Democracy"
+ US_FALL_democratic_subtype:0 "Post-Collapse Democracy"
+ EU_democratic_subtype:0 "European Democracy"
+ IC_democratic_subtype:0 "Commonwealth Democracy"
+ IC_VIC_democratic_subtype:0 "Canadian Remnant Democracy"
+ CAL_NOR_democratic_subtype:0 "Northern Californian Democracy"
+ CAL_SOC_democratic_subtype:0 "Southern Californian Democracy"
+ CAL_IMP_democratic_subtype:0 "Imperial Californian Democracy"
+ ORE_democratic_subtype:0 "Oregonian Democracy"
+ ORE_TREM_democratic_subtype:0 "Federal Trembley Democracy"
+ WAS_democratic_subtype:0 "Washingtonian Democracy"
+ TEX_democratic_subtype:0 "Texan Democracy"
+ 
+ mewman_liberalism_democratic_subtype:0 ""
+ mewman_conservatism_democratic_subtype:0 ""
+ 
+ ##################################################################
+ #Anarchy
+ 
+ anarcho_communalism_libertarianism_subtype:0 ""
+ anarcho_capitalism_libertarianism_subtype:0 ""
+ peasant_revolt_libertarianism_subtype:0 ""
+ revolutionary_council_libertarianism_subtype:0 ""
+ tribalism_libertarianism_subtype:0 ""
+ none_libertarianism_subtype:0 ""
+ 
+ ##################################################################
+ #Royalist
  
  none_libertarianism_subtype:0 "None"
- none_libertarianism_subtype_desc:0 "This Country has no ideology. This usually means that there is no uniting force in this reigon."
+ none_libertarianism_subtype_desc:0 "This Country has no ideology. This usually means that there is no uniting force in this region."
  
  pluralism_royal_monarchy_subtype:0 "Pluralism"
- pluralism_royal_monarchy_subtype_desc:0 "Pluralism is a political system in which two or more states coexixst as a mostly unified political entity."
+ pluralism_royal_monarchy_subtype_desc:0 "Pluralism is a political system in which two or more states coexist as a mostly unified political entity."
  
  jushtinian_pluralism_royal_monarchy_subtype:0 "Jushtinian Pluralism"
  jushtinian_pluralism_royal_monarchy_subtype_desc:0 "Pluralism is a political system in which two or more states coexixst as a mostly unified political entity. Under Jushtinian Pluralism, the Butterfly Kingdom is the central authority which governs the many other Kingdoms throughout Mewni.\n\nJushtinian Pluralism originated during the reign of Solaria Butterfly. Spearheaded by Jushtin Butterfly, the political system was originally created to make Mewmanization in conquered lands more efficient by placating local monsters. However, over the years the system has become more of a tool to better manage the vast lands of the §CKingdom of Mewni§! and it has abandoned it's Mewman spreading past."
