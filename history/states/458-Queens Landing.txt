@@ -2,24 +2,25 @@
 state={
 	id=458
 	name="STATE_458"
-	history {
+	history={
 		owner = MEW
 		add_core_of = MEW
 		buildings = {
 			arms_factory = 0
-			industrial_complex = 0
-			
+			industrial_complex = 1
 			infrastructure = 1
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0
-			
 
 		}
-		victory_points = { 5659 5 }
+		victory_points = {
+			5659 5
+		}
+
 	}
 	provinces={
-		1784 2752 4210 5659 6539 7382 8154 
+		1784 2752 3961 4210 5659 6539 7320 7346 7361 7382 7498 7509 8154 
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
