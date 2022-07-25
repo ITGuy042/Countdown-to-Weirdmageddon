@@ -1,8 +1,7 @@
+
 state={
 	id=348
 	name="STATE_348"
-	local_supplies=0.0 
-	
 	history {
 		owner = MEW
 		add_core_of = MEW	
@@ -20,15 +19,14 @@ state={
 		victory_points = { 2237 10 }
 		victory_points = { 7849 5 }
 	}
-	provinces={
-		1407 2237 3500 6290 6516 7107 7849 7881 
-	}
-
 	resources={
-		steel=40
+		steel=40.000
 	}
-
+	provinces={
+		1407 1676 2237 3500 6290 6516 6633 7107 7465 7510 7520 7548 7577 7605 7849 7881 
+	}
 	manpower=4000
-	
+	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

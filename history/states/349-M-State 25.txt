@@ -1,7 +1,7 @@
+
 state={
 	id=349
 	name="STATE_349"
-	local_supplies=0.0 
 	
 	history {
 		owner = MEW
@@ -25,7 +25,11 @@ state={
 		361 2057 3624 4769 6391 7806 7860 7868 7908 
 	}
 	
+	provinces={
+		361 1290 2057 2966 3624 4016 4769 6391 7335 7336 7372 7383 7403 7412 7419 7493 7806 7860 7868 7908 
+	}
 	manpower=4000
-	
+	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }
