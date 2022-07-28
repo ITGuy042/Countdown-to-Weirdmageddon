@@ -1,0 +1,13 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			WAL = { news_event = { id = GLOBAL_NEWS_PRIDE_TRIGGER.1 days = 166 } }
+		}
+	}
+	
+	
+	
+	
+	
+} ## END OF FILE ##

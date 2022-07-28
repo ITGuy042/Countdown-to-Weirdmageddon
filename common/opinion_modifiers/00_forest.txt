@@ -1,0 +1,7 @@
+opinion_modifiers = {
+	
+	MAN_weak_gnome = { value = -10 }
+	MAN_BEARS = { value = -15 }
+	UFC_MANOS = { value = -15 }
+
+}

@@ -1,19 +1,40 @@
 ideologies = {
 
-#Ideology code taken from TNO
+# Ideology name for quick copy
+# democratic
+# anarchist
+# oligarchy
+# authoritarianism
+# royal_monarchy
+# military_rule
+
 
 	democratic = {
 		types = {
-			socialist_democratic_subtype = {}
 			social_liberal_democratic_subtype = {}
 			social_conservative_democratic_subtype = {}
-			collective_council_democratic_subtype = {}
+			#
+			US_democratic_subtype = { can_be_randomly_selected = no }
+			US_FALL_democratic_subtype = { can_be_randomly_selected = no }
+			EU_democratic_subtype = { can_be_randomly_selected = no }
+			IC_democratic_subtype = { can_be_randomly_selected = no }
+			IC_VIC_democratic_subtype = { can_be_randomly_selected = no }
+			CAL_NOR_democratic_subtype = { can_be_randomly_selected = no }
+			CAL_SOC_democratic_subtype = { can_be_randomly_selected = no }
+			CAL_IMP_democratic_subtype = { can_be_randomly_selected = no }
+			ORE_democratic_subtype = { can_be_randomly_selected = no }
+			ORE_TREM_democratic_subtype = { can_be_randomly_selected = no }
+			WAS_democratic_subtype = { can_be_randomly_selected = no }
+			TEX_democratic_subtype = { can_be_randomly_selected = no }
+			#
+			collective_council_democratic_subtype = { can_be_randomly_selected = no }
 			parliamentary_democratic_subtype = { can_be_randomly_selected = no } # "can_be_randomly_selected = no" has to be manually chosen
 			mewman_liberalism_democratic_subtype = { can_be_randomly_selected = no }
+			mewman_conservatism_democratic_subtype = { can_be_randomly_selected = no }
 			colonial_government_democratic_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 0 0 255 }
+		color = { 0 50 150 }
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -32,7 +53,41 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
-	
+		
+	####################################	
+		
+	anarchist = {
+		types = {
+			anarcho_communalism_libertarianism_subtype = {}
+			anarcho_capitalism_libertarianism_subtype = {}
+			peasant_revolt_libertarianism_subtype = { can_be_randomly_selected = no }
+			revolutionary_council_libertarianism_subtype = { can_be_randomly_selected = no }
+			tribalism_libertarianism_subtype = { can_be_randomly_selected = no }
+			none_libertarianism_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 180 0 0 } # red
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			hidden_modifier = {
+				civilian_intel_to_others = 5.0
+				army_intel_to_others = 10.0
+				navy_intel_to_others = 10.0
+				airforce_intel_to_others = 10.0
+			}
+		}
+		ai_neutral = yes
+		can_be_boosted = no 
+	}
+
+	####################################
+
 	authoritarianism = {
 		types = {
 			democratic_authoritarianism_subtype = {}
@@ -50,7 +105,7 @@ ideologies = {
 			meme_hivemind_authoritarianism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 51 51 51 }
+		color = { 70 70 70 } # Grey
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -70,17 +125,15 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	anarchist = {
+	####################################
+	
+	oligarchy = {
 		types = {
-			anarcho_communalism_libertarianism_subtype = {}
-			anarcho_capitalism_libertarianism_subtype = {}
-			peasant_revolt_libertarianism_subtype = { can_be_randomly_selected = no }
-			revolutionary_council_libertarianism_subtype = { can_be_randomly_selected = no }
-			tribalism_libertarianism_subtype = { can_be_randomly_selected = no }
-			none_libertarianism_subtype = { can_be_randomly_selected = no }
+			oligarchy_generic_oligarchy_subtype = {}
+			secret_council_oligarchy_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 255 251 0 }
+		color = { 200 100 0 } # Yellow
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -90,7 +143,7 @@ ideologies = {
 		}
 		modifiers = {
 			hidden_modifier = {
-				civilian_intel_to_others = 5.0
+				civilian_intel_to_others = 10.0
 				army_intel_to_others = 10.0
 				navy_intel_to_others = 10.0
 				airforce_intel_to_others = 10.0
@@ -99,6 +152,8 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
+	
+	####################################
 	
 	royal_monarchy = {
 		types = {
@@ -112,7 +167,7 @@ ideologies = {
 			eclipsan_liberalism_royal_monarchy_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 177 0 255 }
+		color = { 177 0 255 } # Purple
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no
@@ -140,7 +195,7 @@ ideologies = {
 			colonial_government_military_rule_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 0 206 32 }
+		color = { 0 130 0 } # Dark Green
 		rules = {
 			can_create_collaboration_government = no
 			can_force_government = no

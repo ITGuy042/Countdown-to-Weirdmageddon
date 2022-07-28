@@ -62,6 +62,7 @@
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
 			add_ideas = MAN_flexing
+			country_event = MAN_MANWAR.3
 		}
 		
 		ai_will_do = {
@@ -89,7 +90,7 @@
 		completion_reward = { 
 			custom_effect_tooltip = "MAN_council_support.t"
 			add_political_power = 200
-			#country_event = MAN_MANWAR.1
+			country_event = MAN_MANWAR.1
 		}
 		
 		ai_will_do = {
@@ -117,7 +118,7 @@
 		completion_reward = { 
 			custom_effect_tooltip = "MAN_handwitch_alliance.t"
 			add_manpower = 5000
-			#country_event = MAN_MANWAR.2
+			country_event = MAN_MANWAR.2
 			hidden_effect = {
 				add_ideas = MAN_handy
 				random_owned_controlled_state = {
@@ -790,7 +791,7 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
-			#country_event = MAN_LEADERAUR_EVENT.3
+			country_event = MAN_LEADERAUR_EVENT.3
 			add_political_power = 100
 		}
 		
@@ -902,6 +903,7 @@
 
 		completion_reward = { 
 			custom_effect_tooltip = "MAN_council.7.t"
+			country_event = MAN_LEADERAUR_EVENT.4
 			set_politics = {
 				ruling_party = neutrality
 				elections_allowed = no
@@ -1114,12 +1116,8 @@
 
 		completion_reward = { 
 			custom_effect_tooltip = "MAN_chutzpar.7.t"
-			#country_event = MAN_LEADERAUR_EVENT.2
-			set_politics = {
-				ruling_party = democratic
-				elections_allowed = no
-			}
-			add_popularity = { ideology = democratic popularity = 0.30 }
+			country_event = MAN_LEADERAUR_EVENT.2
+			
 		}
 		
 		ai_will_do = {
@@ -1135,7 +1133,7 @@
 		id = MAN_unicorn_again
 		icon = GFX_goal_FOREST_unicorn_end 
 		x = -2
-		y = 1
+		y = 1 
 		relative_position_id = MAN_chutzpar.7
 		prerequisite = { focus = MAN_leaderaur.7  focus = MAN_chutzpar.7 }
 		
