@@ -1,8 +1,7 @@
+
 state={
 	id=460
 	name="STATE_460"
-	local_supplies=0.0 
-	
 	history {
 		owner = MEW
 		add_core_of = MEW
@@ -16,12 +15,11 @@ state={
 			radar_station = 0
 		}
 	}
-	
 	provinces={
-		2652 3371 5695 8537 
+		2652 3371 5695 7406 7453 8537 
 	}
-	
 	manpower=130000
-	
+	buildings_max_level_factor=1.000
 	state_category=large_town
+	local_supplies=0.000
 }

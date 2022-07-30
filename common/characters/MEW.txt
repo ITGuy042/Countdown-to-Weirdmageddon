@@ -34,13 +34,13 @@ characters = {
 			}
 		}
 	}
-	MEW_council_marvin = {
-		name = "Council Marvin" 
+	MEW_mhc = {
+		name = "Magic High Commision" 
 		desc = ""
 		portraits = {
 		}
 		country_leader = {
-			ideology = social_conservative_democratic_subtype
+			ideology = oligarchy_generic_oligarchy_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -52,17 +52,6 @@ characters = {
 		}
 		country_leader = {
 			ideology = anarcho_communalism_libertarianism_subtype
-			expire = "2040.1.1.1"
-			id = -1
-		}
-	}
-	MEW_manfred = {
-		name = "Manfred" 
-		desc = ""
-		portraits = {
-		}
-		country_leader = {
-			ideology = neo_solarianism_authoritarianism_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -91,6 +80,11 @@ characters = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+		country_leader = {
+			ideology = neo_solarianism_authoritarianism_subtype
+			expire = "2040.1.1.1"
+			id = -1
 		}
 	}
 	MEW_river_butterfly = {

@@ -1,8 +1,7 @@
+
 state={
 	id=290
 	name="STATE_290"
-	local_supplies=0.0 
-	
 	history {
 		owner = MEW
 		add_core_of = MEW
@@ -20,13 +19,11 @@ state={
 		}
 		
 	}
-	
 	provinces={
-		499 2441 2705 5683 8453 
+		499 2441 2705 5683 5720 6016 6744 7385 8453 
 	}
-	
-	
 	manpower=91000
-	
+	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

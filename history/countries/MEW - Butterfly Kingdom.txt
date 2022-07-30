@@ -15,8 +15,9 @@ set_politics = {
 set_popularities = {
 	royal_monarchy = 79
 	authoritarianism = 12
-	democratic = 5
-	anarchist = 3
+	democratic = 0
+	oligarchy = 3
+	anarchist = 5
 	military_rule = 1
 }
 
