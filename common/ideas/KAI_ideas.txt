@@ -248,7 +248,7 @@ ideas = {
 				political_power_factor = 0.15
 			}
 		}
-		KAI_personal_studies_idea_1 = {
+		KAI_personal_studies_idea_1
 			picture =
 			
 			allowed = {original_tag = KAI }
@@ -259,8 +259,7 @@ ideas = {
 				research_speed_factor = 0.05
 			}
 		}
-		
-		KAI_personal_studies_idea_2 = {
+		KAI_personal_studies_idea_2
 			picture =
 			
 			allowed = {original_tag = KAI }
@@ -271,7 +270,7 @@ ideas = {
 				research_speed_factor = 0.1
 			}
 		}
-		KAI_eldritch_studies_idea = {
+		KAI_eldritch_studies_idea
 			picture =
 			
 			allowed = {original_tag = KAI }
@@ -280,6 +279,226 @@ ideas = {
 			
 			modifier = {
 				research_speed_factor = 0.15
+			}
+		}
+		KAI_nss_1 #mass industrialization programs
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				global_building_slots_factor 5
+			}
+		}
+		KAI_nss_1r #caps on conscription time have been removed
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				global_building_slots_factor 5
+				conscription 0.015
+			}
+		}
+		KAI_nss_2 #planning directory of major business owners has been created
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				global_building_slots_factor 5
+				consumer_goods_factor -0.05
+			}
+		}
+		KAI_nss_2r #planning board created to mobilize all peoples is given supralegal authority
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				global_building_slots_factor 5
+				consumer_goods_factor -0.05
+				conscription 0.015
+			}
+		}
+		KAI_nss_2x #the act of exporting any goods has been illegalized
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				global_building_slots_factor 5
+				consumer_goods_factor -0.05
+				min_export -1.00
+			}
+		}
+		KAI_nss_2xr #previous consumer goods exports are being stockpiled in preparation for wartime
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				global_building_slots_factor 5
+				consumer_goods_factor -0.05
+				min_export -1.00
+				conscription 0.015
+			}
+		}
+		KAI_nss_2p #the directory is now beginning limited tests in building civil infrastructure
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				global_building_slots_factor 5
+				consumer_goods_factor -0.05
+				production_speed_infrastructure_factor 0.20
+			}
+		}
+		KAI_nss_2pr #plans to redesign civil infrastructure to optimize society has begun
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				global_building_slots_factor 5
+				consumer_goods_factor -0.05
+				production_speed_infrastructure_factor 0.20
+				conscription 0.015
+			}
+		}
+		KAI_nss_2px #the first planning board project to construct an internal goods transport and stockpile system has been initiated
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				global_building_slots_factor 5
+				consumer_goods_factor -0.05
+				min_export -1.00
+				production_speed_infrastructure_factor 0.20
+			}
+		}
+		KAI_nss_2pxr #administrators plan a massive bread-and-circus campaign for future conquered monsters
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				global_building_slots_factor 5
+				consumer_goods_factor -0.05
+				min_export -1.00
+				production_speed_infrastructure_factor 0.20
+				conscription 0.015
+			}
+		}
+		KAI_nss_3 #in order to survive monsters must practice total autarky to prevent mewman infiltration
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				global_building_slots_factor 5
+				consumer_goods_factor -0.05
+				min_export -1.00
+				production_speed_infrastructure_factor 0.20
+				production_speed_synthetic_refinery_factor 0.20
+			}
+		}
+		KAI_nss_3r #by producing synthetic materials the planning committee hopes to create new civilian luxuries to fix the growing shortage of commodities
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				global_building_slots_factor 5
+				consumer_goods_factor -0.05
+				min_export -1.00
+				production_speed_infrastructure_factor 0.20
+				production_speed_synthetic_refinery_factor 0.20
+				conscription 0.015
+			}
+		}
+		KAI_elite_backbone_1 #the independent branch of elite spider-dragoons is the fist of the Kaiserreich's military, but also a core of traditionalist support
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				cavalry_attack_factor 1.0
+			}
+		}
+		KAI_spider_handler_shortage #recent logistics cuts have lead to a severe lack of handlers and trainers for spider-mounts the future of the dragoons is in question
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				
+			}
+		}
+		KAI_elite_backbone_2 #the new pathfinder corps supplements the spider-cavalry's skirmishing and scouting duties, with some questioning the reason for both units to exist
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				army_infantry_attack_factor 0.5
+				cavalry_attack_factor 0.5
+			}
+		}
+		KAI_elite_backbone_3 #much of the dragoons funding being redirected by Hidendorf to the pathfinders, much to Bulcher's outrage
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				army_infantry_attack_factor 0.5
+				cavalry_attack_factor -0.5
+			}
+		}
+		KAI_unified_army #the spider-dragoons have been officially folded into the pathfinders "for budgetary reasons" creating a highly veteran skirmisher force
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				army_infantry_attack_factor 1.5
+				cavalry_attack_factor -1.5
 			}
 		}
 	}
