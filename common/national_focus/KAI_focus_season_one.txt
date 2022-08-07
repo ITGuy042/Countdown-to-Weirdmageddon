@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100 
-		#	tag = KAI
+			add = 100 
+			tag = KAI
 		}
 	}
 	
@@ -81,7 +81,7 @@ focus_tree = {
  	focus = { 
  		id = KAI_sky_friend
  		icon = a
- 		x = 0
+ 		x = -6
  		y = 1
 
  		prerequisite = { focus = KAI_every_corner }
@@ -1465,6 +1465,681 @@ focus_tree = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-}
+	focus = {
+		id = KAI_national_salvation_state
+		icon = a
+		x = 4
+		y = 1
+
+		prerequisite = { focus = KAI_every_corner }
+		relative_position_id = KAI_every_corner 
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = KAI_nss_1
+		}
+		ai_will_do = {
+
+		}
+	}
+	focus = {
+		id = KAI_three_pillar_regency
+		icon = a
+		x = 8
+		y = 1
+
+		prerequisite = { focus = KAI_every_corner }
+		relative_position_id = KAI_every_corner 
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				add_to_variable = {
+					var = kai_military
+					value = 10
+				}
+			}
+			custom_effect_tooltip = kai_military_12_tt
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_centralize_economic_direction
+		icon = a
+		x = -2
+		y = 1
+
+		prerequisite = { focus = KAI_national_salvation_state }
+		relative_position_id = KAI_national_salvation_state
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				add_to_variable = {
+					var = kai_military
+					value = 5
+				}
+			}
+			custom_effect_tooltip = kai_military_11_tt
+			if = {
+				limit = { has_idea = KAI_nss_1 }
+				swap_ideas = { 
+					remove_idea = KAI_nss_1
+					add_idea = KAI_nss_2
+			else_if = {
+				limit = { has_idea = KAI_nss_1r }
+				swap_ideas = { 
+					remove_idea = KAI_nss_1r
+					add_idea = KAI_nss_2r
+				}
+			}
+			else = {
+				swap_ideas = { 
+					remove_idea = KAI_nss_1r
+					add_idea = KAI_nss_2r
+				}
+			}
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_zero_export_economy
+		icon = a
+		x = -1
+		y = 1
+
+		prerequisite = { focus = KAI_centralize_economic_direction }
+		relative_position_id = KAI_centralize_economic_direction
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			377 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			if = {
+				limit = { has_idea = KAI_nss_2 }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2
+					add_idea = KAI_nss_2x
+			else_if = {
+				limit = { has_idea = KAI_nss_2r }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2r
+					add_idea = KAI_nss_2xr
+				}
+			}
+			else_if = {
+				limit = { has_idea = KAI_nss_2p }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2p
+					add_idea = KAI_nss_2px
+				}
+			}
+			else_if = {
+				limit = { has_idea = KAI_nss_2pr }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2pr
+					add_idea = KAI_nss_2pxr
+				}
+			}
+			else = {
+				swap_ideas = { 
+					remove_idea = KAI_nss_2pr
+					add_idea = KAI_nss_2pxr
+				}
+			}
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_planning_board_test
+		icon = a
+		x = 1
+		y = 1
+
+		prerequisite = { focus = KAI_centralize_economic_direction }
+		relative_position_id = KAI_centralize_economic_direction 
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = KAI_nss_2 }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2
+					add_idea = KAI_nss_2p
+			else_if = {
+				limit = { has_idea = KAI_nss_2r }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2r
+					add_idea = KAI_nss_2pr
+				}
+			}
+			else_if = {
+				limit = { has_idea = KAI_nss_2x }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2x
+					add_idea = KAI_nss_2px
+				}
+			}
+			else_if = {
+				limit = { has_idea = KAI_nss_2xr }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2xr
+					add_idea = KAI_nss_2pxr
+				}
+			}
+			else = {
+				swap_ideas = { 
+					remove_idea = KAI_nss_2xr
+					add_idea = KAI_nss_2pxr
+				}
+			}
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_mass_experimentation_synthetics
+		icon = a
+		x = 1
+		y = 1
+
+		prerequisite = { focus = KAI_zero_export_economy }
+		prerequisite = { focus = KAI_planning_board_test }
+		relative_position_id = KAI_zero_export_economy
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			377 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+			if = {
+				limit = { has_idea = KAI_nss_2px }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2px
+					add_idea = KAI_nss_3
+			else_if = {
+				limit = { has_idea = KAI_nss_2pxr }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2pxr
+					add_idea = KAI_nss_3r
+				}
+			}
+			else = {
+				swap_ideas = { 
+					remove_idea = KAI_nss_2pxr
+					add_idea = KAI_nss_3r
+				}
+			}
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_ministry_of_interior
+		icon = a
+		x = 2
+		y = 1
+
+		prerequisite = { focus = KAI_national_salvation_state }
+		prerequisite = { focus = KAI_three_pillar_regency }
+		relative_position_id = KAI_national_salvation_state 
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				add_to_variable = {
+					var = kai_military
+					value = 10
+				}
+			}
+			custom_effect_tooltip = kai_military_12_tt
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_integrating_urban_guilds
+		icon = a
+		x = -1
+		y = 1
+
+		prerequisite = { focus = KAI_ministry_of_interior }
+		relative_position_id = KAI_ministry_of_interior 
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			377 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_carving_wasteful_estates
+		icon = a
+		x = 1
+		y = 1
+
+		prerequisite = { focus = KAI_ministry_of_interior }
+		relative_position_id = KAI_ministry_of_interior 
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			377 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			376 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_reborn_people
+		icon = a
+		x = 1
+		y = 1
+
+		prerequisite = { focus = KAI_integrating_urban_guilds }
+		prerequisite = { focus = KAI_carving_wasteful_estates }
+		relative_position_id = KAI_integrating_urban_guilds
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				add_to_variable = {
+					var = kai_military
+					value = 5
+				}
+			}
+			custom_effect_tooltip = kai_military_11_tt
+			if = {
+				limit = { has_idea = KAI_nss_1 }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2
+					add_idea = KAI_nss_2p
+			else_if = {
+				limit = { has_idea = KAI_nss_2 }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2r
+					add_idea = KAI_nss_2pr
+				}
+			}
+			else_if = {
+				limit = { has_idea = KAI_nss_2x }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2x
+					add_idea = KAI_nss_2px
+				}
+			}
+			else_if = {
+				limit = { has_idea = KAI_nss_2p }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2xr
+					add_idea = KAI_nss_2pxr
+				}
+			}
+			else_if = {
+				limit = { has_idea = KAI_nss_2px }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2xr
+					add_idea = KAI_nss_2pxr
+				}
+			}
+			else_if = {
+				limit = { has_idea = KAI_nss_3 }
+				swap_ideas = { 
+					remove_idea = KAI_nss_2xr
+					add_idea = KAI_nss_2pxr
+				}
+			}
+			else = {
+				swap_ideas = { 
+					remove_idea = KAI_nss_2xr
+					add_idea = KAI_nss_2pxr
+				}
+			}
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_ararchnide_arbalesters
+		icon = a
+		x = 2
+		y = 1
+
+		prerequisite = { focus = KAI_three_pillar_regency }
+		relative_position_id = KAI_three_pillar_regency 
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = KAI_elite_backbone_1
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_avoiding_folly
+		icon = a
+		x = -1
+		y = 1
+
+		prerequisite = { focus = KAI_ararchnide_arbalesters }
+		relative_position_id = KAI_ararchnide_arbalesters 
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				add_to_variable = {
+					var = kai_military
+					value = -5
+				}
+			}
+			custom_effect_tooltip = kai_military_01_tt
+			if = {
+				limit = { has_idea = KAI_elite_backbone_1 }
+				swap_ideas = { 
+					remove_idea = KAI_elite_backbone_1
+					add_idea = KAI_spider_handler_shortage
+			else_if = {
+				limit = { has_idea = KAI_elite_backbone_2 }
+				swap_ideas = { 
+					remove_idea = KAI_elite_backbone_2
+					add_idea = KAI_elite_backbone_3
+				}
+			}
+			else = {
+				swap_ideas = { 
+					remove_idea = KAI_elite_backbone_2
+					add_idea = KAI_elite_backbone_3
+				}
+			}
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_creating_pathfinders
+		icon = a
+		x = 1
+		y = 1
+
+		prerequisite = { focus = KAI_ararchnide_arbalesters }
+		relative_position_id = KAI_ararchnide_arbalesters 
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = KAI_elite_backbone_1 }
+				swap_ideas = { 
+					remove_idea = KAI_elite_backbone_1
+					add_idea = KAI_elite_backbone_2
+			else_if = {
+				limit = { has_idea = KAI_spider_handler_shortage }
+				swap_ideas = { 
+					remove_idea = KAI_spider_handler_shortage
+					add_idea = KAI_elite_backbone_3
+				}
+			}
+			else = {
+				swap_ideas = { 
+					remove_idea = KAI_spider_handler_shortage
+					add_idea = KAI_elite_backbone_3
+				}
+			}
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_clearing_cobwebs
+		icon = a
+		x = 1
+		y = 1
+
+		prerequisite = { focus = KAI_avoiding_folly }
+		prerequisite = { focus = KAI_creating_pathfinders }
+		relative_position_id = KAI_avoiding_folly 
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				add_to_variable = {
+					var = kai_military
+					value = -5
+				}
+			}
+			custom_effect_tooltip = kai_military_01_tt
+			swap_ideas = { 
+					KAI_elite_backbone_3
+					KAI_unified_army
+		}
+		ai_will_do = {
+			
+		}
+	}
+	focus = {
+		id = KAI_two_headed_hydra
+		icon = a
+		x = 2
+		y = 1
+
+		prerequisite = { focus = KAI_mass_experimentation_synthetics }
+		prerequisite = { focus = KAI_reborn_people }
+		prerequisite = { focus = KAI_clearing_cobwebs }
+		relative_position_id = KAI_mass_experimentation_synthetics 
+
+		available = {
+		}
+
+		bypass = {}
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			# unlock advisor "Field Marshall Hidendorf" [+10% division organization, -10% pp] 
+ 			# unlock advisor "Chancellor Möller" [+2 agent slots, -10% pp ]
+ 			hidden_effect = {
+				add_to_variable = {
+					var = kai_military
+					value = 20
+				}
+			}
+			custom_effect_tooltip = kai_military_14_tt
+		}
+		ai_will_do = {
+			
+		}
+	}
+} 	
