@@ -1,0 +1,78 @@
+﻿###########################
+# Kingdom of Amphibia Events
+###########################
+
+add_namespace = BOI_start
+add_namespace = OWL_school
+
+add_namespace = BOI_frost
+ 
+add_namespace = GEU_ULN
+
+##########################################
+
+country_event = {
+	id = OWL_school.1
+	title = OWL_school.1.t
+	desc = OWL_school.1.d
+	picture = GFX_report_event_bump_office
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = OWL_school.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {		}
+	}
+	option = { 
+		name = OWL_school.1.b
+		ai_chance = { factor = 40 }	# 40% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {		}
+	}
+}
+
+country_event = {
+	id = BOI_frost.1
+	title = BOI_frost.1.t
+	desc = BOI_frost.1.d
+	picture = GFX_report_event_cold_isles
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = BOI_frost.1.a
+		ai_chance = { factor = 80 }	# 80% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {		}
+	}
+	option = { 
+		name = BOI_frost.1.b
+		ai_chance = { factor = 20 }	# 20% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {		}
+	}
+}
+
+country_event = {
+	id = GEU_ULN.1
+	title = GEU_ULN.1.t
+	desc = GEU_ULN.1.d
+	picture = GFX_report_event_ULN
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = GEU_ULN.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {		}
+	}
+	option = { 
+		name = GEU_ULN.1.b
+		ai_chance = { factor = 40 }	# 40% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {		}
+	}
+}

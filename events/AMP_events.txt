@@ -1,0 +1,54 @@
+﻿###########################
+# Kingdom of Amphibia Events 
+###########################
+
+#add_namespace = AMP_start
+add_namespace = AMP_pirate
+
+add_namespace = WRT_election
+
+##########################################
+
+country_event = {
+	id = AMP_pirate.1
+	title = AMP_pirate.1.t
+	desc = AMP_pirate.1.d
+	picture = GFX_report_event_AMP_pirates
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = AMP_pirate.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {		}
+	}
+	option = { 
+		name = AMP_pirate.1.b
+		ai_chance = { factor = 40 }	# 40% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {		}
+	}
+}
+
+country_event = {
+	id = WRT_election.1
+	title = WRT_election.1.t
+	desc = WRT_election.1.d
+	picture = GFX_report_event_WRT_election
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = WRT_election.1.a
+		ai_chance = { factor = 80 }	# 80% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {		}
+	}
+	option = { 
+		name = WRT_election.1.b
+		ai_chance = { factor = 20 }	# 20% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {		}
+	}
+}

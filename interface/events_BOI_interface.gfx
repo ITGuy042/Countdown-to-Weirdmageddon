@@ -1,0 +1,21 @@
+##########
+# AMP country event picture interface
+############
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_bump_office"
+		texturefile = "gfx/event_country_pictures/BOI/report_event_bump_office.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_report_event_cold_isles"
+		texturefile = "gfx/event_country_pictures/BOI/report_event_cold_isles.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_ULN"
+		texturefile = "gfx/event_country_pictures/ALL/report_event_ULN.dds"
+	}
+	
+}

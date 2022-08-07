@@ -1,9 +1,9 @@
 ############################################################################
-### AMP Characters 
+### WRT Characters
 ############################################################################
 characters = {
 	
-	AMP_andrias = {
+	WRT_andrias = {
 		name = "Andrias Leviathan" 
 		desc = ""
 		portraits = {

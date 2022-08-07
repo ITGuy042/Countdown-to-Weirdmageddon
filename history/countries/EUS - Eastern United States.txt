@@ -2,6 +2,12 @@
 
 # Starting tech
 set_technology = {
+
+	industrial_progress_check = 1
+	industrial_progress = 1
+	modern_progress_check = 1
+	modern_progress = 1
+	
 	infantry_weapons = 1
 	tech_support = 1
 	tech_recon = 1
@@ -72,12 +78,12 @@ set_politics = {
 }
 
 set_popularities = {
-	royal_monarchy = 10
-	authoritarianism = 10
-	democratic = 50
-	anarchist = 10
-	military_rule = 10
-	oligarchy = 10
+	democratic = 25
+	anarchist = 15
+	oligarchy = 15
+	authoritarianism = 15
+	royal_monarchy = 15
+	military_rule = 15
 }
 
 create_faction = "United States of America"

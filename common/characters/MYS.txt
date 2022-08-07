@@ -9,7 +9,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_STAN_PINES_DESC"
-			ideology = fascism_ideology
+			ideology = despotism_authoritarianism_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -35,7 +35,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = liberalism
+			ideology = social_liberal_democratic_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -67,7 +67,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = anarchist_communism
+			ideology = none_libertarianism_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -114,7 +114,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = oligarchy_generic_oligarchy_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}

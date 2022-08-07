@@ -1,0 +1,16 @@
+##########
+# AMP country event picture interface
+############
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_AMP_pirates"
+		texturefile = "gfx/event_country_pictures/AMP/report_event_AMP_pirates.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_report_event_WRT_election"
+		texturefile = "gfx/event_country_pictures/AMP/report_event_WRT_election.dds"
+	}
+	
+}

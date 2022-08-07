@@ -75,7 +75,7 @@ MW4 = "countries/N-monst 4.txt"
 MW5 = "countries/N-monst 5.txt"
 MW6 = "countries/N-monst 6.txt"
 
-#US States
+#US States 
 ARZ = "countries/US-Arizona.txt"
 ARK = "countries/US-Arkansas.txt"
 CRD = "countries/US-Colorado.txt"
@@ -100,6 +100,7 @@ COG = "countries/E-Cognito Inc.txt"
 
 #Amphibia
 AMP = "countries/A-Amphibia.txt"
+WRT = "countries/A-Wartwood.txt"
 
 #Boiling Isles
 BOI = "countries/BI-Emperor Coven.txt"
