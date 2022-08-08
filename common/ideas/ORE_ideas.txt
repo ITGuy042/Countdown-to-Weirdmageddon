@@ -61,7 +61,7 @@ ideas = { #Entire file
 		}
 		
 		ORE_texan_payments = {
-			picture = FRA_factory_strikes
+			picture = EST_exploit_the_banks
 			
 			allowed = {}
 			available = {}
@@ -74,7 +74,7 @@ ideas = { #Entire file
 		}
 		
 		ORE_against_east = {
-			picture = FRA_factory_strikes
+			picture = MEX_revolutionary_army
 			
 			allowed = {}
 			available = {}
@@ -121,7 +121,7 @@ ideas = { #Entire file
 		##############
 		
 		ORE_northwest_pardon = {
-			picture = FRA_factory_strikes
+			picture = hol_the_foundations_of_defense
 			
 			allowed = {}
 			available = {}
@@ -136,7 +136,7 @@ ideas = { #Entire file
 			}
 		}
 		ORE_northwest_siezed = {
-			picture = FRA_factory_strikes
+			picture = idea_mex_callistas
 			
 			allowed = {}
 			available = {}
@@ -155,7 +155,7 @@ ideas = { #Entire file
 		
 		
 		ORE_frontier_spirit_idea = {
-			picture = a
+			picture = ORE_frontier_spirit
 			
 			allowed = {}
 			available = {}
@@ -168,7 +168,7 @@ ideas = { #Entire file
 		}
 		
 		ORE_frontier_spirit_idea_2 = {
-			picture = a
+			picture = ORE_frontier_spirit_2
 			
 			allowed = {}
 			available = {}
@@ -182,7 +182,7 @@ ideas = { #Entire file
 		}
 		
 		ORE_frontier_spirit_idea_3 = {
-			picture = a
+			picture = ORE_frontier_spirit_3
 			
 			allowed = {}
 			available = {}
@@ -197,7 +197,7 @@ ideas = { #Entire file
 		}
 		
 		ORE_frontier_spirit_idea_4 = {
-			picture = a
+			picture = ORE_frontier_spirit_4
 			
 			allowed = {}
 			available = {}
@@ -214,7 +214,7 @@ ideas = { #Entire file
 		}
 		
 		ORE_rally_to_the_west_idea = {
-			picture = a
+			picture = ORE_rally_to_the_west
 			
 			allowed = {}
 			available = {}
@@ -227,7 +227,7 @@ ideas = { #Entire file
 		}
 		
 		ORE_rally_to_the_west_idea_2 = {
-			picture = a
+			picture = ORE_rally_to_the_west
 			
 			allowed = {}
 			available = {}
@@ -242,7 +242,7 @@ ideas = { #Entire file
 		}
 		
 		ORE_federal_professionalism = {
-			picture = a
+			picture = eng_imperial_conscription
 			
 			allowed = {}
 			available = {}
@@ -258,7 +258,7 @@ ideas = { #Entire file
 		}
 	
 		ORE_efficient_national_guard_system = {
-			picture = a
+			picture = limited_conscription
 			
 			allowed = {}
 			available = {}
@@ -276,7 +276,7 @@ ideas = { #Entire file
 		}
 		
 		ORE_skies_of_america = {
-			picture = a
+			picture = air_support_focus
 			
 			allowed = {}
 			available = {}
@@ -289,7 +289,7 @@ ideas = { #Entire file
 		}
 		
 		ORE_northern_skies = {
-			picture = a
+			picture = generic_air_bonus
 			
 			allowed = {}
 			available = {}
