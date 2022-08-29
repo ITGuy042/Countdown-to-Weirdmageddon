@@ -1,0 +1,35 @@
+bitmapfonts = {
+    bitmapfont = {
+        name = "hoi4_ctw_super_font"
+        fontfiles = {
+            "gfx/fonts/hoi4_ctw_super_font"
+        }
+        color = 0xffffffff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "hoi4_ctw_super_font_small"
+        fontfiles = {
+            "gfx/fonts/hoi4_ctw_super_font_small"
+        }
+        color = 0xffffffff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "hoi4_ctw_super_font_big"
+        fontfiles = {
+            "gfx/fonts/hoi4_ctw_super_font_big"
+        }
+        color = 0xffffffff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+}
