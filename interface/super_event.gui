@@ -5,8 +5,6 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 		name = "CTW_SUPEREVENT_window"
 		size = { width = 960 height = 540 }
 		position = { x= 0 y= 0 }
-		show_position = { x = -20 y = 20 }
-		hide_position = { x= 0 y= 0 }
 		Orientation = center
 		Origo = center
 		moveable = yes

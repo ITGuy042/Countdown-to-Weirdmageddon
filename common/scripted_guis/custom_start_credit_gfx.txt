@@ -1,6 +1,6 @@
 scripted_gui = {	
 
-	#FOR THE IMAGE ITSELF
+	#FOR THE GFX ITSELF
 	BIG_EVENT_TEST_CUSTOM = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "BIG_START_CREDIT_CUSTOM_window"
