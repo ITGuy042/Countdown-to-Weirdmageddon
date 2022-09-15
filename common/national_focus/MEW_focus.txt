@@ -435,7 +435,7 @@ focus_tree = {
 	
 	focus = {
 		id = mew_war_1
-		icon = GFX_goal_focus_attack_ostritch
+		icon = GFX_goal_focus_big_icon
 		x = -2
 		y = 1
 		relative_position_id = mew_michael_bay 

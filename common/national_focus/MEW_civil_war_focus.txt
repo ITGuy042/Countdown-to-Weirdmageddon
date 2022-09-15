@@ -374,7 +374,7 @@
 	
 	focus = {
 		id = strike_first
-		icon = GFX_goal_focus_confront_ludo
+		icon = GFX_goal_focus_strike_first_big
 		x = 0
 		y = 2
 		cost = 4			

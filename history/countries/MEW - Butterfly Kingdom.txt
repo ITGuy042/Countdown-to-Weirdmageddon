@@ -31,6 +31,8 @@ set_technology = {
 	tech_magic_forces_1 = 1
 	mewni_magic_forces = 1
 	mounted_infantry = 1
+	basic_roads = 1
+	basic_wagon= 1
 }
 
 #order of battle, AKA the units/armies that will be available
