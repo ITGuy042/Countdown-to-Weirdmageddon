@@ -25,8 +25,8 @@ guiTypes = {
 	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
-		position = { x=0 y =-575 }
-		show_position = { x=0 y =-1 }
+		position = { x=-575 y =0 }
+		show_position = { x=1 y =0 }
 		animation_type = decelerated
 		animation_time = 1000
 		size = { width = 256 height = 768}
@@ -38,7 +38,12 @@ guiTypes = {
 			position = { x= 20 y = 45 }
 		}
 		
-		
+		iconType =
+		{
+			name "side_panel_menu_modded"
+			spriteType = "GFX_side_panel_menu_modded"
+			position = { x= 0 y = 0 }
+		}
 		
 		#iconType =   
 		#{
@@ -46,19 +51,19 @@ guiTypes = {
 		#	spriteType = "GFX_alpha_stamp"
 		#	position = { x= 50 y = 270 }
 		#}
-		
+
 		iconType =
 		{
 			name ="frontend_dev_logo"
 			spriteType = "GFX_frontend_dev_logo"
-			position = { x= 70 y = 315 }
+			position = { x= 320 y = 335 }
 		}
 		
 		iconType =
 		{
 			name ="pdx_int_logo"
 			spriteType = "GFX_pdx_int_logo"
-			position = { x= 270 y = 335 }
+			position = { x= 320 y = 525 }
 		}
 		
 		
@@ -222,10 +227,10 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =0}
+		position = { x=0 y =300}
 		size = { width = 320 height = 395}
-		Orientation = CENTER
-		Origo = center		
+		Orientation = BOTTOM_LEFT
+		Origo = BOTTOM_LEFT		
 				
 		background = {
 			name = "Background"		
@@ -305,13 +310,19 @@ guiTypes = {
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 16 y = 260 }
+			position = { x = 16 y = 218 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_EXIT"			
 			clicksound = click_default
 			oversound = ui_menu_over
 			
+		}
+		
+		iconType = {
+			name = "FPI_logo_embedded"
+			position = { x = 100 y = 258 }
+			spriteType = "GFX_FPI_logo_embedded"
 		}
 	}
 	
@@ -325,90 +336,6 @@ guiTypes = {
 		positionType = {
 			name = "position_without_social_gui"
 			position = { x = 0 y = 155 }
-		}
-		
-		containerWindowType = {
-			name = "social_view_interface_window"
-			position = { x = 250 y = 0  }
-			size = { width = 60 height = 40 }
-			
-			buttonType = {
-				name = "toggle_button"
-				quadTextureSprite = "GFX_sort_button_83x29" ## Orig: 60x29
-				position = { x=0 y=0  }
-				buttonFont = "hoi_16mbs"
-			}
-				
-			iconType = {
-				name = "button_toggle_socialview_icon"
-				spriteType = "GFX_socialview_icon"
-				position = { x=0 y=0 }
-				alwaystransparent = yes
-			}
-				
-			instantTextBoxType={
-				name = "friends_online"
-				font = "cg_16b"
-				position = { x=20 y=15 }
-				text = "0"
-				maxWidth = 30
-				maxHeight = 16
-				alwaysTransparent = yes
-				format = center
-			}
-				
-			iconType = {
-				name = "new_message"
-				position = { x=42 y =5 }
-				spriteType = "GFX_new_message_icon"
-				pdx_tooltip = "SOCIAL_NEW_MESSAGE"
-			}
-				
-			iconType = {
-				name = "new_friend"
-				position = { x=42 y=17 }
-				spriteType = "GFX_new_friend_icon"
-				pdx_tooltip = "SOCIAL_NEW_FRIEND"
-			}
-		}
-		
-		ButtonType = {
-			name = "homepage_button"
-			position = { x=0 y=0 }
-			quadTextureSprite ="homepage"
-			clicksound = click_default
-			pdx_tooltip = "MENU_HOMEPAGE"
-		}
-		ButtonType = {
-			name = "forum_button"
-			position = { x=50 y=0 }
-			quadTextureSprite ="forum"
-			clicksound = click_default
-			pdx_tooltip = "MENU_FORUM"
-			web_link = "http://forum.paradoxplaza.com/forum/forumdisplay.php?844-Hearts-of-Iron-IV"
-		}
-		ButtonType = {
-			name = "facebook_button"
-			position = { x=100 y=0 }
-			quadTextureSprite ="facebook"
-			clicksound = click_default
-			pdx_tooltip = "MENU_FACEBOOK"
-			web_link = "https://www.facebook.com/Heartsofiron"
-		}
-		ButtonType = {
-			name = "twitter_button"
-			position = { x=150 y=0 }
-			quadTextureSprite ="twitter"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://twitter.com/hoi_game"
-		}
-		ButtonType = {
-			name = "privacy_policy_button"
-			position = { x=200 y=0 }
-			quadTextureSprite ="privacy"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_PRIVACY_POLICY"
 		}
 	}
 
