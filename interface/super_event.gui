@@ -33,8 +33,8 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			name = "Superevent Title"
 			position = {  x= 0 y = 75}
 			font = "hoi4_ctw_super_font_big"
-			text = "Biden Starts Music Career"
-			maxWidth = 500
+			text = "[SUPER_EVENT_TITLE]"
+			maxWidth = 475
 			maxHeight = 500
 			fixedsize = yes
 			format = center
@@ -56,7 +56,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			name = "Superevent Quote"
 			position = {  x = 35 y = 240}
 			font = "hoi4_ctw_super_font"
-			text = "'cool singers are just as bright and just as talented as White singers'-joe biden"
+			text = "[SUPER_EVENT_QUOTE]"
 			maxWidth = 494
 			maxHeight = 500
 			fixedsize = yes
@@ -78,12 +78,12 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 		
 		buttonType = {
 			name = "Option"
-			text = "E x i t"  ############## OPTION BUTTON
+			text = ""
 			shortcut = "ESCAPE"
-			position = { x = -185 y = 200 }
-			quadTextureSprite ="GFX_start_mewni_button"
+			position = { x = -27 y = -144 }
+			quadTextureSprite ="GFX_super_exit"
 			buttonFont = "hoi4_ctw_super_font"
-			Orientation = center
+			Orientation = lower_right
 		}
 
 	}

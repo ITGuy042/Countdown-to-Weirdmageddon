@@ -34,15 +34,22 @@ news_event = { #Mewni-Ost war
 	}
 	
 	option = {
-		name = mewni_corn_crisis_news_event.1.a
+		name = mewni_ost_war_news_event.1.a
 		trigger = {	TAG = MEW} #mewni
+		hidden_effect = {
+			set_variable  = {
+				var = super_img
+				value = 0
+			}
+			CTW_fire_super_event = yes
+		}
 	}
 	option = {
-		name = mewni_corn_crisis_news_event.1.b
+		name = mewni_ost_war_news_event.1.b
 		trigger = {TAG = OST} #ostro starvarian
 	}
 	option = {
-		name = mewni_corn_crisis_news_event.1.c
+		name = mewni_ost_war_news_event.1.c
 		trigger = {NOT={TAG = MEW}} #not mewni
 	}
 

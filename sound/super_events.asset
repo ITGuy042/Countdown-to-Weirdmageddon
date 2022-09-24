@@ -1,0 +1,6 @@
+sound = {
+    name = super_00
+    file = super_events/super_biden.wav
+    always_load = yes
+	volume = 1.00
+}

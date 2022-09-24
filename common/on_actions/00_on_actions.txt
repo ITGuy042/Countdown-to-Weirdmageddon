@@ -2,6 +2,12 @@ on_actions = {
 
 	on_startup = {
 		effect = {
+			MEW = {
+				set_variable  = {
+					var = super_img
+					value = 0
+				}
+			}
 		
 			CAL = {
 				#country_event = { id = CAL_START.1 } # Event code is in CAL events

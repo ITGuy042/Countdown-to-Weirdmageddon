@@ -11,7 +11,7 @@ scripted_gui = {
 
 		properties = {
 			super_event_image = {
-				image = "GFX_super_event_image"
+				image = "[SUPER_EVENT_IMAGE]"
 			}
 		}
 

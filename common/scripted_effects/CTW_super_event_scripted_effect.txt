@@ -1,0 +1,9 @@
+CTW_fire_super_event = {
+	hidden_effect = {
+		if = {
+			limit = { check_variable = { super_img = 0 } }
+			set_country_flag = SUPER_EVENT_TEST
+			scoped_sound_effect = "super_00"
+		}
+	}
+}
