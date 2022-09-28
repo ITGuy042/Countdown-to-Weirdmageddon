@@ -16,7 +16,7 @@ characters = {
 			desc = "POLITICS_A_DESC"
 			traits = {  }
 			expire = "2040.1.1.1"
-			id = 1
+			id = -1
 		}
 		field_marshal = {
 			desc = ""
@@ -44,7 +44,7 @@ characters = {
 			desc = "POLITICS_S_DESC"
 			traits = {  }
 			expire = "2040.1.1.1"
-			id = 1
+			id = -1
 		}
 
 	}
@@ -62,7 +62,7 @@ characters = {
 			desc = "POLITICS_S_DESC"
 			traits = {  }
 			expire = "2040.1.1.1"
-			id = 1
+			id = -1
 		}
 		field_marshal = {
 			desc = ""
@@ -92,7 +92,7 @@ characters = {
 			desc = "POLITICS_S_DESC"
 			traits = {  }
 			expire = "2040.1.1.1"
-			id = 1
+			id = -1
 		}
 	}
 

@@ -1,0 +1,28 @@
+sound =
+{
+    name = "super_00"
+    file = "super_events/super_biden.wav"
+}
+sound =
+{
+    name = "super_01"
+    file = "super_events/super_ost.wav"
+}
+
+soundeffect =
+{
+	name = super_00
+	sounds = {
+		sound = super_00
+	}
+	volume = 1
+}
+soundeffect =
+{
+	name = super_01
+	sounds = {
+		sound = super_01
+	}
+	volume = 1
+}
+
