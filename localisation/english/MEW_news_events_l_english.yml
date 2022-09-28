@@ -1,5 +1,11 @@
 ﻿l_english:
 
+mewni_ost_war_news_event.1.t:0 "Mewman Conquest of the Pigeon Corridor"
+mewni_ost_war_news_event.1.d:0 "After a series of diplomatic and internal moves, Mewni is once again in a war of conquest. This time with the [OST.getname], the war is expected to put only minimal strain on the Mewman economy.\n\nProponents of the war state that the war is nessecary to liberate the oppressed pigeon minority in the area, while critics argue that the war is just the Mewmans trying to relive the Solarian conquests."
+mewni_ost_war_news_event.1.a:0 "We will secure our dominance on Mewni!"
+mewni_ost_war_news_event.1.b:0 "OH GOD OH NO"
+mewni_ost_war_news_event.1.c:0 "Just another Solarian conquest..."
+
 #Legacy of Solaria
 
 mewni_corn_crisis_news_event.1.t:0 "The Corn Market Crashes!"

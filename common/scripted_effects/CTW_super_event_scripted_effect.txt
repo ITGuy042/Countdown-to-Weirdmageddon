@@ -5,5 +5,10 @@ CTW_fire_super_event = {
 			set_country_flag = SUPER_EVENT_TEST
 			scoped_sound_effect = "super_00"
 		}
+		if = {
+			limit = { check_variable = { super_img = 1 } }
+			set_country_flag = SUPER_EVENT_TEST
+			scoped_sound_effect = "super_01"
+		}
 	}
 }

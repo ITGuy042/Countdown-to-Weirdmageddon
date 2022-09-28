@@ -68,7 +68,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			name = "Superevent Date and Dimensions"
 			position = {  x= 0 y = 220}
 			font = "hoi4_ctw_super_font_small"
-			text = "DATE • DIMENSIONS"
+			text = "[GetDateText] • [SUPER_EVENT_DIMENSIONS]"
 			maxWidth = 494
 			maxHeight = 500
 			fixedsize = yes
