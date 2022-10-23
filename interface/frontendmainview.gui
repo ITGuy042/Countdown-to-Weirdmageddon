@@ -229,8 +229,8 @@ guiTypes = {
 		name ="mainmenu_panel_bottom"
 		position = { x=0 y =300}
 		size = { width = 320 height = 395}
-		Orientation = BOTTOM_LEFT
-		Origo = BOTTOM_LEFT		
+		Orientation = LOWER_LEFT
+		Origo = LOWER_LEFT
 				
 		background = {
 			name = "Background"		
@@ -288,6 +288,15 @@ guiTypes = {
 			oversound = ui_menu_over
 		}
 		
+		buttonType = {
+			name = "career_profile_button"
+			position = { x = 16 y = 138 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			buttonText = "MENU_BAR_CAREER_PROFILE"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
 
 		ButtonType = {
 			name = "credits_button"
