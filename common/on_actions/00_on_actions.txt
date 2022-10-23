@@ -53,19 +53,19 @@ on_actions = {
 			###############
 			MEW = {
 				add_named_threat = {
-					threat = 12
+					threat = 10
 					name = world_tension_solarian_conquest
 				}
 				add_named_threat = {
-					threat = 3
+					threat = 5
 					name = world_tension_solarias_death
 				}
 				add_named_threat = {
-					threat = -8
+					threat = -10
 					name = world_tension_establishment_of_jushtinian_pluralism
 				}
 				add_named_threat = {
-					threat = -3
+					threat = -7
 					name = world_tension_northern_monsters_stagnate
 				}
 				add_named_threat = {
@@ -83,6 +83,44 @@ on_actions = {
 				add_named_threat = {
 					threat = 5
 					name = world_tension_dissapearance_of_HH
+				}
+			}
+			EPI = {
+				add_named_threat = {
+					threat = 5
+					name = world_tension_hercules
+				}
+				add_named_threat = {
+					threat = 5
+					name = world_tension_merlin
+				}
+				add_named_threat = {
+					threat = 10
+					name = world_tension_fpimi13_split
+				}
+				add_named_threat = {
+					threat = -25
+					name = world_tension_huckabone
+				}
+			}
+			CAN = {
+				add_named_threat = {
+					threat = 5
+					name = world_tension_halifax
+				}
+				add_named_threat = {
+					threat = -10
+					name = world_tension_americablinked
+				}
+			}
+			EUS = {
+				add_named_threat = {
+					threat = 25
+					name = world_tension_beingamerica
+				}
+				add_named_threat = {
+					threat = -25
+					name = world_tension_beingamerica
 				}
 			}
 		}

@@ -12,7 +12,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = liberalism
+			ideology = CAL_SOC_democratic_subtype
 			desc = "POLITICS_HECTOR_DESC"
 			traits = { cal_southern_governor }
 			expire = "2040.1.1.1"

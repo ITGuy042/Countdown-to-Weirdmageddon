@@ -1,11 +1,11 @@
 ﻿l_english: 
  
- # _authoritarianism_party:0 ""
- # _anarchist_party:0 ""
- # _democratic_party:0 ""
- # _oligarchy_party:0 ""
- # _royal_monarchy_party:0 ""
- # _military_rule_party:0 ""
+ ###_authoritarianism_party:0 ""
+ ###_anarchist_party:0 ""
+ ###_democratic_party:0 ""
+ ###_oligarchy_party:0 ""
+ ###_royal_monarchy_party:0 ""
+ ###_military_rule_party:0 ""
  
  #Earth ################################################################ 
  
@@ -16,52 +16,58 @@
  MYS_royal_monarchy_party:0 "Waddles Rule"
  MYS_military_rule_party:0 "Dipper Regime"
  
- GTF_fascism_party:0 "Stan-For-Mayor Party"
- GTF_communism_party:0 "Teenage Revolt"
+ GTF_authoritarianism_party:0 "Gideon Takeover"
+ GTF_anarchist_party:0 "Teenager Revolt"
  GTF_democratic_party:0 "Gravity Falls Town Council"
- GTF_neutrality_party:0 "Society of the Blind Eye"
+ GTF_oligarchy_party:0 "Blind Eye Society"
+ GTF_royal_monarchy_party:0 "Gnome Infiltration"
+ GTF_military_rule_party:0 "Sheriff Department"
  
- NRW_fascism_party:0 "Preston Takeover"
- NRW_communism_party:0 "I.W.G.F."
- NRW_democratic_party:0 "Northwest Trust"
- NRW_neutrality_party:0 "Board of Directors"
+ NRW_authoritarianism_party:0 "Preston's Hostile Takeover"
+ NRW_anarchist_party:0 "I.W.G.F."
+ NRW_democratic_party:0 "Northwest Foundation"
+ NRW_oligarchy_party:0 "Board of Directors"
+ NRW_royal_monarchy_party:0 "Pacifica's Hostile Takeover"
+ NRW_military_rule_party:0 "Parson's Hostile Takeover"
  
  ################################################################
  
- ORE_fascism_party:0 "Outback Boys"
- ORE_communism_party:0 "Willamette Workers Union"
+ ORE_authoritarianism_party:0 "FPI: Chiu Loyalist"
+ ORE_anarchist_party:0 "Willamette Workers Union"
  ORE_democratic_party:0 "Oregon New Democratic-Republicans"
+ ORE_oligarchy_party:0 "Cascadia Council"
+ ORE_royal_monarchy_party:0 "Cascadia Council"
+ ORE_military_rule_party:0 "Oregon National Guard"
  ORE_democratic_party_trembley:0 "National Eccentric Democratic-Republicans"
- ORE_neutrality_party:0 "Cascadia Council"
  
- WAS_fascism_party:0 "Outback Boys"
- WAS_communism_party:0 "Seattle Commune Council"
+ WAS_authoritarianism_party:0 "Cascadia League"
+ WAS_anarchist_party:0 "Seattle Commune"
  WAS_democratic_party:0 "Washington New Democratic-Republicans"
- WAS_neutrality_party:0 "Cascadia Counil"
+ WAS_oligarchy_party:0 "Cascadia Council"
+ WAS_royal_monarchy_party:0 "Washington Royalist"
+ WAS_military_rule_party:0 "Washington National Guard"
  
- CAL_fascism_party:0 "Imperial State"
- CAL_communism_party:0 "California Socialist Party"
+ CAL_authoritarianism_party:0 "Traditional NDR Bloc"
+ CAL_anarchist_party:0 "Progressive NDR Bloc"
  CAL_democratic_party:0 "NorCal New Democratic-Republicans"
+ CAL_oligarchy_party:0 "SoCal NDR Bloc"
+ CAL_royal_monarchy_party:0 "Imperial State"
+ CAL_military_rule_party:0 "Californian National Guard"
  CAL_democratic_party_norton:0 "Imperial Democratic-Republicans"
- CAL_neutrality_party:0 "SoCal New Democratic-Republicans"
  
- SOC_fascism_party:0 "Orange League"
- SOC_communism_party:0 "California Socialist Party"
+ SOC_authoritarianism_party:0 "Orange League"
+ SOC_anarchist_party:0 "California Socialist Party"
  SOC_democratic_party:0 "SoCal New Democratic-Republicans"
- SOC_neutrality_party:0 "Guzman Loyalist"
+ SOC_oligarchy_party:0 "FPI: Diaz-Guzman Loyalist"
+ SOC_royal_monarchy_party:0 "Imperial State"
+ SOC_military_rule_party:0 "Californian National Guard"
  
  EUS_democratic_party:0 "New Democratic-Republican Party"
  EUS_anarchist_party:0 "American Communist Party"
  EUS_authoritarianism_party:0 "Curtis Administration"
- EUS_military_rule_party:0 "National Eccentric Party"
- 
- MEX_fascism_party:0 "Partido Mexico Grande"
- MEX_communism_party:0 "Consejo Revolucionario"
- MEX_democratic_party:0 "Viejo Orden"
- MEX_democratic_party_election:0 "Partido Cordura"
- MEX_neutrality_party:0 "Colaboradores de la Unión Europea"
- 
- GEU_democratic_party:0 "European Occupational Government"
+ EUS_oligarchy_party:0 "Cognito Inc"
+ #EUS_royal_monarchy_party:0 "Imperial State"
+ EUS_military_rule_party:0 "Joint Chiefs of Staff"
  
  EPI_fascism_party:0 "Huckabone Loyalist"
  EPI_communism_party:0 "Inter-Dimensional KGB"
@@ -73,12 +79,29 @@
  WPI_democratic_party:0 "Agent C Loyalist"
  WPI_neutrality_party:0 "Director A Loyalist"
  
- CAN_fascism_party:0 "Canadian Nationalist"
- CAN_communism_party:0 "Revolutionary Party"
- CAN_democratic_party:0 "Liberal-Consevative Coalition"
- CAN_neutrality_party:0 "Immortal Queen's Royal Mandate"
+ MEX_authoritarianism_party:0 "Partido Mexico Grande"
+ MEX_anarchist_party:0 "Consejo Revolucionario"
+ MEX_democratic_party:0 "Viejo Orden"
+ MEX_oligarchy_party:0 "Colaboradores de la Unión Europea"
+ MEX_royal_monarchy_party:0 "Colaboradores de la Unión Europea"
+ MEX_military_rule_party:0 "Colaboradores de la Unión Europea"
+ MEX_democratic_party_election:0 "Partido Cordura"
+ 
+ CAN_authoritarianism_party:0 "Canadian Nationalist"
+ CAN_anarchist_party:0 "Revolutionary Party"
+ CAN_democratic_party:0 "Liberal-Conservative Coalition"
+ CAN_oligarchy_party:0 "MI-13 Direct Rule"
+ CAN_royal_monarchy_party:0 "Immortal Queen's Royal Mandate"
+ CAN_military_rule_party:0 "Royal Mountie Rule"
  CAN_democratic_party_kerfuffle:0 "B.C. Emergency Government"
  
+ GEU_authoritarianism_party:0 "European Occupational Government"
+ GEU_anarchist_party:0 "European Occupational Government"
+ GEU_democratic_party:0 "European Occupational Government"
+ GEU_oligarchy_party:0 "European Occupational Government"
+ GEU_royal_monarchy_party:0 "European Occupational Government"
+ GEU_military_rule_party:0 "European Occupational Government"
+
  GNM_fascism_party:0 "Dark Jeff's Influence"
  GNM_communism_party:0 "Gnome Revolution"
  GNM_democratic_party:0 "United Gnome Party"
@@ -99,9 +122,12 @@
  MAN_neutrality_party:0 "Military Influence"
  MAN_fascism_womantaur_party:0 "Womantaur's Rule"
  
- 
- 
- 
+ ###_authoritarianism_party:0 ""
+ ###_anarchist_party:0 ""
+ ###_democratic_party:0 ""
+ ###_oligarchy_party:0 ""
+ ###_royal_monarchy_party:0 ""
+ ###_military_rule_party:0 ""
  
  ##################################################################
  #Earth SUBIDEOLOGIES

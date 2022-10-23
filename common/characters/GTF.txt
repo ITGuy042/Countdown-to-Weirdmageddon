@@ -9,7 +9,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_HUCKABONE_DESC"
-			ideology = conservatism
+			ideology = social_conservative_democratic_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -24,7 +24,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = liberalism
+			desc = social_conservative_democratic_subtype
 			ideology = l
 			expire = "2040.1.1.1"
 			id = -1
@@ -41,7 +41,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = despotism_authoritarianism_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -73,7 +73,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = anarchist_communism
+			ideology = none_libertarianism_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -89,7 +89,23 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = pluralism_royal_monarchy_subtype
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
+	GTF_blind_eye = {
+		name = "Blind Eye Committee" 
+		desc = ""
+		portraits = {
+			civilian = {
+				#large = ""
+				#small = "GFX_idea_advisor_soos"
+			}
+		}
+		country_leader = {
+			ideology = secret_council_oligarchy_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -103,6 +119,11 @@ characters = {
 				large = "GFX_leaders_blubs"
 				#small = "GFX_idea_dipper_1"
 			}
+		}
+		country_leader = {
+			ideology = mil_junta_military_rule_subtype
+			expire = "2040.1.1.1"
+			id = -1
 		}
 		advisor={
 			slot = political_advisor

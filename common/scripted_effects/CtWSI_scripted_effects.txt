@@ -1,0 +1,37 @@
+CtWSI_remove_dynamic_modifiers = {
+	
+	if = { 
+		limit = { has_dynamic_modifier = { modifier = CtWSI_CONSERVATISM }	}	
+		remove_dynamic_modifier = { modifier = CtWSI_CONSERVATISM }
+	}
+	if = {
+		limit = { has_dynamic_modifier = { modifier = CtWSI_LIBERALISM }	}
+		remove_dynamic_modifier = { modifier = CtWSI_LIBERALISM }
+	}
+	if = {
+		limit = { has_dynamic_modifier = { modifier = CtWSI_SOCIALISM }	}
+		remove_dynamic_modifier = { modifier = CtWSI_SOCIALISM }
+	}
+
+}
+
+#####################################################################
+
+CtWSI_add_dynamic_modifiers = {
+
+	if = {
+		limit = { has_country_leader_ideology = social_conservative_democratic_subtype}		
+		add_dynamic_modifier = { modifier = CtWSI_CONSERVATISM }
+	}
+	
+	if = {
+		limit = { has_country_leader_ideology = social_liberal_democratic_subtype}	
+		add_dynamic_modifier = { modifier = CtWSI_LIBERALISM }
+	}
+	
+	if = {
+		limit = { has_country_leader_ideology = collective_council_democratic_subtype}	
+		add_dynamic_modifier = { modifier = CtWSI_SOCIALISM }
+	}
+
+}

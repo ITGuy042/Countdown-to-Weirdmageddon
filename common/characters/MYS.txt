@@ -151,6 +151,12 @@ characters = {
 				small = "GFX_idea_dipper_1"
 			}
 		}
+		country_leader = {
+			ideology = mil_junta_military_rule_subtype
+			#traits = {  }
+			expire = "2040.1.1.1"
+			id = -1
+		}
 		advisor={
 			slot = political_advisor
 			idea_token = advisor_dipper_1

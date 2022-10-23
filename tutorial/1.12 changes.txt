@@ -1,0 +1,24 @@
+-The most basic thing is the error log and debug mode. See the !debug Dyno command for how to turn it on and what it does, with the error log appearing with it being turned on.
+-An error can be unclear on which file it originates from, and searching every text file can be useful. The !search_in_files command provides details on how to do so and on speeding it up by introducing filters.
+-If the game crashes, the error log isn't always helpful. If the Failed to load the map pop-up appears, then make sure debug mode is turned on: the popup never appears with it turned on, and it being turned off prevents the errors from being logged. For other crashes, check the crash data log, with !crash_data_log for more info.
+
+Regarding edits to specific folders:
+-If the mod edits states (without a replace_path), then it's likely they can be needed to be merged with base game states or just adjusted in general. For the player's experience, it is best to keep the 1.12's states. For doing so:
+--If there is any state that takes up the same provinces as a new state, you can just delete the mod's state.
+--If a mod's state overlaps in ID with a base game state, change its ID (id = 123 within) to the last one (or to fill some gaps created by the former step)
+--If, after doing all this, there are gaps in state IDs, change the IDs of the last states (e.g. 999 to 50 if there is no 1000 or larger) to fill the gaps.
+--After doing all this, check every text file in the mod (!search_in_files Dyno command for more info, once again) for any state IDs that you've changed and adjust the code accordingly
+-If the mod edits defines, then make sure an override file is used as in https://hoi4.paradoxwikis.com/Defines#Overrides. If it isn't, you can note the changes compared to base game and recreate them, deleting the mod's 00_defines.lua
+
+In regards to information more specific to 1.12, check the patch notes on https://forum.paradoxplaza.com/forum/threads/avalanche-1-12-1-by-blood-alone-checksum-45c2.1544707/. In particular, the important modding notes section consists of the following:
+
+-Custom implementations of frontendgamesetupview.gui now requires implementation of the random nation button previously in gamesetup_pick_random_country_window.gui. [This causes a crash in main menu loading if not adjusted.]
+-Carriers in history files should not have air wings defined. These are now defined in the new air OOBs. [This causes a crash in main menu loading if not adjusted.]
+-peace_summary_popup_window in popupwindow.gui has changed and needs to be updated to fit the new template. [This causes a crash on peace conference if not adjusted.]
+-common\ai_peace folder no longer exists. It totally reworked and now part of the common\peace_conference folder. Any AI logic around peace conferences will need reworking.
+-Some GFX in the officer corps window has been relocated, and will require updating for custom implementations
+-Battle Plan names are added in the names\00_names.txt file.
+-GFX for aircraft are now defined in the same way as GFX for tanks in NSB.
+-There has been a total of 74 states added. Numbers 835 to 908.
+-47 new strategic regions have been added numbered 228-274.
+-Many existing states and strategic regions have been altered

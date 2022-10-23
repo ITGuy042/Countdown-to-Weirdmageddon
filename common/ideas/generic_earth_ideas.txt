@@ -7,7 +7,7 @@ ideas = {
 	######################################################
 	country = {
 		state_national_guard = {
-			picture = tfv_can_conscription_crisis
+			picture = FRA_factory_strikes
 			
 			allowed = {}
 			available = {}
@@ -23,7 +23,7 @@ ideas = {
 			}
 		}
 		state_interstate_gone = {
-			picture = usa_great_depression_3
+			picture = FRA_factory_strikes
 			
 			allowed = {}
 			available = {}
