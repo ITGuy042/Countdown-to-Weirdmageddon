@@ -5,11 +5,21 @@
 
 # Starting tech
 set_technology = {
+
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	infantry_weapons3 = 1
+	infantry_weapons4 = 1
 	tech_support = 1
 	tech_recon = 1
 	support_weapons = 1
 	gw_artillery = 1
+	
+	#Support Tech
+	basic_roads = 1
+	basic_wagon = 1
+	basic_train = 1
 
 	#doctrines
 	air_superiority = 1
@@ -60,8 +70,11 @@ set_politics = {
 
 set_popularities = {
 	democratic = 80
-	communism = 15
-	fascism = 5
+	anarchist = 5
+	oligarchy = 15
+	authoritarianism = 0
+	royal_monarchy = 0
+	military_rule = 0
 }
 
 

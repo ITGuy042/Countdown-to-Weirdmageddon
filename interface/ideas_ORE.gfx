@@ -20,36 +20,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ore/idea_Northwest_Ore.dds"			
 	}
 	
-	SpriteType = {
-		name = "GFX_idea_ORE_frontier_spirit"
-		texturefile = "gfx/interface/ideas/ore/ORE_frontier_spirit.dds"			
-	}
-	
-	SpriteType = {
-		name = "GFX_idea_ORE_frontier_spirit_2"
-		texturefile = "gfx/interface/ideas/ore/ORE_frontier_spirit_2.dds"			
-	}
-	
-	SpriteType = {
-		name = "GFX_idea_ORE_frontier_spirit_3"
-		texturefile = "gfx/interface/ideas/ore/ORE_frontier_spirit_3.dds"			
-	}
-	
-	SpriteType = {
-		name = "GFX_idea_ORE_frontier_spirit_4"
-		texturefile = "gfx/interface/ideas/ore/ORE_frontier_spirit_4.dds"			
-	}
-	
-	SpriteType = {
-		name = "GFX_idea_ORE_reformed_national_guard"
-		texturefile = "gfx/interface/ideas/ore/ORE_reformed_national_guard.dds"			
-	}
-	
-	SpriteType = {
-		name = "GFX_idea_ORE_rally_to_the_west"
-		texturefile = "gfx/interface/ideas/ore/ORE_rally_to_the_west.dds"			
-	}
-
 
 	
 	

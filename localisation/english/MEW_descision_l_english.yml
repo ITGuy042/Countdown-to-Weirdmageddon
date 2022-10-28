@@ -158,12 +158,12 @@ mew_trad_opinion_increase_1:0 "Hold Speeches and Rallies"
 mew_prog_opinion_increase_1:0 "Employ Foreign Expertise"
 
 mew_post_ludo_reunification:0 "Reunification"
-mew_post_ludo_reunification_desc:0 ""
+mew_post_ludo_reunification_desc:0 "The grand kingdom that once spanned across Mewni has splintered in the wake of the Battle for Mewni. We must now reunite Mewni and rebuild the kingdom."
 mew_luc_force_ally:0 "Pressure the Lucitors"
 mew_pig_force_ally:0 "Pressure the Pigeons"
 mew_pny_force_ally:0 "Pressure the Ponyheads"
 mew_spi_force_ally:0 "Pressure the Spiderbites"
-mew_jag_force_ally:0 "Pressure the Jaggys"
+mew_jag_force_ally:0 "Pressure the Jaggys" 
 
 #################################
 

@@ -4,10 +4,18 @@
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	infantry_weapons3 = 1
+	infantry_weapons4 = 1
+	infantry_weapons5 = 1
 	tech_support = 1
 	tech_recon = 1
 	support_weapons = 1
 	gw_artillery = 1
+	
+	# Support Tech
+	basic_roads = 1
+	basic_wagon = 1
 	
 	#airplanes
 	early_fighter = 1
@@ -63,9 +71,12 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 90
-	communism = 5
-	fascism = 5
+	democratic = 85
+	anarchist = 3
+	oligarchy = 5
+	authoritarianism = 2
+	royal_monarchy = 0
+	military_rule = 5
 }
 
 recruit_character = GTF_stan_pines
@@ -73,5 +84,6 @@ recruit_character = GTF_huckabone
 recruit_character = GTF_bud_gleeful
 recruit_character = GTF_robbie_valentine
 recruit_character = GTF_tod_strange
+recruit_character = GTF_blind_eye
 recruit_character = GTF_daryl_blubs
 recruit_character = GTF_edwin_durland

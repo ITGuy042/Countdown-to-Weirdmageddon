@@ -7,11 +7,26 @@ country_event = { id = MEX_DRUMPF.1 days = 70 } #Mexican Elections Event
 
 # Starting tech
 set_technology = {
+	
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	infantry_weapons3 = 1
+	infantry_weapons4 = 1
+	infantry_weapons5 = 1
+	infantry_weapons6 = 1
+	infantry_weapons7 = 1
+	infantry_weapons8 = 1
+	infantry_weapons9 = 1
 	tech_support = 1
 	tech_recon = 1
 	support_weapons = 1
 	gw_artillery = 1
+	
+	# Support Tech
+	basic_roads = 1
+	basic_wagon = 1
+	basic_train = 1
 
 	#doctrines
 	air_superiority = 1
@@ -60,29 +75,31 @@ set_politics = {
 
 set_popularities = {
 	democratic = 50
-	communism = 5
-	fascism = 40
-	neutrality = 5
+	anarchist = 10
+	oligarchy = 5
+	authoritarianism = 20
+	royal_monarchy = 5
+	military_rule = 10
 }
 
 create_country_leader = {
 	name = "José Luis Méndez"
 	desc = "POLITICS_MENDEZ_DESC"
 	picture = "gfx/leaders/EPI/hoi4_portrait_FPI_HOLDER.dds"
-	ideology = conservatism #liberalism
+	ideology = social_conservative_democratic_subtype #liberalism
 }
 
 #create_country_leader = {
 #	name = "Eduardo Diaz"
 #	desc = "placeholder"
 #	picture = "hoi4_portrait_Eduardo_Diaz.dds"
-#	ideology = liberalism #conservatism
+#	ideology = social_liberal_democratic_subtype #conservatism
 #}
 
 #create_country_leader = {
 #	name = "Danni Drumpf"
 #	desc = "placeholder"
 #	picture = ""
-#	ideology = fascism_ideology #conservatism
+#	ideology = despotism_authoritarianism_subtype #conservatism
 #}
 

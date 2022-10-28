@@ -237,6 +237,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_cat_ARAT.dds"
 	}
 	
+	spriteType = { # Decisions Ost Strike
+		name = "GFX_decision_category_ost_strike"
+		texturefile = "gfx/interface/decisions/decision_cat_ost_strike.dds"
+	}
+	
+	spriteType = { # Decisions War Roads
+		name = "GFX_decision_category_mewni_roads"
+		texturefile = "gfx/interface/decisions/decision_cat_mewni_roads.dds"
+	}
+	
+	spriteType = { # Decisions suppress
+		name = "GFX_decision_category_peaceful_suppress"
+		texturefile = "gfx/interface/decisions/decision_cat_peaceful_suppress.dds"
+	}
+	
+	spriteType = { # Decisions suppress
+		name = "GFX_decision_category_hostile_suppress"
+		texturefile = "gfx/interface/decisions/decision_cat_hostile_suppress.dds"
+	}
+	
+	spriteType = { # Decisions unite mewni
+		name = "GFX_decision_category_reunify_mewni"
+		texturefile = "gfx/interface/decisions/decision_cat_reunify_mewni.dds"
+	}
+	
    #############################################################
    #  Special GIF Event image
    #############################################################

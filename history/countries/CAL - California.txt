@@ -36,10 +36,12 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 80
-	communism = 10
-	fascism = 5
-	neutrality = 5
+	democratic = 70
+	anarchist = 10
+	oligarchy = 5
+	authoritarianism = 5
+	royal_monarchy = 5
+	military_rule = 5
 }
 
 
@@ -49,8 +51,8 @@ recruit_character = CAL_emily_pines
 recruit_character = CAL_joshua_norton_v1
 recruit_character = CAL_joshua_norton_v2
 recruit_character = CAL_hector_diaz_north
-recruit_character = CAL_carman_evertt_social
-recruit_character = CAL_carman_evertt_auto
+recruit_character = CAL_carman_evertt
+recruit_character = CAL_arthur_waybright
 recruit_character = CAL_general_1
 recruit_character = CAL_general_2
 recruit_character = CAL_general_3
@@ -96,6 +98,8 @@ set_technology = {
 	tech_field_hospital = 1
 
 	basic_roads = 1
+	basic_wagon = 1
+	basic_train = 1
 	wartime_train = 1
 	
 	#Artillery

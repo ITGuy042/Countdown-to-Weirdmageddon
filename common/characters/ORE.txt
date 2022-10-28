@@ -9,7 +9,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ONYX_DESC"
-			ideology = liberalism
+			ideology = social_liberal_democratic_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -26,7 +26,7 @@ characters = {
 		
 		country_leader = {
 			desc = ""
-			ideology = conservatism
+			ideology = social_conservative_democratic_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -43,7 +43,7 @@ characters = {
 
 		country_leader = {
 			desc = ""
-			ideology = conservatism
+			ideology = communalist_authoritarianism_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -61,6 +61,23 @@ characters = {
 		}
 	}
 	
+	ORE_oregon_assembley = {
+		name = "The Oregon Assembly" 
+		
+		portraits = {
+			civilian = {
+				#large = "GFX_leaders_andrew_chiu"
+			}
+		}
+
+		country_leader = {
+			desc = ""
+			ideology = oligarchy_generic_oligarchy_subtype
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
 	ORE_parson_northwest = {
 		name = "Parson Northwest" 
 
@@ -69,7 +86,12 @@ characters = {
 				large = "GFX_leaders_parson_northwest"
 			}
 		}
-		
+		country_leader = {
+			desc = ""
+			ideology = mil_junta_military_rule_subtype
+			expire = "2040.1.1.1"
+			id = -1
+		}
 		field_marshal = {
 			desc = "MILITARY_PARSON_NORTHWEST_DESC"
 			traits = { career_officer commando inspirational_leader }

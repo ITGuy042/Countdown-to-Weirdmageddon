@@ -1,5 +1,24 @@
 ﻿l_english:
 
+ ###_democratic:0 "FILLER"
+ ###_democratic_DEF:0 "FILLER"
+ ###_democratic_ADJ:0 "FILLER"
+ ###_authoritarianism:0 "FILLER"
+ ###_authoritarianism_DEF:0 "FILLER"
+ ###_authoritarianism_ADJ:0 "FILLER"
+ ###_anarchist:0 "FILLER"
+ ###_anarchist_DEF:0 "FILLER"
+ ###_anarchist_ADJ:0 "FILLER"
+ ###_oligarchy:0 "FILLER"
+ ###_oligarchy_DEF:0 "FILLER"
+ ###_oligarchy_ADJ:0 "FILLER"
+ ###_royal_monarchy:0 "FILLER"
+ ###_royal_monarchy_DEF:0 "FILLER"
+ ###_royal_monarchy_ADJ:0 "FILLER"
+ ###_military_rule:0 "FILLER"
+ ###_military_rule_DEF:0 "FILLER"
+ ###_military_rule_ADJ:0 "FILLER"
+
 ###########################################################
 #Mewni 
  MEW_royal_monarchy:0 "Butterfly Kingdom"
@@ -17,7 +36,7 @@
  PNY_royal_monarchy:0 "Ponyhead Kingdom"
  PNY_royal_monarchy_DEF:0 "Ponyhead Kingdom"
  PNY_royal_monarchy_ADJ:0 "Ponyhead Kingdom"
- 
+  
  SPI_royal_monarchy:0 "Spiderbite Kingdom"
  SPI_royal_monarchy_DEF:0 "Spiderbite Kingdom"
  SPI_royal_monarchy_ADJ:0 "Spiderbite Kingdom"

@@ -12,7 +12,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_GREEN_DESC"
-			ideology = liberalism
+			ideology = CAL_NOR_democratic_subtype
 			traits = { cal_longtime_governor }
 			expire = "2040.1.1.1"
 			id = -1
@@ -28,7 +28,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = CAL_IMP_democratic_subtype
 			traits = { cal_imperial_governor_1 }
 			expire = "2040.1.1.1"
 			id = -1
@@ -58,7 +58,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = CAL_IMP_democratic_subtype
 			#traits = { cal_imperial_governor_2 }
 			expire = "2040.1.1.1"
 			id = -1
@@ -86,6 +86,13 @@ characters = {
 			civilian = {
 				large = "GFX_leaders_shermie_pines"
 			}
+		}
+
+		country_leader = {
+			ideology = mil_junta_military_rule_subtype
+			#traits = { cal_imperial_governor_2 }
+			expire = "2040.1.1.1"
+			id = -1
 		}
 
 		field_marshal = {
@@ -156,7 +163,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = oligarchy_generic_oligarchy_subtype
 			traits = { cal_southern_governor }
 			expire = "2040.1.1.1"
 			id = -1
@@ -191,7 +198,7 @@ characters = {
 		}
 	}
 	
-	CAL_carman_evertt_social = {
+	CAL_carman_evertt = {
 		name = "Carman Evertt" 
 		desc = ""
 		portraits = {
@@ -200,14 +207,14 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = anarchist_communism
+			ideology = anarcho_capitalism_libertarianism_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}
 	}
 	
-	CAL_carman_evertt_auto = {
-		name = "Carman Evertt" 
+	CAL_arthur_waybright = {
+		name = "Arthur Waybright" 
 		desc = ""
 		portraits = {
 			civilian = {
@@ -215,7 +222,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = democratic_authoritarianism_subtype
 			expire = "2040.1.1.1"
 			id = -1
 		}

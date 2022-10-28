@@ -30,14 +30,18 @@ set_politics = {
 
 set_popularities = {
 	democratic = 80
-	communism = 15
-	fascism = 5
+	anarchist = 5
+	oligarchy = 5
+	authoritarianism = 10
+	royal_monarchy = 0
+	military_rule = 0
 }
 
 recruit_character = ORE_amelia_onyx
 recruit_character = ORE_quentin_trembley
 recruit_character = ORE_andrew_chiu
 recruit_character = ORE_parson_northwest
+recruit_character = ORE_oregon_assembley
 recruit_character = ORE_general_1
 recruit_character = ORE_general_2
 recruit_character = ORE_general_3
@@ -82,6 +86,8 @@ set_technology = {
 	tech_field_hospital = 1
 
 	basic_roads = 1
+	basic_wagon = 1
+	basic_train = 1
 	wartime_train = 1
 	
 	#Artillery

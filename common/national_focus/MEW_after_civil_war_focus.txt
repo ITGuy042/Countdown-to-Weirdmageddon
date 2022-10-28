@@ -4,6 +4,7 @@
 	country = {
 		factor = 0
 		modifier = {
+			add = 0
 			tag = MEW
 		}
 	}

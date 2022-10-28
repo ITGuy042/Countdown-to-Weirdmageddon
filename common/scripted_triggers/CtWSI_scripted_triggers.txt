@@ -1,0 +1,20 @@
+CtWSI_check_govt_ideology = {
+	any_country = {
+		OR = {
+		
+			AND = {
+				has_dynamic_modifier = { modifier = CtWSI_CONSERVATISM }
+				NOT = { has_country_leader_ideology = social_conservative_democratic_subtype}
+			}
+			AND = {
+				has_dynamic_modifier = { modifier = CtWSI_LIBERALISM }
+				NOT = {	has_country_leader_ideology = social_liberal_democratic_subtype}
+			}
+			AND = {
+				has_dynamic_modifier = { modifier = CtWSI_SOCIALISM }
+				NOT = {	has_country_leader_ideology = collective_council_democratic_subtype}
+			}
+			
+		}
+	}
+}
