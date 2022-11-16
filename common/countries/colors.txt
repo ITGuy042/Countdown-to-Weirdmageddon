@@ -418,7 +418,7 @@ MON = {
 WYM = { 
 	color = rgb { 150 102 50 }
 	color_ui = rgb { 150 102 50 }
-}
+} 
 #-------------------------------
 CIA = { 
 	color = rgb { 60 60 60 }
@@ -439,6 +439,13 @@ AMP = {
 	color_ui = rgb { 0 130 127 }
 }
 
+WRT = { 
+	color = rgb { 0 255 127 }
+	color_ui = rgb { 0 255 127 }
+}
+
+
+#-------------------------------
 #Boiling Isles
 BOI = { 
 	color = rgb { 176 143 38 }

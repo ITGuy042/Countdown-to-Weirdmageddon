@@ -1,9 +1,9 @@
 ﻿l_english:
-  #Mewni###############################################################
+ # Mewni Nation Party Names###############################################################
  
  MEW_authoritarianism_party:0 "Neo Solarian Bloc"
- MEW_anarchist_party:0 "Peasant Council"
- MEW_democratic_party:0 "Magic High Commision"
+ MEW_anarchist_party:0 "Peasant Worker's Union"
+ MEW_oligarchy_party:0 "Magic High Commision"
  MEW_royal_monarchy_party:0 "House Butterfly"
  MEW_military_rule_party:0 "Military Influence"
  
@@ -30,4 +30,22 @@
  HGH_authoritarianism_nazism_long_party:0 "National Socialist Deutsche Ar-bitters Party"
  
  MHC_cosmia_party:0 "Cruel Fist of Cosmia"
+ 
+ mewman_liberalism_democratic_subtype:0 ""
+ mewman_conservatism_democratic_subtype:0 ""
+ 
+ peasant_revolt_libertarianism_subtype:0 ""
+ 
+ ##################################################################
+ #Mewni Subtypes
+ ##################################################################
+ 
+ pluralism_royal_monarchy_subtype:0 "Pluralism"
+ pluralism_royal_monarchy_subtype_desc:0 "Pluralism is a political system in which two or more states coexist as a mostly unified political entity."
+ 
+ jushtinian_pluralism_royal_monarchy_subtype:0 "Jushtinian Pluralism"
+ jushtinian_pluralism_royal_monarchy_subtype_desc:0 "Pluralism is a political system in which two or more states coexixst as a mostly unified political entity. Under Jushtinian Pluralism, the Butterfly Kingdom is the central authority which governs the many other Kingdoms throughout Mewni.\n\nJushtinian Pluralism originated during the reign of Solaria Butterfly. Spearheaded by Jushtin Butterfly, the political system was originally created to make Mewmanization in conquered lands more efficient by placating local monsters. However, over the years the system has become more of a tool to better manage the vast lands of the §CKingdom of Mewni§! and it has abandoned it's Mewman spreading past."
+ 
+ eclipsan_liberalism_royal_monarchy_subtype:0 ""
+ eclipsan_liberalism_royal_monarchy_subtype_desc:0 ""
  

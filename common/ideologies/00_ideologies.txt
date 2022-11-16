@@ -3,7 +3,7 @@ ideologies = {
 # Ideology name for quick copy
 # democratic
 # anarchist
-# oligarchy
+# oligarchy 
 # authoritarianism
 # royal_monarchy
 # military_rule
@@ -13,6 +13,8 @@ ideologies = {
 		types = {
 			social_liberal_democratic_subtype = {}
 			social_conservative_democratic_subtype = {}
+			collective_council_democratic_subtype = { can_be_randomly_selected = no }
+			parliamentary_democratic_subtype = { can_be_randomly_selected = no } # "can_be_randomly_selected = no" has to be manually chosen
 			#
 			US_democratic_subtype = { can_be_randomly_selected = no }
 			US_FALL_democratic_subtype = { can_be_randomly_selected = no }
@@ -27,8 +29,6 @@ ideologies = {
 			WAS_democratic_subtype = { can_be_randomly_selected = no }
 			TEX_democratic_subtype = { can_be_randomly_selected = no }
 			#
-			collective_council_democratic_subtype = { can_be_randomly_selected = no }
-			parliamentary_democratic_subtype = { can_be_randomly_selected = no } # "can_be_randomly_selected = no" has to be manually chosen
 			mewman_liberalism_democratic_subtype = { can_be_randomly_selected = no }
 			mewman_conservatism_democratic_subtype = { can_be_randomly_selected = no }
 			colonial_government_democratic_subtype = { can_be_randomly_selected = no }
@@ -94,6 +94,7 @@ ideologies = {
 			communalist_authoritarianism_subtype = {}
 			despotism_authoritarianism_subtype = {}
 			council_authoritarianism_subtype = {}
+			#
 			school_staff_structure_authoritarianism_subtype = { can_be_randomly_selected = no }
 			business_structure_authoritarianism_subtype = { can_be_randomly_selected = no }
 			technocracy_authoritarianism_subtype = { can_be_randomly_selected = no }
@@ -160,6 +161,7 @@ ideologies = {
 			feudalism_royal_monarchy_subtype = {}
 			kingdom_royal_monarchy_subtype = { can_be_randomly_selected = no }
 			queendom_royal_monarchy_subtype = { can_be_randomly_selected = no }
+			#
 			pluralism_royal_monarchy_subtype = { can_be_randomly_selected = no }
 			tsarist_royal_monarchy_subtype = { can_be_randomly_selected = no }
 			kaiserist_royal_monarchy_subtype = { can_be_randomly_selected = no }
@@ -187,12 +189,15 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
+	####################################
+	
 	military_rule = {
 		types = {
 			mil_junta_military_rule_subtype = {}
 			mil_command_structure_military_rule_subtype = { can_be_randomly_selected = no }
-			fanatic_mil_junta_military_rule_subtype = { can_be_randomly_selected = no }
 			colonial_government_military_rule_subtype = { can_be_randomly_selected = no }
+			#
+			fanatic_mil_junta_military_rule_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 0 130 0 } # Dark Green

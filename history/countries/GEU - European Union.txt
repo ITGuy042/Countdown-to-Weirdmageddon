@@ -1,5 +1,5 @@
 ﻿capital = 254
-
+ 
 set_research_slots = 6
 set_convoys = 10
 set_stability = 1
@@ -13,17 +13,19 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 70
-	neutrality = 10
-	communism = 10
-	fascism = 10
+	democratic = 75
+	anarchist = 5
+	oligarchy = 5
+	authoritarianism = 5
+	royal_monarchy = 5
+	military_rule = 5
 }
 
 create_country_leader = {
 	name = "Karolina Küchler"
 	desc = "POLITICS_KUCHLER_DESC"
 	picture = ""
-	ideology = conservatism #liberalism
+	ideology = social_conservative_democratic_subtype #liberalism
 }
 
 

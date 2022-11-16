@@ -1,0 +1,38 @@
+﻿capital = 267
+
+
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.60
+set_war_support = 0.40
+
+set_politics = {
+	ruling_party = oligarchy
+	last_election = "1990.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	royal_monarchy = 10
+	authoritarianism = 5
+	democratic = 25
+	anarchist = 5
+	military_rule = 0
+	oligarchy = 55
+}
+
+recruit_character = AMP_andrias
+
+set_technology = {
+	
+	industrial_progress_check = 1
+	modern_progress_check = 1
+	
+	#infantry folder
+	infantry_weapons = 1
+	
+	#
+	mounted_infantry = 1
+
+}

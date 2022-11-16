@@ -1,10 +1,20 @@
-﻿l_english:
+﻿l_english: 
+ 
+ # _authoritarianism_party:0 ""
+ # _anarchist_party:0 ""
+ # _democratic_party:0 ""
+ # _oligarchy_party:0 ""
+ # _royal_monarchy_party:0 ""
+ # _military_rule_party:0 ""
+ 
  #Earth ################################################################ 
  
- MYS_fascism_party:0 "Stan Management"
- MYS_communism_party:0 "Wendy's Rule"
+ MYS_authoritarianism_party:0 "Stan Management"
+ MYS_anarchist_party:0 "Wendy's Rule"
  MYS_democratic_party:0 "The Mabel Difference"
- MYS_neutrality_party:0 "Soos Managment"
+ MYS_oligarchy_party:0 "Soos Management"
+ MYS_royal_monarchy_party:0 "Waddles Rule"
+ MYS_military_rule_party:0 "Dipper Regime"
  
  GTF_fascism_party:0 "Stan-For-Mayor Party"
  GTF_communism_party:0 "Teenage Revolt"
@@ -40,10 +50,10 @@
  SOC_democratic_party:0 "SoCal New Democratic-Republicans"
  SOC_neutrality_party:0 "Guzman Loyalist"
  
- EUS_fascism_party:0 "Curtis Administration"
- EUS_communism_party:0 "American Communist Party"
  EUS_democratic_party:0 "New Democratic-Republican Party"
- EUS_neutrality_party:0 "National Eccentric Party"
+ EUS_anarchist_party:0 "American Communist Party"
+ EUS_authoritarianism_party:0 "Curtis Administration"
+ EUS_military_rule_party:0 "National Eccentric Party"
  
  MEX_fascism_party:0 "Partido Mexico Grande"
  MEX_communism_party:0 "Consejo Revolucionario"
@@ -87,8 +97,30 @@
  MAN_communism_party:0 "Anarchic Chaos"
  MAN_democratic_party:0 "Chutzpar's Rule"
  MAN_neutrality_party:0 "Military Influence"
- 
  MAN_fascism_womantaur_party:0 "Womantaur's Rule"
+ 
+ 
+ 
+ 
+ 
+ ##################################################################
+ #Earth SUBIDEOLOGIES
+ 
+ #Democracy
+ US_democratic_subtype:0 "American Democracy"
+ US_FALL_democratic_subtype:0 "Post-Collapse Democracy"
+ EU_democratic_subtype:0 "European Democracy"
+ IC_democratic_subtype:0 "Commonwealth Democracy"
+ IC_VIC_democratic_subtype:0 "Canadian Remnant Democracy"
+ CAL_NOR_democratic_subtype:0 "Northern Californian Democracy"
+ CAL_SOC_democratic_subtype:0 "Southern Californian Democracy"
+ CAL_IMP_democratic_subtype:0 "Imperial Californian Democracy"
+ ORE_democratic_subtype:0 "Oregonian Democracy"
+ ORE_TREM_democratic_subtype:0 "Trembley Federalist Democracy"
+ WAS_democratic_subtype:0 "Washingtonian Democracy"
+ TEX_democratic_subtype:0 "Texan Democracy"
+ 
+ ##################################################################
 
  
  

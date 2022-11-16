@@ -1,0 +1,92 @@
+guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE ##########
+############### THIS FILE DEFINES THE SHAPE, FORM, AND TEXT OF THE GUI FOR THE SUPEREVENT
+	
+	containerWindowType = {
+		name = "CTW_SUPEREVENT_window"
+		size = { width = 960 height = 540 }
+		position = { x= 0 y= 0 }
+		Orientation = center
+		Origo = center
+		moveable = yes
+		clipping = no
+		show_sound = test_sound_bigevent 
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_super_frame"
+		}
+		
+		iconType = {
+			name = super_event_image
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name ="super_event_frame"
+			spriteType = "GFX_super_frame"
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes				
+		}
+		
+		instantTextBoxType = {
+			name = "Superevent Title"
+			position = {  x= 0 y = 75}
+			font = "hoi4_ctw_super_font_big"
+			text = "Biden Starts Music Career"
+			maxWidth = 500
+			maxHeight = 500
+			fixedsize = yes
+			format = center
+			Orientation = upper_left
+		}
+		instantTextBoxType = {
+			name = "Superevent Header"
+			position = {  x= 0 y = 60}
+			font = "hoi4_ctw_super_font_small"
+			text = "s   u   p   e   r   e   v   e   n   t"
+			maxWidth = 494
+			maxHeight = 500
+			fixedsize = yes
+			format = center
+			Orientation = upper_left
+		}
+		
+		instantTextBoxType = {
+			name = "Superevent Quote"
+			position = {  x = 35 y = 240}
+			font = "hoi4_ctw_super_font"
+			text = "'cool singers are just as bright and just as talented as White singers'-joe biden"
+			maxWidth = 494
+			maxHeight = 500
+			fixedsize = yes
+			format = left
+			Orientation = upper_left
+		}
+		
+		instantTextBoxType = {
+			name = "Superevent Date and Dimensions"
+			position = {  x= 0 y = 220}
+			font = "hoi4_ctw_super_font_small"
+			text = "DATE • DIMENSIONS"
+			maxWidth = 494
+			maxHeight = 500
+			fixedsize = yes
+			format = center
+			Orientation = upper_left
+		}
+		
+		buttonType = {
+			name = "Option"
+			text = "E x i t"  ############## OPTION BUTTON
+			shortcut = "ESCAPE"
+			position = { x = -185 y = 200 }
+			quadTextureSprite ="GFX_start_mewni_button"
+			buttonFont = "hoi4_ctw_super_font"
+			Orientation = center
+		}
+
+	}
+
+	
+}

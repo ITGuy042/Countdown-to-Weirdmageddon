@@ -1,0 +1,5 @@
+
+graphical_culture = FRA 
+graphical_culture_2d = FRA 
+
+color = { 0 255 127 }

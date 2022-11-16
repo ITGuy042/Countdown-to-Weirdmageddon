@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	spriteType = { 
+		name = "GFX_super_frame"
+		textureFile = "gfx\\interface\\custom_gfx\\GFX_super_frame.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_super_event_image"
+		textureFile = "gfx\\interface\\custom_gfx\\super_event_images\\joe_biden_sings.dds"
+	}
+	
+}

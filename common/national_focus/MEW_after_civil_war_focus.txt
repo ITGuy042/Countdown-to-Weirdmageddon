@@ -1041,7 +1041,10 @@
 			}
 			custom_effect_tooltip = "prog_opinion_up"
 			build_railway = {
-				path = { 7902 7879 6625 3398 308 7762 3491 }
+				level = 1
+				build_only_on_allied = yes
+				start_province = 7902
+				target_province = 3491
 			}
 			331 = {
 				add_building_construction = {
@@ -1178,7 +1181,10 @@
 			
 			}
 			build_railway = {
-				path = { 8296 7035 1671 5683 3612 4746 1584 5267 3371 2652 5966 }
+				level = 1
+				build_only_on_allied = yes
+				start_province = 8296
+				target_province = 5966
 			}
 		
 		}

@@ -1,0 +1,38 @@
+scripted_gui = {	
+
+	#FOR THE GFX ITSELF	
+	SUPER_EVENT_TEST = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "CTW_SUPEREVENT_window"
+
+		visible = {
+			has_country_flag = SUPER_EVENT_TEST ### this country flag triggers the #superevent
+		}
+
+		properties = {
+			super_event_image = {
+				image = "GFX_super_event_image"
+			}
+		}
+
+		effects = {
+			Option_click = { # option's name in super_event.gfx, followed by "_click"
+				clr_country_flag = SUPER_EVENT_TEST ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+		ai_enabled = {
+			always = yes
+		}
+		
+		ai_weights = {
+			Option_click = {
+				ai_will_do = {
+					base = 100
+				}
+			}
+		}
+		
+	}
+	
+}
+#set_country_flag SUPER_EVENT_TEST ## quick command for testing

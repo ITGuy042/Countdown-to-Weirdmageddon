@@ -157,70 +157,6 @@
 		completion_reward = {
 			add_manpower = -75
 			add_stability = -0.1
-			454 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			
-			}
-			455 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			
-			}
-			456 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			
-			}
-			348 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			
-			}
-			350 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			
-			}
-			344 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			
-			}
-			459 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			
-			}
-			347 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			
-			}
 			289 = {
 				add_building_construction = {
 					type = naval_base
@@ -268,21 +204,30 @@
 					province = 7800
 					instant_build = yes
 				}
-			}			
-			build_railway = {
-				path = { 8296 7035 2469 8169 8111 8067 251 7964 7901 7875 7823 2425 }
 			}
 			build_railway = {
-				path = { 8067 2428 1423 }
+				level = 1
+				build_only_on_allied = yes
+				start_province = 993
+				target_province = 1423
 			}
 			build_railway = {
-				path = { 7964 4318 3956 }
+				level = 1
+				build_only_on_allied = yes
+				start_province = 7984
+				target_province = 3956
 			}
 			build_railway = {
-				path = { 7875 1407 7849 2237 6290 }
+				level = 1
+				build_only_on_allied = yes
+				start_province = 2237
+				target_province = 6290
 			}
 			build_railway = {
-				path = { 2425 2232 2779 7794 7800 }
+				level = 1
+				build_only_on_allied = yes
+				start_province = 7828
+				target_province = 7800
 			}
 		
 		}
@@ -429,7 +374,7 @@
 	
 	focus = {
 		id = strike_first
-		icon = GFX_goal_focus_confront_ludo
+		icon = GFX_goal_focus_strike_first_big
 		x = 0
 		y = 2
 		cost = 4			

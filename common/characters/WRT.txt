@@ -1,0 +1,25 @@
+############################################################################
+### WRT Characters
+############################################################################
+characters = {
+	
+	WRT_andrias = {
+		name = "Andrias Leviathan" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_CLASSIFIED"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = feudalism_royal_monarchy_subtype
+			traits = {}
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+
+
+}###########################################################
+	
