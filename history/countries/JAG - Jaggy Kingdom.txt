@@ -10,14 +10,15 @@ MEW_pre_industrial
 }
 
 set_politics = {
-	ruling_party = royal_monarchy
+	ruling_party = neutrality
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	royal_monarchy = 60
-	anarchist = 40
+	neutrality = 98
+	communism = 1
+	fascism = 1
 }
 
 oob = "JAG_2012"
@@ -26,5 +27,5 @@ create_country_leader = {
 	name = "King Jags Jaggy"
 	desc = "placeholder"
 	picture = "hoi4_portrait_king_jags.dds"
-	ideology = jushtinian_pluralism_royal_monarchy_subtype
+	ideology = oligarchism
 }

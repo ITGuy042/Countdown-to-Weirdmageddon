@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Washington National Guard"
-	#division_names_group = SPAN_INFB_02
+	##division_names_group =
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -14,7 +14,7 @@
 
 division_template = {
 	name = "Washington US Forces"  
-	#division_names_group = SPAN_CAVB_01
+	##division_names_group =
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -28,7 +28,7 @@ division_template = {
 
 division_template = {
 	name = "Canadian Mechanised Exiles"  
-	#division_names_group = SPAN_CAVB_01
+	##division_names_group =
 	is_locked = yes
 	regiments = {
 		mechanized = { x = 0 y = 0 }
@@ -42,7 +42,7 @@ division_template = {
 
 division_template = {
 	name = "Canadian Mountie Exiles"  
-	#division_names_group = SPAN_CAVB_01
+	##division_names_group =
 	is_locked = yes
 	regiments = {
 		cavalry = { x = 0 y = 0 }

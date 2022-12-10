@@ -323,19 +323,11 @@ country_event = {
 	
 	option = { 
 		retire_character = TSR_tsar
-		set_politics = {
-			ruling_party = authoritarianism
-			elections_allowed = no
-		}
-		add_popularity = {
-			ideology = authoritarianism
-			popularity = 0.15
-		}
 		add_country_leader_role = {
 			Character = TSR_patriarch
 			Promote_leader = yes
 			country_leader = {
-				ideology = religous_order_authoritarianism_subtype
+				ideology = oligarchism
 				expire = "2040.1.1.1"
 				id = -1
 			}
@@ -388,7 +380,7 @@ country_event = {
 			Character = TSR_tsar_wife
 			Promote_leader = yes
 			country_leader = {
-				ideology = tsarist_royal_monarchy_subtype
+				ideology = oligarchism
 				expire = "2040.1.1.1"
 				id = -1
 			}
@@ -442,7 +434,7 @@ country_event = {
 			Character = TSR_young_marshal
 			Promote_leader = yes
 			country_leader = {
-				ideology = mil_junta_military_rule_subtype
+				ideology = nazism
 				expire = "2040.1.1.1"
 				id = -1
 			}

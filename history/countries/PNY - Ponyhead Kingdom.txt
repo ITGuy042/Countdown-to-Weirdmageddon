@@ -31,23 +31,23 @@ complete_national_focus = construction_effort
 complete_national_focus = production_effort
 
 set_politics = {
-	ruling_party = royal_monarchy
+	ruling_party = neutrality
 	last_election = "1912.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	royal_monarchy = 90
-	authoritarianism = 9
-	military_rule = 1
+	neutrality = 90
+	communism = 5
+	fascism = 5
 }
 
 create_country_leader = {
 	name = "King Ponyhead"
 	desc = ""
 	picture = "hoi4_portrait_king_pony.dds"
-	ideology = jushtinian_pluralism_royal_monarchy_subtype
+	ideology = oligarchism
 	traits = {
 		#
 	}

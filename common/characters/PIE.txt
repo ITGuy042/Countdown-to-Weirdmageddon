@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = anarcho_capitalism_libertarianism_subtype
+			ideology = oligarchism
 			traits = {  }
 			expire = "2040.1.1.1"
 			id = -1

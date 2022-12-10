@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = tsarist_royal_monarchy_subtype
+			ideology = oligarchism
 			expire = "2040.1.1.1"
 			id = -1
 			traits = {
@@ -58,7 +58,7 @@ characters = {
 				}
 		}
 		country_leader = {
-			ideology = mil_command_structure_military_rule_subtype
+			ideology = nazism
 			expire = "2040.1.1.1"
 			id = -1
 		}

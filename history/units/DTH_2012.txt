@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Horsemen"  
-	division_names_group = SPAN_CAVB_01
+	#division_names_group =
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }

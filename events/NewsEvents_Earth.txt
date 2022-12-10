@@ -288,6 +288,9 @@ news_event = { # Norton found
 	}
 	
 	option = {
+		name = before_news.1.a	
+	}
+	option = {
 		name = before_news.1.a
 		trigger = {	TAG = ORE}	
 	}
@@ -338,6 +341,9 @@ news_event = { # State of Union
 		}
 	}
 	
+	option = {
+		name = before_news.2.a
+	}
 	option = {
 		name = before_news.2.a
 		trigger = {	TAG = ORE}	

@@ -9,7 +9,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "GFX_leaders_precinct128"
-				small = ""
+				##small = ""
 			}
 		}
 		country_leader = {

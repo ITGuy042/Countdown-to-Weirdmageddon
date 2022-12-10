@@ -2,6 +2,11 @@ on_actions = {
 	
 	on_startup = {
 		effect = {
+			MEW = {
+				country_event = SUPPLEMENT_EVENT.1
+			}
+		}
+		effect = {
 			add_to_array = {
 				array = GLOBAL.mewni_dimension_countries
 				value = MEW.id

@@ -3804,8 +3804,8 @@
  tank_nsb_engine_upgrade:0 "$tank_engine_upgrade$"
  tank_nsb_armor_upgrade:0 "$tank_armor_upgrade$"
  ####################
- #train_equipment_0:0 "Pre-Industrial Caravan"
- #train_equipment_0_desc:0 "Trains transport supplies from the Supply Capital to Supply Hubs connected by rail."
+ train_equipment_0:0 "Pre-Industrial Caravan"
+ train_equipment_0_desc:0 "Trains transport supplies from the Supply Capital to Supply Hubs connected by rail."
  train_equipment_1:0 "Motorised Caravan"
  train_equipment_1_desc:0 "Taken over by the military from regular civilian freight duty, this older motorised trucks are organised into caravns, making them well-suited to move a large amount of supplies over long distances. Their early designs mean it would take longer to mass produce them."
  train_equipment_2:0 "Modern Caravan"

@@ -104,7 +104,7 @@ news_event = { #The Split of Mewni
 			LUD = { 
 				remove_country_leader_role = {
 					character = LUD_blank
-					ideology = royal_monarchy
+					ideology = oligarchism
 				}
 			}
 			LUD = { transfer_state = 266 }
@@ -125,11 +125,11 @@ news_event = { #The Split of Mewni
 			set_cosmetic_tag = MEW
 			MEW_moon_butterfly = {
 			  promote_character = {
-				Ideology = royal_monarchy
+				Ideology = oligarchism
 			  }
 			}
 			set_country_leader_portrait = {
-				ideology = royal_monarchy
+				ideology = oligarchism
 				portrait = gfx/leaders/MEW/hoi4_portrait_moon_war.dds
 			}
 		}
@@ -292,7 +292,7 @@ news_event = { #The Ludo Coup
 			Character = MEW_ludo
 			Promote_leader = yes
 			Country_leader = {
-				ideology = royal_monarchy
+				ideology = oligarchism
 				expire = "2040.01.01.01"
 			traits = {}
 			}
@@ -529,7 +529,7 @@ news_event = { #Ludo Surrenders
 			remove_ideas = pull_all_strings_idea
 			remove_ideas = strike_first_idea
 			set_country_leader_portrait = {
-				ideology = royal_monarchy
+				ideology = oligarchism
 				portrait = gfx/leaders/MEW/hoi4_portrait_moon.dds
 			}
 		}

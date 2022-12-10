@@ -57,6 +57,10 @@ country_event = {
 		name = GNM_queen_hunting.2.a
 		ai_chance = { factor = 100 }
 		custom_effect_tooltip = "new_decisions_tooltip"
+		set_country_flag = GNM_kidnapping_2
+		hidden_effect = {
+			activate_mission = GNM_kidnapping_consp_decay
+		}
 	}
 }
 
@@ -90,7 +94,11 @@ country_event = {
 	option = {
 		name = GNM_queen_hunting.4.a
 		ai_chance = { factor = 100 }
+		set_country_flag = GNM_kidnapping_2
 		custom_effect_tooltip = "new_decisions_tooltip"
+		hidden_effect = {
+			activate_mission = GNM_kidnapping_consp_decay
+		}
 	}
 }
 

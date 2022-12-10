@@ -8,7 +8,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "GFX_leaders_beth_amarin"
-				small = ""
+				#small = ""
 			}
 		}
 		country_leader = {
@@ -36,7 +36,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "GFX_leaders_elin_shroud"
-				small = ""
+				#small = ""
 			}
 		}
 		country_leader = {
@@ -54,7 +54,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "GFX_leaders_elin_shroud"
-				small = ""
+				#small = ""
 			}
 		}
 		country_leader = {
@@ -84,7 +84,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "GFX_leaders_elin_shroud"
-				small = ""
+				#small = ""
 			}
 		}
 		country_leader = {

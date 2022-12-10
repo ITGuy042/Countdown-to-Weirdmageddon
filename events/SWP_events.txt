@@ -79,19 +79,11 @@ country_event = {
 		set_country_flag = bypass_blow_mewman_roads
 		set_country_flag = SWP_democracy
 		remove_ideas = SWP_decentralized_government_2
-		set_politics = {
-			ruling_party = democratic
-			elections_allowed = no
-		}
-		add_popularity = {
-			ideology = democratic
-			popularity = 0.6
-		}
 		add_country_leader_role = {
 			Character = SWP_republican
 			Promote_leader = yes
 			Country_leader = {
-				ideology = social_liberal_democratic_subtype
+				ideology = liberalism
 				expire = "2040.1.1.1"
 				traits = {
 				}
@@ -107,18 +99,18 @@ country_event = {
 		set_country_flag = SWP_communists
 		remove_ideas = SWP_decentralized_government_2
 		set_politics = {
-			ruling_party = authoritarianism
+			ruling_party = communism
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = authoritarianism
+			ideology = communism
 			popularity = 0.6
 		}
 		add_country_leader_role = {
 			Character = SWP_commie
 			Promote_leader = yes
 			Country_leader = {
-				ideology = communalist_authoritarianism_subtype
+				ideology = marxism
 				expire = "2040.1.1.1"
 				traits = {
 				}
@@ -134,18 +126,18 @@ country_event = {
 		set_country_flag = SWP_military
 		remove_ideas = SWP_decentralized_government_2
 		set_politics = {
-			ruling_party = military_rule
+			ruling_party = fascism
 				elections_allowed = no
 		}
 		add_popularity = {
-			ideology = military_rule
+			ideology = fascism
 			popularity = 0.6
 		}
 		add_country_leader_role = {
 			Character = SWP_militarist_character
 			Promote_leader = yes
 			Country_leader = {
-				ideology = mil_junta_military_rule_subtype
+				ideology = fascism_ideology
 				expire = "2040.1.1.1"
 				traits = {
 				}

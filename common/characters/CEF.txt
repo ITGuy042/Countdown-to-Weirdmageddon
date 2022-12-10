@@ -9,11 +9,11 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "GFX_leaders_emily_pines"
-				small = ""
+				#small = ""
 			}
 		}
 		country_leader = {
-			ideology = colonial_government_military_rule_subtype
+			ideology = liberalism
 			traits = {}
 			expire = "2040.1.1.1"
 			id = -1

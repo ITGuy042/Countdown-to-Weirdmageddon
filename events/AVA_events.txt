@@ -53,21 +53,3 @@ country_event = {
 		}
 	}
 }
-
-country_event = {
-	id = AVA_change_tree.2
-	title = AVA_change_tree.2.t
-	desc = AVA_change_tree.2.d
-	picture = GFX_report_event_empty
-	
-	is_triggered_only = yes
-	
-	option = { 
-		name = AVA_change_tree.2.a
-		ai_chance = { factor = 100 }	# 100% AI choose this
-			add_named_threat = {
-				threat = 5
-				name = world_tension_dissapearance_of_HH
-			}
-	}
-}

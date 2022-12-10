@@ -105,32 +105,6 @@ country_event = {
 	option = { 
 		name = MHC_BfM_seizing.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		set_politics = {
-			ruling_party = authoritarianism
-			elections_allowed = no
-		}
-		add_popularity = {
-			ideology = authoritarianism
-			popularity = 0.35
-		}
-		remove_country_leader_role = {
-			character = MHC_general_leader
-			ideology = colonial_government_military_rule_subtype
-		}
-		add_country_leader_role = {
-			Character = MHC_general_leader
-			Promote_leader = yes
-			Country_leader = {
-				ideology = despotism_authoritarianism_subtype
-				expire = "2040.1.1.1"
-				traits = {
-				}
-			}
-		}
-		set_party_name = {
-			ideology = authoritarianism 
-			name = "MHC_cosmia_party"
-		}
 		JOH = { remove_resource_rights = 406 }
 		JOH = { remove_resource_rights = 387 }
 		JAG = { remove_resource_rights = 395 }

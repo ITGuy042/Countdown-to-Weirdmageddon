@@ -37,7 +37,7 @@ characters = {
 		portraits = {
 			civilian = {
 				#large = "gfx/leaders/MYS/Portrait_Mabel_Pines.dds"
-				#small = ""
+				##small = ""
 			}
 		}
 		country_leader = {
@@ -84,7 +84,7 @@ characters = {
 		desc = ""
 		portraits = {
 			civilian = {
-				#large = ""
+				##large = ""
 				#small = "GFX_idea_advisor_soos"
 			}
 		}

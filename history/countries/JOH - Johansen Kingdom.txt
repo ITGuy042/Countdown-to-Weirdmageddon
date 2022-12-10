@@ -23,18 +23,16 @@ set_war_support = 0.70
 complete_national_focus = army_effort
 
 set_politics = {
-	ruling_party = royal_monarchy
+	ruling_party = neutrality
 	last_election = "2000.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	royal_monarchy = 85
-	authoritarianism = 6
-	democratic = 5
-	anarchist = 3
-	military_rule = 1
+	neutrality = 90
+	communism = 5
+	fascism = 5
 }
 
 add_ideas = {
@@ -46,7 +44,7 @@ create_country_leader = {
 	name = "King River Butterfly"
 	desc = ""
 	picture = "hoi4_portrait_river_butterfly2.dds"
-	ideology = jushtinian_pluralism_royal_monarchy_subtype
+	ideology = oligarchism
 	traits = {
 		#
 	}

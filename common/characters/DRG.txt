@@ -5,11 +5,11 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "GFX_hoi4_portrait_sustavo"
-				small = ""
+				#small = ""
 			}
 		}
 		country_leader = {
-			ideology = business_structure_authoritarianism_subtype
+			ideology = nazism
 			expire = "2040.1.1.1"
 			id = -1
 			traits = {
@@ -21,7 +21,7 @@ characters = {
 		desc = ""
 		portraits = {
 			civilian = {
-				large = ""
+				#large = ""
 				small = "GFX_idea_advisor_schrodinger"
 			}
 		}

@@ -50,21 +50,23 @@ MEW_pre_industrial
 }
 
 set_politics = {
-	ruling_party = anarchist
+	ruling_party = democratic
 	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	anarchist = 100
+	democratic = 90
+	communism = 5
+	fascism = 5
 }
 
 create_country_leader = {
 	name = "Warlord Name"
 	desc = ""
 	picture = ""
-	ideology = none_libertarianism_subtype
+	ideology = conservatism
 	traits = {
 		#
 	}

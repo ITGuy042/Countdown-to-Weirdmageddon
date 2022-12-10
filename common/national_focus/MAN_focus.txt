@@ -1133,7 +1133,7 @@
 		id = MAN_unicorn_again
 		icon = GFX_goal_FOREST_unicorn_end 
 		x = -2
-		y = 1 
+		y = 1
 		relative_position_id = MAN_chutzpar.7
 		prerequisite = { focus = MAN_leaderaur.7  focus = MAN_chutzpar.7 }
 		

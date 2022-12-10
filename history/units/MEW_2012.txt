@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Conscript Brigade"
-	division_names_group = SPAN_INFB_02
+	#division_names_group =
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -18,7 +18,7 @@
 }
 division_template = {
 	name = "Warnicorn Brigade"  
-	division_names_group = SPAN_CAVB_01
+	#division_names_group =
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -37,7 +37,7 @@ division_template = {
 
 division_template = {
 	name = "Ceremonial Guard"  
-	division_names_group = SPAN_CAVB_01
+	#division_names_group =
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -531,4 +531,8 @@ instant_effect = {
 		progress = 0.54
 		efficiency = 100
 	}
+	add_equipment_to_stockpile = {
+        type = train_equipment_0
+        amount = 20
+    }
 }

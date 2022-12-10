@@ -8,7 +8,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "GFX_leaders_sad_man"
-				small = ""
+				#small = ""
 			}
 		}
 		country_leader = {

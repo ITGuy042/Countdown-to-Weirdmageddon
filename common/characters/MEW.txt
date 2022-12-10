@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_QUEEN_MOON_DESC"
-			ideology = jushtinian_pluralism_royal_monarchy_subtype
+			ideology = oligarchism
 			traits = { mew_the_undaunted }
 			expire = "2040.1.1.1"
 			id = -1
@@ -40,7 +40,7 @@ characters = {
 		portraits = {
 		}
 		country_leader = {
-			ideology = social_conservative_democratic_subtype
+			ideology = conservatism
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -51,7 +51,7 @@ characters = {
 		portraits = {
 		}
 		country_leader = {
-			ideology = anarcho_communalism_libertarianism_subtype
+			ideology = anarchist_communism
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -62,7 +62,7 @@ characters = {
 		portraits = {
 		}
 		country_leader = {
-			ideology = neo_solarianism_authoritarianism_subtype
+			ideology = fascism_ideology
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -153,11 +153,6 @@ characters = {
 				large="gfx/leaders/MEW/hoi4_portrait_lady_whosits.dds"
 				small="GFX_idea_advisor_whosits"
 			}
-		}
-		country_leader = {
-			ideology = mil_command_structure_junta_authoritarianism_subtype
-			expire = "2040.1.1.1"
-			id = -1
 		}
 		corps_commander= {
 			traits = { career_officer inflexible_strategist }
