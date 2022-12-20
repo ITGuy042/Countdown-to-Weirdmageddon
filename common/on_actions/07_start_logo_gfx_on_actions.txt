@@ -9,13 +9,37 @@ on_actions = {
 						value = THIS.id
 					}
 				}
-				set_country_flag = GAME_BIG_START_CREDIT_CUSTOM
+				set_country_flag = GAME_BIG_START_CREDIT_MEWNI
 			}
 		}	
 	}
 	
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					is_in_array = {
+						array = GLOBAL.roadkill_countries
+						value = THIS.id
+					}
+				}
+				set_country_flag = GAME_BIG_START_CREDIT_GRAVITY
+			}
+		}	
+	}
 	
-	
-	
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					is_in_array = {
+						array = GLOBAL.earth_start_countries
+						value = THIS.id
+					}
+				}
+				set_country_flag = GAME_BIG_START_CREDIT_EARTH
+			}
+		}	
+	}
 	
 } ## END OF FILE ##

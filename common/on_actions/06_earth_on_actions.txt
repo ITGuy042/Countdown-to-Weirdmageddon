@@ -171,6 +171,130 @@ on_actions = {
 				value = COR.id
 			}
 		}
+		
+		##########################################################
+		##########################################################
+		
+		effect = {
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = EUS.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = ORE.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = CAL.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = SOC.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = WAS.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = EPI.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = MEX.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = CAN.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = EUR.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = WPI.id
+			}
+			##############################
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = ARZ.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = NEV.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = UTH.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = CRD.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = NMX.id
+			}
+			#############################
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = IDH.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = MON.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = WYM.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = NDK.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = SDK.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = MIN.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = NEB.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = IWA.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = KAN.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = MIS.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = TEX.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = OKL.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = ARK.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_start_countries
+				value = LOU.id
+			}
+		}
 	}
 	
 	

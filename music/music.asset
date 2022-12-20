@@ -3,7 +3,7 @@
 
 music = {
 	name = "maintheme"
-	file = "gf_intro_main_theme_with_bill.ogg"
+	file = "gf_intro_main_theme.ogg"
 	volume = 2
 }
 

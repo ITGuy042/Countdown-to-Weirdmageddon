@@ -1,5 +1,61 @@
 on_actions = {
 
+	on_startup = {
+		effect = {
+			#############################
+			add_to_array = {
+				array = GLOBAL.roadkill_countries
+				value = GTF.id
+			}
+			add_to_array = {
+				array = GLOBAL.roadkill_countries
+				value = MYS.id
+			}
+			add_to_array = {
+				array = GLOBAL.roadkill_countries
+				value = NRW.id
+			}
+			add_to_array = {
+				array = GLOBAL.roadkill_countries
+				value = GID.id
+			}
+			add_to_array = {
+				array = GLOBAL.roadkill_countries
+				value = GNM.id
+			}
+			add_to_array = {
+				array = GLOBAL.roadkill_countries
+				value = UFC.id
+			}
+			add_to_array = {
+				array = GLOBAL.roadkill_countries
+				value = MAN.id
+			}
+			#############################
+			add_to_array = {
+				array = GLOBAL.roadkill_countries
+				value = MYM.id
+			}
+			add_to_array = {
+				array = GLOBAL.roadkill_countries
+				value = YBL.id
+			}
+			add_to_array = {
+				array = GLOBAL.roadkill_countries
+				value = LOG.id
+			}
+			add_to_array = {
+				array = GLOBAL.roadkill_countries
+				value = UPD.id
+			}
+			add_to_array = {
+				array = GLOBAL.roadkill_countries
+				value = COR.id
+			}
+		}
+	}
+	
+	
 	################################################################
 	#The Gleeful Wars
 	on_capitulation = {

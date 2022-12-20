@@ -5,6 +5,16 @@ spriteTypes = { ##### THIS FILE DEFINES THE PICTURE FOR EACH SUPER EVENT - THIS 
 		textureFile = "gfx\\interface\\custom_gfx\\GFX_start_mewni.dds"
 	} 
 	
+	spriteType = { 
+		name = "GFX_start_gravity_falls"
+		textureFile = "gfx\\interface\\custom_gfx\\GFX_start_gravity_falls.dds"
+	} 
+	
+	spriteType = { 
+		name = "GFX_start_earth"
+		textureFile = "gfx\\interface\\custom_gfx\\GFX_start_earth.dds"
+	} 
+	
 	spriteType = {
 		name = "GFX_start_credit_underlayer"
 		textureFile = "gfx\\interface\\custom_gfx\\GFX_underlayer_transparent.dds"

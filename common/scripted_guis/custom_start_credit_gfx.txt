@@ -1,17 +1,74 @@
 scripted_gui = {	
 
 	#FOR THE IMAGE ITSELF
-	BIG_EVENT_TEST_CUSTOM = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	BIG_EVENT_TEST_CUSTOM_MEWNI = { ### 
+	
 		context_type = player_context
-		window_name = "BIG_START_CREDIT_CUSTOM_window"
+		window_name = "BIG_START_CREDIT_MEWNI_window"
 
 		visible = {
-			has_country_flag = GAME_BIG_START_CREDIT_CUSTOM ### this country flag triggers the #superevent
+			has_country_flag = GAME_BIG_START_CREDIT_MEWNI ### this country flag triggers the #superevent
 		}
 
 		effects = {
 			Option_click = {
-				clr_country_flag = GAME_BIG_START_CREDIT_CUSTOM ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = GAME_BIG_START_CREDIT_MEWNI ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+		ai_enabled = {
+			always = yes
+		}
+		
+		ai_weights = {
+			Option_click = {
+				ai_will_do = {
+					base = 100
+				}
+			}
+		}
+		
+	}
+	
+	BIG_EVENT_TEST_CUSTOM_GRAVITY = { ### 
+	
+		context_type = player_context
+		window_name = "BIG_START_CREDIT_GRAVITY_window"
+
+		visible = {
+			has_country_flag = GAME_BIG_START_CREDIT_GRAVITY ### this country flag triggers the #superevent
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = GAME_BIG_START_CREDIT_GRAVITY ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+		ai_enabled = {
+			always = yes
+		}
+		
+		ai_weights = {
+			Option_click = {
+				ai_will_do = {
+					base = 100
+				}
+			}
+		}
+		
+	}
+	
+	BIG_EVENT_TEST_CUSTOM_EARTH = { ### 
+	
+		context_type = player_context
+		window_name = "BIG_START_CREDIT_EARTH_window"
+
+		visible = {
+			has_country_flag = GAME_BIG_START_CREDIT_EARTH ### this country flag triggers the #superevent
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = GAME_BIG_START_CREDIT_EARTH ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 		ai_enabled = {
