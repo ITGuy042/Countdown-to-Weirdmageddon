@@ -4378,9 +4378,13 @@
 		available = { has_completed_focus = ORE_start_focus.3 }
 		bypass = {} 
 		
+		select_effect = {  
+			country_event = { id = ORE_wicked_chiu_event.1 days = 10 }
+		}
+		
 		completion_reward = {	
 			custom_effect_tooltip = "ORE_wicked_focus.0.t"
-			country_event = ORE_wicked_chiu_event.1
+			country_event = ORE_wicked_chiu_event.7
 			hidden_effect = {}
 			set_technology = {
 				tech_magic_forces_check = 1

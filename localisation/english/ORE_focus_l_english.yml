@@ -19,7 +19,7 @@
  ORE_start_focus.1.t:0 ""
  
  ORE_start_focus.2:0 "Our Friends Up North"
- ORE_start_focus.2_desc:0 ""Canada and the Province of British Columbia is a major international trading partner with Oregon. Naturally, it’s good to have the Premier of B.C. as a, very rare, close colleague from my previous occupation."\n\n- §1Secretary of State Andrew Chiu§! -"
+ ORE_start_focus.2_desc:0 ""Canada and the Province of Canadian Columbia is a major international trading partner with Oregon. Naturally, it’s good to have the Premier of C.C. as a, very rare, close colleague from my previous occupation."\n\n- §1Secretary of State Andrew Chiu§! -"
  ORE_start_focus.2.t:0 ""
  
  ORE_start_focus.4:0 "The Long Summer"
@@ -42,7 +42,7 @@
  ORE_trembley_focus.1.t:0 ""
  
  ORE_trembley_focus.2:0 "The 46th President"
- ORE_trembley_focus.2_desc:0 "With his return from lost history, President Quentin Trembley, more than anything else, is a symbol of unity for the American People. While Curtis invalidated his presidency in the East and California turning to an emperor to the South, the True America is still alive and well in the True West."
+ ORE_trembley_focus.2_desc:0 "With his return from lost history, President Quentin Trembley, more than anything else, is a symbol of unity for the American People. While Curtis invalidated his presidency in the East and California turning to an a monarch to the South, the True America is still alive and well in the end of the Oregon Trail."
  ORE_trembley_focus.2.t:0 ""
  
  ######################################################################
@@ -57,7 +57,7 @@
  
  ORE_trembley_crazy.3:0 "The War On Pancakes"
  ORE_trembley_crazy.3_desc:0 "President Trembley has declared a War on Pancakes!\nPancakes have proven to be high in carbs and bad for your health, or so our lobbyists and their cash keep telling us. With Trembley leading the way, we will defeat pancakes, find their weapons of mass digestion, and secure our limited supply of Canadian Maple Syrup."
- ORE_trembley_crazy.3.t:0 "We probably enact another prohibition on Maple Syrup altogether!"
+ ORE_trembley_crazy.3.t:0 "We probably should enact another prohibition on Maple Syrup altogether!"
  
  ORE_trembley_crazy.4:0 "American Madman"
  ORE_trembley_crazy.4_desc:0 "Curtis, Day, Norton. How are they madmen? Because sanity is anything but. For Trembley, insanity breeds creativity, maneuverability, capability. It will take a true madman, a true oddity of reality to restore the United States.\n\nAnd through the storm, The True Ninth shall do just that."
@@ -89,7 +89,7 @@
  
  ORE_trembley_pants.2:0 "Stack The Court"
  ORE_trembley_pants.2_desc:0 "As we guide Trembley, we will meet fierce resistance from those who will try to stop us. But if we were to ensure two branches of government are on our side, then this won't be a problem."
- ORE_trembley_pants.2.t:0 "The man got five babies onto the Surpreme Court. How hard can this be?"
+ ORE_trembley_pants.2.t:0 "The man got five babies onto the Supreme Court. How hard can this be?"
  
  ORE_trembley_pants.3:0 "Counter-Concussion"
  ORE_trembley_pants.3_desc:0 "Trembley's exploits across America has done a number on his mental and physical well being. Let's make sure he's fix up just as we want him to be."
@@ -106,25 +106,25 @@
  ORE_trembley_chief.1.t:0 "Let the Executive Chaos Begin!"
  
  ORE_trembley_chief.2:0 "Executive Erraticity"
- ORE_trembley_chief.2_desc:0 "In recent years, the executive order capabilities of the President of the United States has allowed strong willed president sto ignore the Congress. Just the tool for a man like Trembley"
+ ORE_trembley_chief.2_desc:0 "In recent years, the executive order capabilities of the President of the United States has allowed strong willed president to ignore the will of Congress. Now that is just the tool for a man like Trembley."
  ORE_trembley_chief.2.t:0 ""
  
  ORE_trembley_chief.3:0 "Trembling Trembley"
  ORE_trembley_chief.3_desc:0 "There's almost a cult following with this man. His most ferverent supporters stand by him and are ready to act on his word."
- ORE_trembley_chief.3.t:0 ""
+ ORE_trembley_chief.3.t:0 "A True Coven of the President, huh?"
  
  ######################################################################
  
  ORE_trembley_veep.1:0 "VEEP"
- ORE_trembley_veep.1_desc:0 "Many thing the Vice President is basicly a backup for when the President dies, resigns, or some odd consitutional quark. But are best leaders just happen to be one step away from the most powerful office in the land."
+ ORE_trembley_veep.1_desc:0 "Many think the Vice President is basically a backup for when the President dies, resigns, kicked out, or some odd constitutional quark occurs to cause the first three. But in reality, the best leaders just happen to be one step away from the most powerful office in the land."
  ORE_trembley_veep.1.t:0 "Behind every hot blooded crazy person is a cold, calculating steady hand."
  
  ORE_trembley_veep.2:0 "Politically Onyx"
- ORE_trembley_veep.2_desc:0 "Milly Onyx has been a steady hand to guide Trembley's passion and drive. Neithers halfs of the NDR can lock Trembley on their side. Down the middle, the path is neither red or blue, but onyx."
+ ORE_trembley_veep.2_desc:0 "Milly Onyx has been a steady hand to guide Trembley's passion and drive. Neither halves of the New Eccentric Democratic-Republicans can lock Trembley on their side. Down the middle, the path is neither red or blue, but a dark and opposing onyx."
  ORE_trembley_veep.2.t:0 ""
  
  ORE_trembley_veep.3:0 "Backup Puppet Master"
- ORE_trembley_veep.3_desc:0 "Heck, Chiu even did a old orientation film for new agents on who Trembley was. Together, the True Ninth shall be kept, more or less, in line."
+ ORE_trembley_veep.3_desc:0 "Heck, Chiu even did a old orientation film for new agents on who Trembley was. Together, the True Ninth shall be kept, more or less, in line to more steady minds."
  ORE_trembley_veep.3.t:0 ""
  
  ######################################################################
@@ -399,14 +399,14 @@
  
  ORE_wicked_focus.0:0 "Wicked Chiu Of The West"
  ORE_wicked_focus.0_desc:0 "With reports of California's incursions into another dimension that has magic, our stragetic position is in danger.\nBut Secretary Chiu has proposed a plan to level the playing field. The Imperial Republic may have Magical Princesses. But we'll fight them like true Witches of Cascadia!"
- ORE_wicked_focus.0.t:0 "The §CGravesfield Project§! is Approved!"
+ ORE_wicked_focus.0.t:0 "The §CConnecticut Project§! is Approved!"
  
  ORE_wicked_focus.1:0 "Elemental Basics"
  ORE_wicked_focus.1_desc:0 ""This all sounds dumb. Learning to do magic? I'm not some kid reading her Azura The Good Witch Novels...\nBut it still beats being the personal assistant for like the third craziest President we have."\n\n- §GJennefer Onyx§! -"
  ORE_wicked_focus.1.t:0 ""
  
  ORE_wicked_focus.2:0 "Portable Magic"
- ORE_wicked_focus.2_desc:0 ""How did we develope this magic projection system? That's both classified and trust me, you don't want to know..."\n\n- §YFPI Agent Raj Ekbal§! -"
+ ORE_wicked_focus.2_desc:0 ""How did we develop this magic projection system? That's both classified and trust me, you don't want to know..."\n\n- §YFPI Agent Raj Ekbal§! -"
  ORE_wicked_focus.2.t:0 ""
  
  ORE_wicked_focus.3:0 "Magic Theory"
@@ -414,7 +414,7 @@
  ORE_wicked_focus.3.t:0 ""
  
  ORE_wicked_focus.4:0 "The Magic Of Cascadia"
- ORE_wicked_focus.4_desc:0 "It's odd. Chiu says theres no naturally occuring radation of magic that isn't interdimesional in origin. But Oregon is such a wild, weird, and virbrant place. Whether it be food or power, this is a land we can live off of.\n\n- §YAgriculture Corps Head Witch Talia Stein§! -"
+ ORE_wicked_focus.4_desc:0 "It's odd. Chiu says theres no naturally occurring source of magic that isn't interdimesional in origin. But Oregon is such a wild, weird, and vibrant place. Whether it be food or power, this is a land we can live off of.\n\n- §YAgriculture Corps Head Witch Talia Stein§! -"
  ORE_wicked_focus.4.t:0 ""
  
  ORE_wicked_focus.5:0 "Bile Substitutes"
@@ -422,7 +422,7 @@
  ORE_wicked_focus.5.t:0 ""
  
  ORE_wicked_focus.6:0 "Modern Witchcraft Equipment"
- ORE_wicked_focus.6_desc:0 ""It's too bad we don't have any palisman trees in Oregon. I'm honestly surprised given what other weird thing keeps ending up in this state. Fortunatley, these new Mark VIII Magical Staffs would make a nice substitute. Sorry, Bujeog. No new friends for you..."\n\n- §1Secretary of State Andrew Chiu§! -"
+ ORE_wicked_focus.6_desc:0 ""It's too bad we don't have any palisman trees in Oregon. I'm honestly surprised given what other weird thing keeps ending up in this state. Fortunately, these new Mark VIII Magical Staffs would make a nice substitute. Sorry, Bujeog. No new friends for you..."\n\n- §1Secretary of State Andrew Chiu§! -"
  ORE_wicked_focus.6.t:0 ""§4Squawk! It's Lonely! Squawk!§!""
  
  ORE_wicked_focus.7:0 "Indistinguishable From Science"
@@ -430,11 +430,11 @@
  ORE_wicked_focus.7.t:0 "§YThe fact the government gave me the patent rights is the craziest thing about all this.§!"
  
  ORE_wicked_focus.8:0 "The Will Of The Beaver"
- ORE_wicked_focus.8_desc:0 "So in this realm called the Boiling Isles, the natives worship this massive dead titan to which the entire land they live on consist of its rotting body. Their Covens revolve around enforcing it's will, like a cult!\nWell, I found this beaver down by the river. I'm gonna try and get as many people here to worship it as well.\n- §YHusbandry Corps Head Witch Samantha Freeman§! -"
+ ORE_wicked_focus.8_desc:0 "So in this realm called the 'Boiling Isles', the natives worship this massive dead titan to which the entire land they live on consist of its rotting body. Their Covens revolve around enforcing it's will, like a cult!\nWell, I found this beaver down by the river. I'm gonna try and get as many people here to worship it as well.\n- §YHusbandry Corps Head Witch Samantha Freeman§! -"
  ORE_wicked_focus.8.t:0 ""
  
  ORE_wicked_focus.9:0 "History Rhymes"
- ORE_wicked_focus.9_desc:0 "Today's the day we unveil the Oregon Magic Rangers and their Coven Corps. What can one or two 'princesses' of California do againts hundreds of Trembley's high trained witches!?"
+ ORE_wicked_focus.9_desc:0 "Today's the day we unveil the Oregon Magic Rangers and their Coven Corps. What can one or two 'princesses' of California do against hundreds of Trembley's high trained witches!?"
  ORE_wicked_focus.9.t:0 ""
  ######################################################################
  
@@ -443,7 +443,7 @@
  ORE_wicked_diverse.1.t:0 ""
  
  ORE_wicked_diverse.2:0 "Titan Of All Trades"
- ORE_wicked_diverse.2_desc:0 "My Magic works so well with others. My voice brings life to plants, my electric guitar can literlly raise the roof. My flute brings all the animals into formation, and my drum's rum-pum-pum can lead an army of Joseph's Abomatons to victory...\nI can also like control the air and slice people with the sound waves!\n- §YHarmonics Corps Head Witch Wolfgang Smith§! -"
+ ORE_wicked_diverse.2_desc:0 "My Magic works so well with others. My voice brings life to plants, my electric guitar can literally raise the roof. My flute brings all the animals into formation, and my drum's rum-pum-pum can lead an army of Joseph's Abomatons to victory...\nI can also like control the air and slice people with the sound waves!\n- §YHarmonics Corps Head Witch Wolfgang Smith§! -"
  ORE_wicked_diverse.2.t:0 ""
  
  ORE_wicked_coven.1:0 "Magic Track Disciplines"
@@ -451,7 +451,7 @@
  ORE_wicked_coven.1.t:0 ""
  
  ORE_wicked_coven.2:0 "The President's Coven"
- ORE_wicked_coven.2_desc:0 ""Unlike this 'Emperor Belos' and his dumb followers, we know that Trembley is a somewhat deranged man and we have checks and balances to keep him in line with our principals. The real difference though is that Trembley is still a competent leader and we all choosed him to lead."\n- §YThe President's Coven Corps Head Witch Parson Northwest§! -"
+ ORE_wicked_coven.2_desc:0 ""Unlike this 'Emperor Belos' and his dumb followers, we know that Trembley is a somewhat deranged man and we have checks and balances to keep him in line with our principals. The real difference though is that Trembley is still a competent leader and we all choose him to lead."\n- §YThe President's Coven Corps Head Witch Parson Northwest§! -"
  ORE_wicked_coven.2.t:0 "§YAnd Trembley isn't as racist as Belos, so take that!§!"
  ######################################################################
  ######################################################################
@@ -467,7 +467,7 @@
  ######################################################################
  
  ORE_compromised.0:0 "Compromised Lieutenant"
- ORE_compromised.0_desc:0 "Day's Lieutenant Governor is no where near as strong willed as Day is. We can reach out and put pressure on him to weaken the government."
+ ORE_compromised.0_desc:0 "Day's Lieutenant Governor is no where near as strong willed as Day himself. We can reach out and put pressure on him to weaken the government."
  ORE_compromised.0.t:0 ""
  
  ORE_compromised.1:0 "Undermine Olympia"
@@ -479,11 +479,11 @@
  ORE_washington_daybreak.0.t:0 "§GThe Clash of Cascadia is Inevitably§!"
  
  ORE_washington_daybreak.1:0 "Reinforce Fort Vancouver"
- ORE_washington_daybreak.1_desc:0 "The other Vancouver lays right across the river from Portland. A team is ready to take it over and reinforce it before Washington National Guards can react."
+ ORE_washington_daybreak.1_desc:0 "The other Vancouver lays right across the river from Portland. A team is ready to take it over and reinforce it before the Washington National Guards can react."
  ORE_washington_daybreak.1.t:0 ""
  
  ORE_washington_daybreak.2:0 "Giving Washington A Spanking!"
- ORE_washington_daybreak.2_desc:0 "We must secure the entire southern shores of the Snake river. The state's soft bottom is expose and its time Trembley repay the spanking he got centuries ago."
+ ORE_washington_daybreak.2_desc:0 "We must secure the entire southern shores of the Snake river. The state's soft bottom is expose and its time Trembley repay the spanking he got from the first Washington centuries ago."
  ORE_washington_daybreak.2.t:0 ""
  
  ORE_washington_daybreak.3:0 "Force Canadian Withdrawl"
@@ -501,37 +501,37 @@
  ######################################################################
  
  ORE_washington_twinpeak.0:0 "Nightfall In Twin Peaks"
- ORE_washington_twinpeak.0_desc:0 "If Harold Day is gone, Washington won't have the will or leadership to keep resisiting us. An idea has been proposed on getting rid of him without dirtying our hands.\n\nBut our hearts and minds will be a very different story..."
+ ORE_washington_twinpeak.0_desc:0 "If Harold Day is gone, Washington won't have the will or leadership to keep resisting us. An idea has been proposed on getting rid of him without dirtying our hands.\n\nBut our hearts and minds will be a very different story..."
  ORE_washington_twinpeak.0.t:0 "§YThe§! §CGreater Good§! §Ydemands§! §RCertain Evils§!"
  
  ORE_washington_twinpeak.1:0 "Undermine The UIU"
- ORE_washington_twinpeak.1_desc:0 "UIU units sides with Day during the collapse of the US. They are the assigned teams overlooking the entitiy we are searching for in this part of Washington. Dealing with them is easy, but many internally won't be happy about this seemingly blue-on-blue attack."
+ ORE_washington_twinpeak.1_desc:0 "UIU units sides with Day during the collapse of the US. They are the assigned teams overlooking the entity we are searching for in this part of Washington. Dealing with them is easy, but many internally won't be happy about this seemingly blue-on-blue attack."
  ORE_washington_twinpeak.1.t:0 ""
  
  ORE_washington_twinpeak.2:0 "Secure. Contain. Unleash!"
- ORE_washington_twinpeak.2_desc:0 "A SCP contianment base is somewhere in the region. The SCPs they have are trivial, but they cause real, but localized damage if we unleash them."
+ ORE_washington_twinpeak.2_desc:0 "A SCP containment base is somewhere in the region. The SCPs they have are trivial, but they cause real, but localized damage if we unleash them."
  ORE_washington_twinpeak.2.t:0 ""
  
  ORE_washington_twinpeak.3:0 "Renting Out The Black Lodge"
- ORE_washington_twinpeak.3_desc:0 "What happened here in Twin Peaks decades ago was abit after my time in the FPI, and wasn't prominant when the country was gripped with race riots, a disasterous war, and the Secret Civil War. But this is the key to getting rid of Governor Day once and for all.\n- §1Secretary of State Andrew Chiu§! -"
+ ORE_washington_twinpeak.3_desc:0 "What happened here in Twin Peaks decades ago was abit after my time in the FPI, and wasn't prominent when the country was gripped with race riots, a disastrous war, and the Secret Civil War. But this is the key to getting rid of Governor Day once and for all.\n- §1Secretary of State Andrew Chiu§! -"
  ORE_washington_twinpeak.3.t:0 "Forgive us for what we do next."
  
  ORE_washington_twinpeak.4:0 "At Day's End"
- ORE_washington_twinpeak.4_desc:0 "With Olympia in chaos, we sent our demand they surrender and rejoin the new Federal Government. With the new governor too weak to lead, the answer will be assured!"
+ ORE_washington_twinpeak.4_desc:0 "With Olympia in chaos, we will send our demand to surrender and rejoin the new Federal Government. With the new governor too weak to lead, the answer we desire will be assured!"
  ORE_washington_twinpeak.4.t:0 ""
  
  ######################################################################
  
  ORE_spiders.0:0 "The Arachnid Scare"
- ORE_spiders.0_desc:0 "These gaint spiders are apperently well ingrained in our society. Even Cognitio Inc and the lizard people representative in our government are shocked how well they got in. Trembley must decide if he sticks to his guns and call on thier removal, or if its time we give true peace a chance?"
- ORE_spiders.0.t:0 ""
+ ORE_spiders.0_desc:0 "These giant spiders are apparently well ingrained in our society. Even Cognitio Inc and the lizard people representative in our government are shocked how well they got in. Trembley must decide if he sticks to his guns and call on their removal, or if its time we give true peace a chance?"
+ ORE_spiders.0.t:0 "I hope this is less controversial then all those Indian removals..."
  
  ORE_spider_peace.0:0 "Peace With Spider Kind?"
  ORE_spider_peace.0_desc:0 "It's time we give peace a chance."
  ORE_spider_peace.0.t:0 ""
  
  ORE_spider_peace.1:0 "Substitute Nourishment"
- ORE_spider_peace.1_desc:0 "Spiders need living creatures to sustain themseleves. We can work on finding alternatives..."
+ ORE_spider_peace.1_desc:0 "Spiders need living creatures to sustain themselves. We can work on finding alternatives..."
  ORE_spider_peace.1.t:0 ""
  
  ORE_spider_peace.2:0 "Subsidize the Tourist Industry"
@@ -539,7 +539,7 @@
  ORE_spider_peace.2.t:0 ""
  
  ORE_spider_peace.3:0 "A Nation For All"
- ORE_spider_peace.3_desc:0 "America is a land for all walks of life, from lizard people form the hollow earth, to spiders in the hills of cascadia, to humans and their readiness to kill everyone else in a heartbeat. Together, this si what the True America looks like."
+ ORE_spider_peace.3_desc:0 "America is a land for all walks of life, from lizard people from the hollow earth, to spiders in the hills of cascadia, to humans and their readiness to kill everyone else in a heartbeat. Together, this is what the True America looks like."
  ORE_spider_peace.3.t:0 ""
  
  ######################################################################
@@ -557,7 +557,7 @@
  ORE_spider_war.2.t:0 ""
  
  ORE_spider_war.3:0 "Human-Americans First"
- ORE_spider_war.3_desc:0 "HUmanity beat them all. We claimed the surface, we claimed the world. Its time we have no more competition..."
+ ORE_spider_war.3_desc:0 "Humanity beats them all. We claimed the surface, we own the world. Its time we have no more competition..."
  ORE_spider_war.3.t:0 ""
  
  ######################################################################
@@ -567,11 +567,11 @@
  ORE_FPI.0.t:0 ""
  
  ORE_FPI.1:0 "Slow And Steady"
- ORE_FPI.1_desc:0 "We must build up our forces. She has eleite agents and soldiers with her and they have force multipliers that can undo any advantage we have."
+ ORE_FPI.1_desc:0 "We must build up our forces. She has elite agents and soldiers with her and they have force multipliers that can undo any advantage we have."
  ORE_FPI.1.t:0 ""
  
  ORE_FPI.2:0 "Backs To The Wall"
- ORE_FPI.2_desc:0 "With California and Hector tot he South, Elin and the FPI has no where to go. Lets make that clear to them."
+ ORE_FPI.2_desc:0 "With California and Hector to the South, Elin and the FPI has no where to go. Lets make that clear to them."
  ORE_FPI.2.t:0 ""
  
  ORE_FPI.3:0 "Reclaim Klamath and Chemult"
@@ -579,7 +579,7 @@
  ORE_FPI.3.t:0 ""
  
  ORE_FPI.4:0 "Broker With The IBI"
- ORE_FPI.4_desc:0 "We will need more information on the FPI's ground troop movement. While our efforts have been focus on matching and countering FPI sabotage and defenses, Hector Diaz-Guzman's IBI has monitored the siutatiom from the south.\n\nWe'll need those reports..."
+ ORE_FPI.4_desc:0 "We will need more information on the FPI's ground troop movement. While our efforts have been focus on matching and countering FPI sabotage and defenses, Hector Diaz-Guzman's IBI has monitored the situation from the south.\n\nWe'll need those reports..."
  ORE_FPI.4.t:0 ""
  
  ORE_FPI.5:0 "Sabotage Coordination"
@@ -587,7 +587,7 @@
  ORE_FPI.5.t:0 ""
  
  ORE_FPI.6:0 "Infiltrate Rosenburg"
- ORE_FPI.6_desc:0 "We need to tkake back Rosenburg before we can truely attack Medford. Launch an incursion at once!"
+ ORE_FPI.6_desc:0 "We need to take back Rosenburg before we can truly attack Medford. Launch an incursion at once!"
  ORE_FPI.6.t:0 ""
  
  ORE_FPI.7:0 "Rally On Medford"
