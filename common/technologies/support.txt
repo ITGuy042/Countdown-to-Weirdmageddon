@@ -1454,7 +1454,7 @@ technologies = {
 
 	basic_wagon = {
 		enable_equipments = {
-			train_equipment_0
+			train_equipment
 		}
 
 		research_cost = 1.5
