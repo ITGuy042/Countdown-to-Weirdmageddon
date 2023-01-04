@@ -58,11 +58,6 @@ guiTypes = {
 		name = "spirit_idea_entry_small"
 		size = { width=33 height=37 }
 		clipping = no
-<<<<<<< Updated upstream
-
-=======
-		
->>>>>>> Stashed changes
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
@@ -92,11 +87,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-<<<<<<< Updated upstream
-
-=======
-	
->>>>>>> Stashed changes
 	containerWindowType = {
 		name = "spirit_modifier_entry_small"
 		size = { width=33 height=37 }
