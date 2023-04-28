@@ -1,0 +1,11 @@
+###DEMOCRACY###
+
+ASID_CAL_DEMO_IDEOLOGY_START = {
+
+	enable = { always = yes }
+	icon = GFX_ideology_cal_demo_ideology_start
+	
+	consumer_goods_factor = -0.05
+	stability_factor = 0.1
+	mobilization_speed = -0.25
+}

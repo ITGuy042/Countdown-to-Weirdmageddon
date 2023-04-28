@@ -4,14 +4,16 @@ ideologies = {
 	
 		types = {
 			
-			conservatism = {
-			}
-		
-			liberalism = {
-			}
-		
-			socialism = {
-			}
+			cal_demo_ideology_start = { }
+			
+			
+			
+			
+			#### Base Game Sub-Ideologies
+			conservatism = { } 
+			liberalism = { }
+			socialism = { }
+			####
 		}
 		
 		dynamic_faction_names = {
@@ -55,9 +57,7 @@ ideologies = {
 			airforce_intel_to_others = 5
 		}
 		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
+		faction_modifiers = { }
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
@@ -66,20 +66,17 @@ ideologies = {
 		
 		types = {
 		
-			marxism = {
-			}
-			
-			leninism = {
-			}
-			
-			stalinism = {
-			}
-			
-			anti_revisionism = {
-			}
-			
-			anarchist_communism = {
-			}
+		
+		
+		
+		
+			#### Base Game Sub-Ideologies
+			marxism = { }
+			leninism = { }
+			stalinism = { }
+			anti_revisionism = { }
+			anarchist_communism = { }
+			####
 		}
 		
 		dynamic_faction_names = {
@@ -115,9 +112,7 @@ ideologies = {
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
 		
-		faction_modifiers = {
-			
-		}
+		faction_modifiers = { }
 
 	}
 
@@ -125,20 +120,17 @@ ideologies = {
 	
 		types = {
 		
-			nazism = {
-			}
-
-			gen_nazism = {
-			}
-			
-			fascism_ideology = {
-			}
-			
-			falangism = {
-			}
-			
-			rexism = {
-			}
+		
+		
+		
+		
+			#### Base Game Sub-Ideologies
+			nazism = { }
+			gen_nazism = { }
+			fascism_ideology = { }
+			falangism = { }
+			rexism = { }
+			####
 		}
 		
 		dynamic_faction_names = {
@@ -179,21 +171,17 @@ ideologies = {
 	
 		types = {
 		
-			despotism  = {
-			}
-			
-			oligarchism  = {
-			}
-
-			anarchism = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
-			}
-			
-			moderatism = {
-			}
-			
-			centrism = {
-			}
+		
+		
+		
+		
+			#### Base Game Sub-Ideologies
+			despotism  = { }
+			oligarchism  = { }
+			anarchism = { can_be_randomly_selected = no } # won't be assigned to randomly generated country leaders
+			moderatism = { }	
+			centrism = { }
+			####
 		}
 
 		dynamic_faction_names = {

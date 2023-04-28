@@ -12,7 +12,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_GREEN_DESC"
-			ideology = liberalism
+			ideology = cal_demo_ideology_start
 			traits = { cal_longtime_governor }
 			expire = "2040.1.1.1"
 			id = -1
@@ -206,8 +206,8 @@ characters = {
 		}
 	}
 	
-	CAL_carman_evertt_auto = {
-		name = "Carman Evertt" 
+	CAL_henry_waybright_auto = {
+		name = "Henry Waybright" 
 		desc = ""
 		portraits = {
 			civilian = {

@@ -1,0 +1,69 @@
+##############################################################################################################
+### Code structure for base game sub-ideologies, from Wilhelm Monke "Ideology Rework for Hearts of Iron 4" Mod on Steam Workshop
+
+# common>dynamic_modifiers>ASID_ideology_modifiers_<main_ideology>
+### This contains the modifier that each country gets based on the sub-ideo they have. The icon for the sub-ideo is called here and placed in the National Spirit Section
+### comment out the "icon = " to not have it appear in national spirits, but still take effect
+
+# common>on_actions>ASID_on_actions
+### This contains a ON_ACTION check that makes sure the country in question changes their ideology if they had change their leaders and thus sub-ideo. It checks everyday. 
+### It will also then go to common>scripted_effects>scripted_effects and common>scripted_triggers>ASID_scripted_effects to swap the modifiers and visuals as well, respectively
+
+# common>scripted_effects>ASID_scripted_effects
+### This has the code that allows change of common>dynamic_modifiers>ASID_ideology_modifiers when the on_actions changes sub_ideo. That is called on common>on_actions>ASID_on_actions
+
+# common>scripted_triggers>ASID_scripted_effects
+### This has the code that allows change of visual sub_ideo by checking the new leader of the country. That is called on common>on_actions>ASID_on_actions
+
+##############################################################################################################
+##############################################################################################################
+
+# gfx>interface>ideologies><ideology>
+### This contains the image files for the sub_ideos, divided into the main ideologies
+
+##############################################################################################################
+##############################################################################################################
+
+# interface>ASID_ideologies
+### This interface file has the calls for the gfx files
+### The name of a GFX_ideology_<sub-ideology> must be the name of the very sub-ideology used, or the swap of base ideology icon to custom sub-ideology will not occur.
+### EXAMPLE: sub-ideology name: conservatism  ---> gfx name must be named = GFX_ideology_conservatism
+
+##############################################################################################################
+##############################################################################################################
+
+# localisation>ASID_l_english
+### This contains locs names for the different sub-ideo interfaces for common>dynamic_modifiers>ASID_ideology_modifiers. 
+### They are strictly for the name of Icon in National Spirit, not when replacing the main ideology icon under the leader portrait.
+### A different ASID_<sub-ideology>_desc:0 "" is needed to give the icon in national idea a description as well
+
+# localisation>parties_l_english  (NOT PART OF ORIGINAL MOD, see below in additional files)
+### This contains the names of the base game ideologies and sub-ideologies. 
+### The <sub-ideology>_desc:0 "" description for the subideo icon under the leader portrait will be in here, unknown when the <sub-ideology>:0 "" loc for the name is used, as the default ideology name overrides it. 
+
+
+###### NOTES FOR ICON NAME AND DESCRIPTION
+### Ideology Icon Under Leader Portrait
+# <sub-ideology>:0 ""       # Unknown as it takes its name from the current main ideology's name for the country that has it
+# <sub-ideology>_desc:0 ""  # Will swap the main ideology description and provide the description for the current sub-ideology instead.
+
+### Ideology Icon in National Spirit
+# ASID_<sub-ideology>:0 ""       # Name of sub ideology in national spirit section
+# ASID_<sub-ideology>_desc:0 ""  # description of sub ideology in national spirit section
+
+##############################################################################################################
+##############################################################################################################
+
+###### Additional Files that work with this
+
+# common>ideologies>00_ideologies.txt
+### Where sub-ideologies are declared within the main ideologies
+
+# common>characters><>
+### Characters are assigned a sub-ideologies to match them to their main ideology
+
+# history>countries><>
+### Characters made here instead (Legacy Coding) are assigned a sub-ideologies to match them to their main ideology
+
+# localisation>parties_l_english
+### Default location of loc for name and description of base game sub-ideology

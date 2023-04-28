@@ -1,0 +1,14 @@
+ASID_check_govt_ideology = {
+	any_country = {
+		OR = {
+			
+			AND = {
+				has_dynamic_modifier = { modifier = ASID_CAL_DEMO_IDEOLOGY_START }
+				NOT = { has_country_leader_ideology = cal_demo_ideology_start }
+			}
+			
+			############################################################################
+				
+		}
+	}
+}

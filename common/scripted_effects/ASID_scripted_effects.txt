@@ -1,0 +1,25 @@
+ASID_remove_dynamic_modifiers = {
+	
+	if = {
+		limit = { has_dynamic_modifier = { modifier = ASID_CAL_DEMO_IDEOLOGY_START } }
+		remove_dynamic_modifier = { modifier = ASID_CAL_DEMO_IDEOLOGY_START }
+	}
+	
+	############################################################################
+
+}
+
+###########################################################################################################
+###########################################################################################################
+###########################################################################################################
+
+ASID_add_dynamic_modifiers = {
+
+	if = {
+		limit = { has_country_leader_ideology = cal_demo_ideology_start }
+		add_dynamic_modifier = { modifier = ASID_CAL_DEMO_IDEOLOGY_START }
+	}
+	
+	############################################################################
+	
+}

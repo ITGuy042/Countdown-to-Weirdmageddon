@@ -1,5 +1,7 @@
 ﻿#Hearts of Iron IV:
 #COUNTDOWN TO WEIRDMAGEDDON
+#v0.3.3
+#Decennial Blitz
 
 #HEAD DEVELOPERS
 ITGUY042
@@ -18,14 +20,19 @@ Homer
 #WRITER DEVELOPERS:
 Lyon
 
+#Music Citation
+L'Orchestra Cinématique - Gravity Falls Theme | EPIC VERSION
+
 #SPECIAL CONTRIBUTIONS
 Symeta - Artwork - Gravity Falls Small Memory
+kottcakes - Commissioned Artwork - Imperial Flag over Mewni
+Issabolic - Commissioned Artwork - By Magic Alone
+jmdx64 - Artwork - Luz Noceda Windows 7 Background
 
 #ADDITIONAL CONTRIBUTIONS
 HecateSkai
 Legionaire
 Pikabart
-
 
 -----------------------
 
