@@ -6,7 +6,6 @@ state={
 	history={
 		owner = BOI
 		add_core_of = BOI
-
 	}
 
 	provinces={

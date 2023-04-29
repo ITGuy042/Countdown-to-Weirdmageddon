@@ -1,0 +1,18 @@
+
+state={
+	id=515
+	name="STATE_515"
+
+	history={
+		owner = WAL
+		add_core_of = WAL
+	}
+
+	provinces={
+		489 536 648 880 1119 1144 1727 2834 3186 3529 3692 3851 4620 5360 6887 10287 10407 10619 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

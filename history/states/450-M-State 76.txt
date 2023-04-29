@@ -8,7 +8,7 @@ state={
 		add_core_of = DRG
 		buildings = {
 			arms_factory = 2
-			industrial_complex = 3
+			industrial_complex = 1
 			
 			infrastructure = 1
 			air_base = 0
