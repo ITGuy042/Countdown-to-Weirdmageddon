@@ -1,12 +1,16 @@
+
 state={
 	id=489
 	name="STATE_489"
+
 	history={
 		owner = AMP
 		add_core_of = AMP
+
 	}
+
 	provinces={
-		1931 
+		1931 11522 11523 11524 11525 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000
