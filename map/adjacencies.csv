@@ -22,9 +22,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3976;4082;impassable;-1;-1;-1;-1;-1;;BI Earth Portal
 3797;489;impassable;-1;-1;-1;-1;-1;;BI Earth Portal
 
-# BI Earth Portal
-2929;448;impassable;-1;-1;-1;-1;-1;;BI Earth Portal
-2287;7655;impassable;-1;-1;-1;-1;-1;;BI Earth Portal
+# BI Canadian Portal
+2929;448;impassable;-1;-1;-1;-1;-1;;BI Canadian Portal
+2287;7655;impassable;-1;-1;-1;-1;-1;;BI Canadian Portal
+
+# BI Internal Portal
+4809;1330;impassable;-1;-1;-1;-1;-1;;BI Internal Portal
+8110;126;impassable;-1;-1;-1;-1;-1;;BI Internal Portal
 
 # Barriers
 3524;7268;impassable;-1;-1;-1;-1;-1;;
@@ -1054,24 +1058,15 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 # The Boiling Isles ###########################################
 
 #The Broken Crown
-497;5541;sea;11277;-1;-1;-1;-1;; BC
-1578;1658;sea;11276;-1;-1;-1;-1;; BC
+497;5541;sea;11081;-1;-1;-1;-1;; BC
+1578;1658;sea;11156;-1;-1;-1;-1;; BC
 
 #The Floating Paw
-10526;4485;sea;11111;-1;-1;-1;-1;; FP
-1189;2622;sea;10993;-1;-1;-1;-1;; FP
-10706;2622;sea;10993;-1;-1;-1;-1;; FP
-10526;2622;sea;10993;-1;-1;-1;-1;; FP
-10706;10526;sea;10993;-1;-1;-1;-1;; FP
-10706;5557;sea;11156;-1;-1;-1;-1;; FP
 
 #The Left Hand
-10702;9619;sea;10757;-1;-1;-1;-1;; LH
-5829;3496;sea;11229;-1;-1;-1;-1;; LH
-220;5843;sea;11029;-1;-1;-1;-1;; LH
-9475;5843;sea;11029;-1;-1;-1;-1;; LH
-9421;3522;sea;11029;-1;-1;-1;-1;; LH
-2461;5513;sea;11029;-1;-1;-1;-1;; LH
+10702;9619;sea;10872;-1;-1;-1;-1;; LH
+5829;3496;sea;11167;-1;-1;-1;-1;; LH
+
 
 #################################################################################
 #Portals (canals and strights)
@@ -1094,6 +1089,15 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 #BI
 11266;11295;;3976;-1;-1;-1;-1;American_BI_Portal;
 10948;11493;;2929;-1;-1;-1;-1;Canadian_BI_Portal;
+
+11070;10978;;8422;-1;-1;-1;-1;tricuspid_valve;
+10978;11383;;4601;-1;-1;-1;-1;pulmonary_valve;
+11383;11362;;6327;-1;-1;-1;-1;mitral_valve;
+11362;11070;;2001;-1;-1;-1;-1;aorta_valve;
+
+10978;11293;;8917;-1;-1;-1;-1;vena_cava_canal;
+11014;11245;;4200;-1;-1;-1;-1;bonesborough_canal;
+11155;10743;;126;-1;-1;-1;-1;boiling_hand_portal;
 
 
 #AMERICA! GONNA SAVE THE MOTHERF-ING DAY YEAH!

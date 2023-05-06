@@ -1025,4 +1025,337 @@ adjacency_rule =
 	offset = { -15 0 0 }
 }
 
+###############################################################
+#  BI Canals
+##########################
+
+adjacency_rule =
+{
+	name = "tricuspid_valve"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 8422 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = tricuspid_valve_BLOCKED
+			has_country_flag = tricuspid_valve_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 8422
+	offset = { 0 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "pulmonary_valve"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 4601 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = pulmonary_valve_BLOCKED
+			has_country_flag = pulmonary_valve_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 4601
+	offset = { 0 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "mitral_valve"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 6327 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = mitral_valve_BLOCKED
+			has_country_flag = mitral_valve_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 6327
+	offset = { 0 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "aorta_valve"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 2001 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = aorta_valve_BLOCKED
+			has_country_flag = aorta_valve_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 2001
+	offset = { 0 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "vena_cava_canal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 8445 8917 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = vena_cava_canal_BLOCKED
+			has_country_flag = vena_cava_canal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 2628
+	offset = { 0 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "bonesborough_canal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 4200 3457 4743 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = bonesborough_canal_BLOCKED
+			has_country_flag = bonesborough_canal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 4200
+	offset = { 0 0 0 }
+}
+
+adjacency_rule =
+{
+	name = "boiling_hand_portal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 1330 126 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = boiling_hand_portal_BLOCKED
+			has_country_flag = boiling_hand_portal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 1330
+	offset = { 18 0 0 }
+}
+
 ##########################################################
