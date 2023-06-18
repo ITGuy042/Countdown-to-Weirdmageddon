@@ -46,6 +46,14 @@
  Welland_Canal:0 "Welland Canal"
  Saint_Croix_Canal:0 "Saint Croix Canal"
  
+ tricuspid_valve:0 "Tricuspid Valve"
+ pulmonary_valve:0 "Pulmonary Valve"
+ mitral_valve:0 "Mitral Valve"
+ aorta_valve:0 "Aorta Valve"
+ vena_cava_canal:0 "Vena Cava Canal"
+ bonesborough_canal:0 "Bonesborough Canal"
+ boiling_hand_portal:0 "Boiling Hand Portal"
+ 
  GIBRALTAR_STRAIT:0 "Gibraltar Strait"
  DANISH_BELTS_STRAIT:0 "The Danish Belts"
  PANAMA_CANAL:0 "Panama Canal"

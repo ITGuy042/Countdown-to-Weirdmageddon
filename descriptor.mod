@@ -1,5 +1,5 @@
-version="0.3.3"
-name="CtW_0.3.3"
+version="0.3.4"
+name="CtW_0.3.4"
 tags={
 	"Alternative History"
 	"Map"
@@ -10,7 +10,6 @@ tags={
 	"Graphics"
 	"Technologies"
 }
-
 replace_path="common/ai_areas"
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"
@@ -19,6 +18,7 @@ replace_path="common/ai_equipment"
 replace_path="common/ai_templates"
 replace_path="common/bookmarks"
 replace_path="common/characters"
+replace_path="common/country_tags"
 replace_path="common/decisions"
 replace_path="common/decisions/categories"
 replace_path="common/ideas"
@@ -39,3 +39,4 @@ replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 picture="thumbnail.png"
 supported_version="1.12.*"
+path="C:/Users/ianjo/Documents/Paradox Interactive/Hearts of Iron IV/mod/CtW_0.3.4"

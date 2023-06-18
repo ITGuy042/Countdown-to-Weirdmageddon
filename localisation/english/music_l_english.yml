@@ -1,7 +1,8 @@
 ﻿l_english:
- # SHOULD NOT BE TRANSLATED FROM ENGLISH
+ # SHOULD NOT BE TRANSLATED FROM ENGLISH # Wait, why?
 
  # HOI4 Soundtrack
+ wellmeetagain:0 "We'll Meet Again"
  maintheme:0 "What Awaits In Gravity Falls"
  axis_war_1:0 "Axis Theme"
  allies_peace_1:0 "Morning of D-day"

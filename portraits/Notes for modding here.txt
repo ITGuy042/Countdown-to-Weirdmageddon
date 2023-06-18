@@ -1,0 +1,4 @@
+#Errors will occure where it will load portrait files from installed DLCs for HoI4
+#These files are in the dlc folder in the base game folder, but are accessed in the context of a mod as being in this folder, portrait
+#Just place a fioller filler of the same name here to remove the error.
+#Further work is needed to allow chnages in the mod based on player's dlc enabled
