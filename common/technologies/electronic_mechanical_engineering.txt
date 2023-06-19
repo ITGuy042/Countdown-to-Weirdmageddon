@@ -116,10 +116,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				tag = USA
-				factor = 4
-			}
+			#modifier = {
+			#	tag = USA
+			#	factor = 4
+			#}
 		}
 		
 		categories = {
@@ -151,10 +151,10 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
+				#OR = {
+				#	tag = ENG
+				#	tag = USA
+				#}
 				factor = 5
 			}
 			modifier = {
@@ -202,10 +202,10 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
+				#OR = {
+				#	tag = ENG
+				#	tag = USA
+				#}
 				factor = 5
 			}
 			modifier = {
@@ -251,10 +251,10 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
+				#OR = {
+				#	tag = ENG
+				#	tag = USA
+				#}
 				factor = 4
 			}
 			modifier = {
@@ -340,10 +340,10 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-				}
+				#OR = {
+				#	tag = ENG
+				#	tag = USA
+				#}
 				factor = 5
 			}
 		}
@@ -483,10 +483,10 @@ technologies = {
 				date > "1941.1.1"
 			}
 
-			modifier = {
-				factor = 2
-				tag = GER
-			}
+			#modifier = {
+			#	factor = 2
+			#	tag = GER
+			#}
 		}
 		
 		categories = {
@@ -566,16 +566,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			modifier = {
-				factor = 3
-
-				tag = GER
-			}
-			modifier = {
-				factor = 3
-
-				tag = SOV
-			}
+			#modifier = {
+			#	factor = 3
+			#
+			#	tag = GER
+			#}
+			#modifier = {
+			#	factor = 3
+			#
+			#	tag = SOV
+			#}
 		}
 		
 		categories = {
@@ -609,16 +609,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			modifier = {
-				factor = 3
-
-				tag = GER
-			}
-			modifier = {
-				factor = 3
-
-				tag = SOV
-			}
+			#modifier = {
+			#	factor = 3
+			#
+			#	tag = GER
+			#}
+			#modifier = {
+			#	factor = 3
+			#
+			#	tag = SOV
+			#}
 		}
 		
 		categories = {
@@ -652,16 +652,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			modifier = {
-				factor = 3
-
-				tag = GER
-			}
-			modifier = {
-				factor = 3
-
-				tag = SOV
-			}
+			#modifier = {
+			#	factor = 3
+			#
+			#	tag = GER
+			#}
+			#modifier = {
+			#	factor = 3
+			#
+			#	tag = SOV
+			#}
 		}
 		
 		categories = {
@@ -691,16 +691,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			modifier = {
-				factor = 3
-
-				tag = GER
-			}
-			modifier = {
-				factor = 3
-
-				tag = SOV
-			}
+			#modifier = {
+			#	factor = 3
+			#
+			#	tag = GER
+			#}
+			#modifier = {
+			#	factor = 3
+			#
+			#	tag = SOV
+			#}
 		}
 		
 		categories = {
@@ -730,16 +730,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			modifier = {
-				factor = 3
-
-				tag = GER
-			}
-			modifier = {
-				factor = 3
-
-				tag = SOV
-			}
+			#modifier = {
+			#	factor = 3
+			#
+			#	tag = GER
+			#}
+			#modifier = {
+			#	factor = 3
+			#
+			#	tag = SOV
+			#}
 		}
 		
 		categories = {
@@ -769,16 +769,16 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 1.5 # not a major
 			}
-			modifier = {
-				factor = 3
-
-				tag = GER
-			}
-			modifier = {
-				factor = 3
-
-				tag = SOV
-			}
+			#modifier = {
+			#	factor = 3
+			#
+			#	tag = GER
+			#}
+			#modifier = {
+			#	factor = 3
+			#
+			#	tag = SOV
+			#}
 		}
 		
 		categories = {
@@ -806,14 +806,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.75
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-				}
-				factor = 3
-			}
+			#modifier = {
+			#	OR = {
+			#		tag = ENG
+			#		tag = USA
+			#		tag = JAP
+			#	}
+			#	factor = 3
+			#}
 			modifier = {
 				OR = {
 					can_research = improved_fire_control_system
@@ -847,14 +847,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.75
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-				}
-				factor = 3
-			}
+			#modifier = {
+			#	OR = {
+			#		tag = ENG
+			#		tag = USA
+			#		tag = JAP
+			#	}
+			#	factor = 3
+			#}
 			modifier = {
 				OR = {
 					can_research = advanced_fire_control_system
@@ -889,14 +889,14 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.75
-			modifier = {
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-				}
-				factor = 3
-			}
+			#modifier = {
+			#	OR = {
+			#		tag = ENG
+			#		tag = USA
+			#		tag = JAP
+			#	}
+			#	factor = 3
+			#}
 			
 		}
 		
@@ -1157,10 +1157,10 @@ technologies = {
 				date > "1943.1.1"
 			}
 			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
+			#modifier = {
+			#	factor = 2
+			#	tag = USA
+			#}
 		}
 		
 		categories = {
@@ -1189,10 +1189,10 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 3
-			modifier = {
-				tag = USA
-				factor = 2
-			}
+			#modifier = {
+			#	tag = USA
+			#	factor = 2
+			#}
 		}
 		
 		categories = {
@@ -1220,15 +1220,15 @@ technologies = {
 		}
 		
 		nuclear_production = 1
-		on_research_complete = {
-			if = {
-				limit = {
-					tag = USA
-					has_war_with = JAP
-				}
-				play_warning_to_japan_effect = yes
-			}
-		}
+		#on_research_complete = {
+		#	if = {
+		#		limit = {
+		#			tag = USA
+		#			has_war_with = JAP
+		#		}
+		#		play_warning_to_japan_effect = yes
+		#	}
+		#}
 		categories = {
 			nuclear
 		}

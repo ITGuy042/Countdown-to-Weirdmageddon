@@ -1,0 +1,34 @@
+﻿#Generic Operative list
+GENERIC_ENG_OPERATIVE_CODENAME_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_OPERATIVES
+
+	# for all English speaking countries
+	#for_countries = { USA CAN NZL AST RAJ SAF }
+	
+	# for all Earth countries
+	#for_countries = { *Puts some earth tags here later* }
+
+	type = codename
+
+	fallback_name = "Agent %d"
+
+	unique = {
+		"Wolf"
+		"Sparrow"
+		"Hawk"
+		"Eagle"
+		"Snake"
+		"Bear"
+		"Tiger"
+		"Condor"
+		"Magpie"
+		"Turtle"
+		"Shark"
+		"Mouse"
+		"Hornet"
+		"Dragon"
+		"Butterfly"
+		"Stallion"
+		"Tomcat"
+	}
+}
