@@ -64,6 +64,85 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6337;149;impassable;-1;-1;-1;-1;-1;;Amphibia  Portal
 3792;938;impassable;-1;-1;-1;-1;-1;;Amphibia  Portal
 
+1931;10412;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1931;10372;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1931;2069;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+11524;2069;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+11522;2069;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+11525;10412;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+11522;10412;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+10388;10412;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5692;10412;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1088;5692;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1088;5128;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1160;5128;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1160;10455;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+10372;4067;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+10372;4067;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+10372;1153;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+3730;1153;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+3730;7465;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+3730;7488;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+4067;1153;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+4067;7008;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1309;7008;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1557;7008;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1557;7475;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1557;7188;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1557;7503;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1557;7509;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1625;7509;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1625;7385;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5053;7385;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5053;5759;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5053;2526;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5053;10313;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+10273;10313;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+10273;6550;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+10273;7562;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+10273;7451;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+236;7451;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+236;3075;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+236;7450;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+2941;7450;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+2941;1183;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5799;1183;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+7076;1183;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+7076;4820;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+7076;7557;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+6654;7153;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+6654;10315;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+
+5884;10302;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5884;3376;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1687;3376;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5135;3376;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5135;1104;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+10335;1104;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1895;1104;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+1895;5382;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5017;10365;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5017;3599;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+10405;3599;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+10405;1683;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5062;1683;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+5062;10446;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+3997;5062;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+3997;4597;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+3997;6805;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+3997;4123;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+6847;4123;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+4229;4123;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+4229;5600;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+7355;4840;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+7355;11556;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+7355;11555;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+7355;3296;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+6604;3296;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+6604;3296;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+2361;3296;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+2361;11559;impassable;-1;-1;-1;-1;-1;;Amphibia Valley
+
 # Mewni
 2509;9419;impassable;-1;-1;-1;-1;-1;;Mewni  Portal
 1034;5284;impassable;-1;-1;-1;-1;-1;;Mewni  Portal
@@ -1051,7 +1130,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 127;4840;sea;11465;-1;-1;-1;-1;;Wartwood
 5528;3296;sea;11464;-1;-1;-1;-1;;Wartwood
 10342;6405;sea;11462;-1;-1;-1;-1;;Wartwood
-
+5528;11556;sea;11462;-1;-1;-1;-1;;Wartwood
+7546;10364;sea;11462;-1;-1;-1;-1;;Wartwood
+7533;10315;sea;11461;-1;-1;-1;-1;;Wartwood
+7533;7573;sea;11462;-1;-1;-1;-1;;Wartwood
 
 
 
